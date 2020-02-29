@@ -182,23 +182,71 @@ logic [31:0] ram_data_top ;
     logic [3:0] convert_data;
     always@(posedge clk_sys) begin  //**??
         case (state) 
-            3'b000: begin
-                  AN[i] = 1; 
-                  convert_data = out[i*4 +:3];   //i*4+3 : i*4 aralığını vericek
-                  i = i+1;
-                state <= state +1;
-            end 
+//            3'b000: begin
+//                  AN[i] = 1; 
+//                  convert_data = out[i*4 +:3];   //i*4+3 : i*4 aralığını vericek
+                  
+//                state <= state +1;
+//            end 
             
-            3'b001: begin
+//            3'b001: begin
+////                i = i+1;
 //                i = i+1;
-                if (i == 8) begin
-                    state <=state+1;  end 
-                else state <= 3'b000;
-            end 
-            default: begin 
-                i=0;
-                state = 0;
-            end  
+//                AN = 8'b0;
+//                if (i == 8) begin
+//                    state <=state+1;  end 
+//                else state <= 3'b000;
+//            end 
+            
+//            3'b010: begin
+//            state <=state+1;
+//            end
+//            default: begin 
+//                i=0;
+//                state = 0;
+//            end  
+            
+            3'b000: begin
+            AN = 8'd1;
+            convert_data = out[3:0];
+            state <= state+1;
+            end
+            3'b001: begin
+            AN = 8'd2;
+            convert_data = out[7:4];
+            state <= state+1;
+            end
+            3'b010: begin
+            AN = 8'd4;
+            convert_data = out[11:8];
+            state <= state+1;
+            end
+            3'b011: begin
+            AN = 8'd8;
+            convert_data = out[15:12];
+            state <= state+1;
+            end
+            3'b100: begin
+            AN = 8'd16;
+            convert_data = out[19:16];
+            state <= state+1;
+            end
+            3'b101: begin
+            AN = 8'd32;
+            convert_data = out[23:20];
+            state <= state+1;
+            end
+            3'b110: begin
+            AN = 8'd64;
+            convert_data = out[27:24];
+            state <= state+1;
+            end
+            3'b111: begin
+            AN = 8'd128;
+            convert_data = out[31:28];
+            state <= 3'b0;
+            end
+           
         endcase
     end
 //    logic x_IO_CLK;

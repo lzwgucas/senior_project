@@ -3,7 +3,7 @@
 <!--                                                         -->
 <!-- Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.   -->
 
-<Project Version="7" Minor="36" Path="/home/topalc/subat_29_withpins_andfuncs/subat_29_withpins_andfuncs.xpr">
+<Project Version="7" Minor="36" Path="/home/topalc/Desktop/senior_project/senior_project/subat_29_withpins_andfuncs/subat_29_withpins_andfuncs.xpr">
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
     <Option Name="Id" Val="841f038254044870bc2438a80b9b8480"/>
@@ -31,7 +31,7 @@
     <Option Name="EnableBDX" Val="FALSE"/>
     <Option Name="DSAVendor" Val="xilinx"/>
     <Option Name="DSANumComputeUnits" Val="60"/>
-    <Option Name="WTXSimLaunchSim" Val="513"/>
+    <Option Name="WTXSimLaunchSim" Val="528"/>
     <Option Name="WTModelSimLaunchSim" Val="0"/>
     <Option Name="WTQuestaLaunchSim" Val="0"/>
     <Option Name="WTIesLaunchSim" Val="0"/>
@@ -57,7 +57,7 @@
       <Filter Type="Srcs"/>
       <File Path="$PSRCDIR/sources_1/imports/src/lowrisc_ibex_top_artya7_100_0.1/rtl/clkgen_xil7series.sv">
         <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/../Desktop/ibex-master/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_top_artya7_100_0.1/rtl/clkgen_xil7series.sv"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../ibex-master/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_top_artya7_100_0.1/rtl/clkgen_xil7series.sv"/>
           <Attr Name="ImportTime" Val="1573135596"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
@@ -66,7 +66,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/new/conversion_to_7display.sv">
         <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/../Desktop/modulerstuff/modulerstuff.srcs/sources_1/new/conversion_to_7display.sv"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../modulerstuff/modulerstuff.srcs/sources_1/new/conversion_to_7display.sv"/>
           <Attr Name="ImportTime" Val="1582988819"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
@@ -75,7 +75,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/new/custom_module.sv">
         <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/../Desktop/ibex-master/build/lowrisc_ibex_top_artya7_100_0.1/synth-vivado/lowrisc_ibex_top_artya7_100_0.1.srcs/sources_1/new/custom_module.sv"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../ibex-master/build/lowrisc_ibex_top_artya7_100_0.1/synth-vivado/lowrisc_ibex_top_artya7_100_0.1.srcs/sources_1/new/custom_module.sv"/>
           <Attr Name="ImportTime" Val="1582302003"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
@@ -84,7 +84,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_pkg.sv">
         <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/../Desktop/ibex-master/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_pkg.sv"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../ibex-master/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_pkg.sv"/>
           <Attr Name="ImportTime" Val="1573134569"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
@@ -93,7 +93,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_alu.sv">
         <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/../Desktop/ibex-master/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_alu.sv"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../ibex-master/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_alu.sv"/>
           <Attr Name="ImportTime" Val="1573134569"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
@@ -102,7 +102,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_compressed_decoder.sv">
         <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/../Desktop/ibex-master/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_compressed_decoder.sv"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../ibex-master/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_compressed_decoder.sv"/>
           <Attr Name="ImportTime" Val="1573134569"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
@@ -111,7 +111,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_controller.sv">
         <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/../Desktop/ibex-master/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_controller.sv"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../ibex-master/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_controller.sv"/>
           <Attr Name="ImportTime" Val="1573134569"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
@@ -120,7 +120,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_core.sv">
         <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/../Desktop/ibex-master/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_core.sv"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../ibex-master/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_core.sv"/>
           <Attr Name="ImportTime" Val="1573134569"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
@@ -129,7 +129,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_cs_registers.sv">
         <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/../Desktop/ibex-master/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_cs_registers.sv"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../ibex-master/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_cs_registers.sv"/>
           <Attr Name="ImportTime" Val="1573134569"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
@@ -138,7 +138,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_decoder.sv">
         <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/../Desktop/ibex-master/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_decoder.sv"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../ibex-master/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_decoder.sv"/>
           <Attr Name="ImportTime" Val="1573134569"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
@@ -147,7 +147,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_ex_block.sv">
         <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/../Desktop/ibex-master/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_ex_block.sv"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../ibex-master/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_ex_block.sv"/>
           <Attr Name="ImportTime" Val="1573134569"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
@@ -156,7 +156,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_fetch_fifo.sv">
         <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/../Desktop/ibex-master/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_fetch_fifo.sv"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../ibex-master/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_fetch_fifo.sv"/>
           <Attr Name="ImportTime" Val="1573134569"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
@@ -165,7 +165,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_id_stage.sv">
         <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/../Desktop/ibex-master/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_id_stage.sv"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../ibex-master/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_id_stage.sv"/>
           <Attr Name="ImportTime" Val="1573134569"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
@@ -174,7 +174,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_if_stage.sv">
         <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/../Desktop/ibex-master/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_if_stage.sv"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../ibex-master/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_if_stage.sv"/>
           <Attr Name="ImportTime" Val="1573134569"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
@@ -183,7 +183,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_load_store_unit.sv">
         <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/../Desktop/ibex-master/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_load_store_unit.sv"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../ibex-master/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_load_store_unit.sv"/>
           <Attr Name="ImportTime" Val="1573134569"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
@@ -192,7 +192,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_multdiv_fast.sv">
         <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/../Desktop/ibex-master/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_multdiv_fast.sv"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../ibex-master/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_multdiv_fast.sv"/>
           <Attr Name="ImportTime" Val="1573134569"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
@@ -201,7 +201,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_multdiv_slow.sv">
         <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/../Desktop/ibex-master/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_multdiv_slow.sv"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../ibex-master/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_multdiv_slow.sv"/>
           <Attr Name="ImportTime" Val="1573134569"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
@@ -210,7 +210,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_pmp.sv">
         <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/../Desktop/ibex-master/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_pmp.sv"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../ibex-master/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_pmp.sv"/>
           <Attr Name="ImportTime" Val="1573134569"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
@@ -219,7 +219,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_prefetch_buffer.sv">
         <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/../Desktop/ibex-master/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_prefetch_buffer.sv"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../ibex-master/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_prefetch_buffer.sv"/>
           <Attr Name="ImportTime" Val="1573134569"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
@@ -228,7 +228,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_register_file_ff.sv">
         <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/../Desktop/ibex-master/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_register_file_ff.sv"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../ibex-master/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_register_file_ff.sv"/>
           <Attr Name="ImportTime" Val="1573134569"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
@@ -237,7 +237,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/src/lowrisc_ibex_top_artya7_100_0.1/rtl/prim_clock_gating.sv">
         <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/../Desktop/ibex-master/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_top_artya7_100_0.1/rtl/prim_clock_gating.sv"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../ibex-master/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_top_artya7_100_0.1/rtl/prim_clock_gating.sv"/>
           <Attr Name="ImportTime" Val="1573134569"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
@@ -246,7 +246,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/src/lowrisc_ibex_top_artya7_100_0.1/rtl/ram_1p.sv">
         <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/../Desktop/ibex-master/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_top_artya7_100_0.1/rtl/ram_1p.sv"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../ibex-master/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_top_artya7_100_0.1/rtl/ram_1p.sv"/>
           <Attr Name="ImportTime" Val="1574251969"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
@@ -255,7 +255,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/src/lowrisc_ibex_top_artya7_100_0.1/rtl/top_artya7_100.sv">
         <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/../Desktop/ibex-master/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_top_artya7_100_0.1/rtl/top_artya7_100.sv"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../ibex-master/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_top_artya7_100_0.1/rtl/top_artya7_100.sv"/>
           <Attr Name="ImportTime" Val="1573134569"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
@@ -265,18 +265,18 @@
       <File Path="$PSRCDIR/sources_1/new/tb_top.v">
         <FileInfo>
           <Attr Name="AutoDisabled" Val="1"/>
-          <Attr Name="ImportPath" Val="$PPRDIR/../Desktop/ibex-master/build/lowrisc_ibex_top_artya7_100_0.1/synth-vivado/lowrisc_ibex_top_artya7_100_0.1.srcs/sources_1/new/tb_top.v"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../ibex-master/build/lowrisc_ibex_top_artya7_100_0.1/synth-vivado/lowrisc_ibex_top_artya7_100_0.1.srcs/sources_1/new/tb_top.v"/>
           <Attr Name="ImportTime" Val="1581618051"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../Desktop/modulerstuff/archive_project_summary.txt"/>
+      <File Path="$PPRDIR/../../../modulerstuff/archive_project_summary.txt"/>
       <Config>
         <Option Name="DesignMode" Val="RTL"/>
         <Option Name="TopModule" Val="top_artya7_100"/>
-        <Option Name="VerilogDir" Val="$PPRDIR/../Desktop/ibex-master/build/lowrisc_ibex_top_artya7_100_0.1/synth-vivado"/>
+        <Option Name="VerilogDir" Val="$PPRDIR/../../../ibex-master/build/lowrisc_ibex_top_artya7_100_0.1/synth-vivado"/>
         <Define Name="SRAM_INIT_FILE" Val="../../../../../examples/sw/led/led.vmem"/>
       </Config>
     </FileSet>
@@ -284,7 +284,7 @@
       <Filter Type="Constrs"/>
       <File Path="$PSRCDIR/constrs_1/imports/data/pins_artya7.xdc">
         <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/../Desktop/ibex-master/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_top_artya7_100_0.1/data/pins_artya7.xdc"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../ibex-master/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_top_artya7_100_0.1/data/pins_artya7.xdc"/>
           <Attr Name="ImportTime" Val="1573134569"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
@@ -298,7 +298,7 @@
       <Filter Type="Srcs"/>
       <File Path="$PSRCDIR/sim_1/imports/cust/cust.mem">
         <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/../Desktop/ibex-master/examples/sw/cust/cust.mem"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../ibex-master/examples/sw/cust/cust.mem"/>
           <Attr Name="ImportTime" Val="1576238315"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
@@ -306,12 +306,12 @@
       </File>
       <File Path="$PSRCDIR/sim_1/imports/synth-vivado/tb_top_behav1.wcfg">
         <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/../Desktop/ibex-master/build/lowrisc_ibex_top_artya7_100_0.1/synth-vivado/tb_top_behav1.wcfg"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../ibex-master/build/lowrisc_ibex_top_artya7_100_0.1/synth-vivado/tb_top_behav1.wcfg"/>
           <Attr Name="ImportTime" Val="1582323367"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../Desktop/modulerstuff/cikti.wcfg">
+      <File Path="$PPRDIR/../../../modulerstuff/cikti.wcfg">
         <FileInfo>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
@@ -324,8 +324,8 @@
         <Option Name="TransportPathDelay" Val="0"/>
         <Option Name="TransportIntDelay" Val="0"/>
         <Option Name="SrcSet" Val="sources_1"/>
-        <Option Name="XSimWcfgFile" Val="$PPRDIR/../Desktop/ibex-master/build/lowrisc_ibex_top_artya7_100_0.1/synth-vivado/tb_top_behav1.wcfg"/>
-        <Option Name="XSimWcfgFile" Val="$PPRDIR/../Desktop/modulerstuff/cikti.wcfg"/>
+        <Option Name="XSimWcfgFile" Val="$PPRDIR/../../../ibex-master/build/lowrisc_ibex_top_artya7_100_0.1/synth-vivado/tb_top_behav1.wcfg"/>
+        <Option Name="XSimWcfgFile" Val="$PPRDIR/../../../modulerstuff/cikti.wcfg"/>
         <Option Name="NLNetlistMode" Val="funcsim"/>
       </Config>
     </FileSet>

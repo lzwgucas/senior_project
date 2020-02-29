@@ -27,8 +27,8 @@ module ram_1p #(
   logic [Width-1:0] storage [Depth];
 
  initial begin
-      $display("Initializing SRAM from %s", "/home/topalc/subat_29_withpins_andfuncs/subat_29_withpins_andfuncs.srcs/sim_1/imports/cust/cust.mem");  //should change due to used memory file
-      $readmemh("/home/topalc/subat_29_withpins_andfuncs/subat_29_withpins_andfuncs.srcs/sim_1/imports/cust/cust.mem", storage);  //should change due to used memory file
+      $display("Initializing SRAM from %s", "/home/topalc/Desktop/senior_project/senior_project/subat_29_withpins_andfuncs/subat_29_withpins_andfuncs.srcs/sim_1/imports/cust/cust.mem");  //should change due to used memory file
+      $readmemh("/home/topalc/Desktop/senior_project/senior_project/subat_29_withpins_andfuncs/subat_29_withpins_andfuncs.srcs/sim_1/imports/cust/cust.mem", storage);  //should change due to used memory file
     end
 
   // Xilinx FPGA specific Dual-port RAM coding style

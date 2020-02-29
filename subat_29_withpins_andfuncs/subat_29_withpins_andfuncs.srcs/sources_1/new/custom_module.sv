@@ -45,8 +45,9 @@ module custom_module(
     reg [31:0] data_reg1 [2:0] ;
     reg [31:0] data_reg2 [2:0] ;
     reg [31:0] data_reg3 [2:0] ;
-    integer addr_check,counter=0,i=0, array_length=3, mod=1;
+    integer addr_check,counter=0,i=0, array_length=3;
     logic [3:0] state=0;
+    logic [31:0] mod;
     
     always@(posedge clk)
     begin case (state)
