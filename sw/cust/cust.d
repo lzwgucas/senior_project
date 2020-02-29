@@ -1,0 +1,1 @@
+cust.o: cust.c

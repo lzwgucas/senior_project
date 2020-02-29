@@ -1,0 +1,282 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:39:19 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Fri Feb 28 14:46:22 2020
+# Process ID: 18479
+# Current directory: /home/topalc/Desktop/ibex-master/examples/sw/ntru_latif_hoca/optimized/with_custom
+# Command line: vivado
+# Log file: /home/topalc/Desktop/ibex-master/examples/sw/ntru_latif_hoca/optimized/with_custom/vivado.log
+# Journal file: /home/topalc/Desktop/ibex-master/examples/sw/ntru_latif_hoca/optimized/with_custom/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project /home/topalc/Desktop/modulerstuff/modulerstuff.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/Xilinx/Vivado/2018.1/data/ip'.
+open_project: Time (s): cpu = 00:00:21 ; elapsed = 00:00:14 . Memory (MB): peak = 6166.496 ; gain = 126.262 ; free physical = 1648 ; free virtual = 8518
+update_compile_order -fileset sources_1
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/topalc/Desktop/modulerstuff/modulerstuff.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_top' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported '/home/topalc/Desktop/modulerstuff/modulerstuff.sim/sim_1/behav/xsim/cust.mem'
+INFO: [SIM-utils-43] Exported '/home/topalc/Desktop/modulerstuff/modulerstuff.sim/sim_1/behav/xsim/cust.mem'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/topalc/Desktop/modulerstuff/modulerstuff.sim/sim_1/behav/xsim'
+xvlog --incr --relax -L xil_defaultlib -prj tb_top_vlog.prj
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/topalc/Desktop/modulerstuff/modulerstuff.srcs/sources_1/imports/src/lowrisc_ibex_top_artya7_100_0.1/rtl/clkgen_xil7series.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clkgen_xil7series
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/topalc/Desktop/modulerstuff/modulerstuff.srcs/sources_1/new/custom_module.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module custom_module
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/topalc/Desktop/modulerstuff/modulerstuff.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/topalc/Desktop/modulerstuff/modulerstuff.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_alu.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ibex_alu
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/topalc/Desktop/modulerstuff/modulerstuff.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_compressed_decoder.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ibex_compressed_decoder
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/topalc/Desktop/modulerstuff/modulerstuff.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_controller.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ibex_controller
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/topalc/Desktop/modulerstuff/modulerstuff.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_core.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ibex_core
+WARNING: [VRFC 10-1315] redeclaration of ansi port custom_en_ex is not allowed [/home/topalc/Desktop/modulerstuff/modulerstuff.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_core.sv:142]
+WARNING: [VRFC 10-1315] redeclaration of ansi port custom_valid_ex is not allowed [/home/topalc/Desktop/modulerstuff/modulerstuff.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_core.sv:143]
+WARNING: [VRFC 10-1315] redeclaration of ansi port custom_data_ex is not allowed [/home/topalc/Desktop/modulerstuff/modulerstuff.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_core.sv:144]
+WARNING: [VRFC 10-1315] redeclaration of ansi port ram_addr_out_ex is not allowed [/home/topalc/Desktop/modulerstuff/modulerstuff.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_core.sv:149]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/topalc/Desktop/modulerstuff/modulerstuff.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_cs_registers.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ibex_cs_registers
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/topalc/Desktop/modulerstuff/modulerstuff.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_decoder.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ibex_decoder
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/topalc/Desktop/modulerstuff/modulerstuff.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_ex_block.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ibex_ex_block
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/topalc/Desktop/modulerstuff/modulerstuff.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_fetch_fifo.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ibex_fetch_fifo
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/topalc/Desktop/modulerstuff/modulerstuff.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_id_stage.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ibex_id_stage
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/topalc/Desktop/modulerstuff/modulerstuff.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_if_stage.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ibex_if_stage
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/topalc/Desktop/modulerstuff/modulerstuff.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_load_store_unit.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ibex_load_store_unit
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/topalc/Desktop/modulerstuff/modulerstuff.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_multdiv_fast.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ibex_multdiv_fast
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/topalc/Desktop/modulerstuff/modulerstuff.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_multdiv_slow.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ibex_multdiv_slow
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/topalc/Desktop/modulerstuff/modulerstuff.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_pmp.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ibex_pmp
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/topalc/Desktop/modulerstuff/modulerstuff.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_prefetch_buffer.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ibex_prefetch_buffer
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/topalc/Desktop/modulerstuff/modulerstuff.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_register_file_ff.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ibex_register_file
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/topalc/Desktop/modulerstuff/modulerstuff.srcs/sources_1/imports/src/lowrisc_ibex_top_artya7_100_0.1/rtl/prim_clock_gating.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module prim_clock_gating
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/topalc/Desktop/modulerstuff/modulerstuff.srcs/sources_1/imports/src/lowrisc_ibex_top_artya7_100_0.1/rtl/ram_1p.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ram_1p
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/topalc/Desktop/modulerstuff/modulerstuff.srcs/sources_1/imports/src/lowrisc_ibex_top_artya7_100_0.1/rtl/top_artya7_100.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top_artya7_100
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/topalc/Desktop/modulerstuff/modulerstuff.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.1
+Copyright 1986-1999, 2001-2017 Xilinx, Inc. All Rights Reserved.
+Running: /opt/Xilinx/Vivado/2018.1/bin/unwrapped/lnx64.o/xelab -wto 76b97e32434b46818a56c0c4361fe7bf --incr --debug typical --relax --mt 8 -L xilinx_vip -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_top_behav xil_defaultlib.tb_top xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Completed static elaboration
+WARNING: [XSIM 43-4127] File "/home/topalc/Desktop/modulerstuff/modulerstuff.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_fetch_fifo.sv" Line 223 : The "System Verilog Assertion" is not supported yet for simulation. The statement will be ignored.
+WARNING: [XSIM 43-4127] File "/home/topalc/Desktop/modulerstuff/modulerstuff.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_if_stage.sv" Line 260 : The "System Verilog Assertion" is not supported yet for simulation. The statement will be ignored.
+WARNING: [XSIM 43-4127] File "/home/topalc/Desktop/modulerstuff/modulerstuff.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_if_stage.sv" Line 265 : The "System Verilog Assertion" is not supported yet for simulation. The statement will be ignored.
+WARNING: [XSIM 43-4127] File "/home/topalc/Desktop/modulerstuff/modulerstuff.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_id_stage.sv" Line 652 : The "System Verilog Assertion" is not supported yet for simulation. The statement will be ignored.
+WARNING: [XSIM 43-4127] File "/home/topalc/Desktop/modulerstuff/modulerstuff.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_id_stage.sv" Line 663 : The "System Verilog Assertion" is not supported yet for simulation. The statement will be ignored.
+WARNING: [XSIM 43-4127] File "/home/topalc/Desktop/modulerstuff/modulerstuff.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_id_stage.sv" Line 669 : The "System Verilog Assertion" is not supported yet for simulation. The statement will be ignored.
+WARNING: [XSIM 43-4127] File "/home/topalc/Desktop/modulerstuff/modulerstuff.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_load_store_unit.sv" Line 489 : The "System Verilog Assertion" is not supported yet for simulation. The statement will be ignored.
+WARNING: [XSIM 43-4127] File "/home/topalc/Desktop/modulerstuff/modulerstuff.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_load_store_unit.sv" Line 495 : The "System Verilog Assertion" is not supported yet for simulation. The statement will be ignored.
+WARNING: [XSIM 43-4127] File "/home/topalc/Desktop/modulerstuff/modulerstuff.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_load_store_unit.sv" Line 500 : The "System Verilog Assertion" is not supported yet for simulation. The statement will be ignored.
+WARNING: [XSIM 43-4127] File "/home/topalc/Desktop/modulerstuff/modulerstuff.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_load_store_unit.sv" Line 505 : The "System Verilog Assertion" is not supported yet for simulation. The statement will be ignored.
+WARNING: [XSIM 43-4127] File "/home/topalc/Desktop/modulerstuff/modulerstuff.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_load_store_unit.sv" Line 510 : The "System Verilog Assertion" is not supported yet for simulation. The statement will be ignored.
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4100] "/home/topalc/Desktop/modulerstuff/modulerstuff.srcs/sources_1/imports/src/lowrisc_ibex_top_artya7_100_0.1/rtl/top_artya7_100.sv" Line 5. Module top_artya7_100_default has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/home/topalc/Desktop/modulerstuff/modulerstuff.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_core.sv" Line 13. Module ibex_core(DmHaltAddr=32'b0,DmExceptionAddr=32'b0) has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/home/topalc/Desktop/modulerstuff/modulerstuff.srcs/sources_1/imports/src/lowrisc_ibex_top_artya7_100_0.1/rtl/prim_clock_gating.sv" Line 5. Module prim_clock_gating has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/2018.1/nightly/2018_04_04_2188600/data/verilog/src/unisims/BUFGCE.v" Line 26. Module BUFGCE_default has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/home/topalc/Desktop/modulerstuff/modulerstuff.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_if_stage.sv" Line 12. Module ibex_if_stage(DmHaltAddr=32'b0,DmExceptionAddr=32'b0) has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/home/topalc/Desktop/modulerstuff/modulerstuff.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_prefetch_buffer.sv" Line 12. Module ibex_prefetch_buffer has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/home/topalc/Desktop/modulerstuff/modulerstuff.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_fetch_fifo.sv" Line 12. Module ibex_fetch_fifo(NUM_REQS=32'b010) has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/home/topalc/Desktop/modulerstuff/modulerstuff.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_compressed_decoder.sv" Line 12. Module ibex_compressed_decoder has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/home/topalc/Desktop/modulerstuff/modulerstuff.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_id_stage.sv" Line 16. Module ibex_id_stage(RV32E=1'b0,RV32M=1'b1) has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/home/topalc/Desktop/modulerstuff/modulerstuff.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_register_file_ff.sv" Line 13. Module ibex_register_file(RV32E=1'b0) has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/home/topalc/Desktop/modulerstuff/modulerstuff.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_decoder.sv" Line 14. Module ibex_decoder(RV32E=1'b0,RV32M=1'b1) has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/home/topalc/Desktop/modulerstuff/modulerstuff.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_controller.sv" Line 9. Module ibex_controller_1 has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/home/topalc/Desktop/modulerstuff/modulerstuff.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_ex_block.sv" Line 11. Module ibex_ex_block(RV32M=1'b1) has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/home/topalc/Desktop/modulerstuff/modulerstuff.srcs/sources_1/new/custom_module.sv" Line 27. Module custom_module has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/home/topalc/Desktop/modulerstuff/modulerstuff.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_alu.sv" Line 9. Module ibex_alu has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/home/topalc/Desktop/modulerstuff/modulerstuff.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_multdiv_fast.sv" Line 14. Module ibex_multdiv_fast has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/home/topalc/Desktop/modulerstuff/modulerstuff.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_load_store_unit.sv" Line 12. Module ibex_load_store_unit has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/home/topalc/Desktop/modulerstuff/modulerstuff.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_cs_registers.sv" Line 12. Module ibex_cs_registers(MHPMCounterNum=32'b0,MHPMCounterWidth=32'b0101000,PMPEnable=1'b0,PMPGranularity=32'b0,PMPNumRegions=32'b0100,RV32E=1'b0,RV32M=1'b1) has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/home/topalc/Desktop/modulerstuff/modulerstuff.srcs/sources_1/imports/src/lowrisc_ibex_top_artya7_100_0.1/rtl/ram_1p.sv" Line 9. Module ram_1p(Depth=16384) has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/2018.1/nightly/2018_04_04_2188600/data/verilog/src/unisims/IBUF.v" Line 29. Module IBUF has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/2018.1/nightly/2018_04_04_2188600/data/verilog/src/unisims/PLLE2_ADV.v" Line 49. Module PLLE2_ADV(CLKFBOUT_MULT=12,CLKIN1_PERIOD=10.0,CLKOUT0_DIVIDE=24) has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/2018.1/nightly/2018_04_04_2188600/data/verilog/src/unisims/BUFG.v" Line 27. Module BUFG has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/2018.1/nightly/2018_04_04_2188600/data/verilog/src/unisims/BUFG.v" Line 27. Module BUFG has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/home/topalc/Desktop/modulerstuff/modulerstuff.sim/sim_1/behav/xsim/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/home/topalc/Desktop/modulerstuff/modulerstuff.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_pkg.sv" Line 9. Module ibex_pkg has a timescale but at least one module in design doesn't have timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module unisims_ver.BUFGCE_default
+Compiling module xil_defaultlib.prim_clock_gating
+Compiling module xil_defaultlib.ibex_fetch_fifo(NUM_REQS=32'b010...
+Compiling module xil_defaultlib.ibex_prefetch_buffer
+Compiling module xil_defaultlib.ibex_compressed_decoder
+Compiling module xil_defaultlib.ibex_if_stage(DmHaltAddr=32'b0,D...
+Compiling module xil_defaultlib.ibex_register_file(RV32E=1'b0)
+Compiling module xil_defaultlib.ibex_decoder(RV32E=1'b0,RV32M=1'...
+Compiling module xil_defaultlib.ibex_controller_1
+Compiling module xil_defaultlib.ibex_id_stage(RV32E=1'b0,RV32M=1...
+Compiling module xil_defaultlib.custom_module
+Compiling module xil_defaultlib.ibex_alu
+Compiling module xil_defaultlib.ibex_multdiv_fast
+Compiling module xil_defaultlib.ibex_ex_block(RV32M=1'b1)
+Compiling module xil_defaultlib.ibex_load_store_unit
+Compiling module xil_defaultlib.ibex_cs_registers(MHPMCounterNum...
+Compiling module xil_defaultlib.ibex_core(DmHaltAddr=32'b0,DmExc...
+Compiling module xil_defaultlib.ram_1p(Depth=16384)
+Compiling module unisims_ver.IBUF
+Compiling module unisims_ver.PLLE2_ADV(CLKFBOUT_MULT=12,CLKIN...
+Compiling module unisims_ver.BUFG
+Compiling module xil_defaultlib.clkgen_xil7series
+Compiling module xil_defaultlib.top_artya7_100_default
+Compiling module xil_defaultlib.tb_top
+Compiling module xil_defaultlib.glbl
+Compiling package xil_defaultlib.ibex_pkg
+Built simulation snapshot tb_top_behav
+run_program: Time (s): cpu = 00:00:17 ; elapsed = 00:00:16 . Memory (MB): peak = 6208.516 ; gain = 0.000 ; free physical = 1636 ; free virtual = 8583
+INFO: [USF-XSim-69] 'elaborate' step finished in '15' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in '/home/topalc/Desktop/modulerstuff/modulerstuff.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_top_behav -key {Behavioral:sim_1:Functional:tb_top} -tclbatch {tb_top.tcl} -view {/home/topalc/Desktop/modulerstuff/modulerstuff.srcs/sim_1/imports/synth-vivado/tb_top_behav1.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.1
+Time resolution is 1 ps
+open_wave_config /home/topalc/Desktop/modulerstuff/modulerstuff.srcs/sim_1/imports/synth-vivado/tb_top_behav1.wcfg
+source tb_top.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+Initializing SRAM from cust.mem
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_top_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:33 ; elapsed = 00:00:24 . Memory (MB): peak = 6285.324 ; gain = 76.809 ; free physical = 1610 ; free virtual = 8545
+run 10 ms
+run: Time (s): cpu = 00:00:44 ; elapsed = 00:04:08 . Memory (MB): peak = 6285.324 ; gain = 0.000 ; free physical = 1013 ; free virtual = 8120
+run 10 ms
+run: Time (s): cpu = 00:00:50 ; elapsed = 00:04:06 . Memory (MB): peak = 6312.566 ; gain = 25.051 ; free physical = 1312 ; free virtual = 8494
+run 10 ms
+run: Time (s): cpu = 00:00:45 ; elapsed = 00:04:06 . Memory (MB): peak = 6327.410 ; gain = 4.836 ; free physical = 1186 ; free virtual = 8489
+run 10 ms
+run: Time (s): cpu = 00:00:18 ; elapsed = 00:01:54 . Memory (MB): peak = 6327.410 ; gain = 0.000 ; free physical = 1162 ; free virtual = 8499
+run 10 ms
+run: Time (s): cpu = 00:00:28 ; elapsed = 00:04:02 . Memory (MB): peak = 6366.430 ; gain = 0.000 ; free physical = 971 ; free virtual = 8454
+save_wave_config {/home/topalc/Desktop/modulerstuff/modulerstuff.srcs/sim_1/imports/synth-vivado/tb_top_behav1.wcfg}
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/topalc/Desktop/modulerstuff/modulerstuff.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_top' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported '/home/topalc/Desktop/modulerstuff/modulerstuff.sim/sim_1/behav/xsim/cust.mem'
+INFO: [SIM-utils-43] Exported '/home/topalc/Desktop/modulerstuff/modulerstuff.sim/sim_1/behav/xsim/cust.mem'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/topalc/Desktop/modulerstuff/modulerstuff.sim/sim_1/behav/xsim'
+xvlog --incr --relax -L xil_defaultlib -prj tb_top_vlog.prj
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/topalc/Desktop/modulerstuff/modulerstuff.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/topalc/Desktop/modulerstuff/modulerstuff.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.1
+Copyright 1986-1999, 2001-2017 Xilinx, Inc. All Rights Reserved.
+Running: /opt/Xilinx/Vivado/2018.1/bin/unwrapped/lnx64.o/xelab -wto 76b97e32434b46818a56c0c4361fe7bf --incr --debug typical --relax --mt 8 -L xilinx_vip -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_top_behav xil_defaultlib.tb_top xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Completed static elaboration
+WARNING: [XSIM 43-4127] File "/home/topalc/Desktop/modulerstuff/modulerstuff.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_fetch_fifo.sv" Line 223 : The "System Verilog Assertion" is not supported yet for simulation. The statement will be ignored.
+WARNING: [XSIM 43-4127] File "/home/topalc/Desktop/modulerstuff/modulerstuff.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_if_stage.sv" Line 260 : The "System Verilog Assertion" is not supported yet for simulation. The statement will be ignored.
+WARNING: [XSIM 43-4127] File "/home/topalc/Desktop/modulerstuff/modulerstuff.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_if_stage.sv" Line 265 : The "System Verilog Assertion" is not supported yet for simulation. The statement will be ignored.
+WARNING: [XSIM 43-4127] File "/home/topalc/Desktop/modulerstuff/modulerstuff.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_id_stage.sv" Line 652 : The "System Verilog Assertion" is not supported yet for simulation. The statement will be ignored.
+WARNING: [XSIM 43-4127] File "/home/topalc/Desktop/modulerstuff/modulerstuff.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_id_stage.sv" Line 663 : The "System Verilog Assertion" is not supported yet for simulation. The statement will be ignored.
+WARNING: [XSIM 43-4127] File "/home/topalc/Desktop/modulerstuff/modulerstuff.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_id_stage.sv" Line 669 : The "System Verilog Assertion" is not supported yet for simulation. The statement will be ignored.
+WARNING: [XSIM 43-4127] File "/home/topalc/Desktop/modulerstuff/modulerstuff.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_load_store_unit.sv" Line 489 : The "System Verilog Assertion" is not supported yet for simulation. The statement will be ignored.
+WARNING: [XSIM 43-4127] File "/home/topalc/Desktop/modulerstuff/modulerstuff.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_load_store_unit.sv" Line 495 : The "System Verilog Assertion" is not supported yet for simulation. The statement will be ignored.
+WARNING: [XSIM 43-4127] File "/home/topalc/Desktop/modulerstuff/modulerstuff.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_load_store_unit.sv" Line 500 : The "System Verilog Assertion" is not supported yet for simulation. The statement will be ignored.
+WARNING: [XSIM 43-4127] File "/home/topalc/Desktop/modulerstuff/modulerstuff.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_load_store_unit.sv" Line 505 : The "System Verilog Assertion" is not supported yet for simulation. The statement will be ignored.
+WARNING: [XSIM 43-4127] File "/home/topalc/Desktop/modulerstuff/modulerstuff.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_load_store_unit.sv" Line 510 : The "System Verilog Assertion" is not supported yet for simulation. The statement will be ignored.
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Vivado Simulator 2018.1
+Time resolution is 1 ps
+Initializing SRAM from cust.mem
+relaunch_sim: Time (s): cpu = 00:18:18 ; elapsed = 00:00:05 . Memory (MB): peak = 6366.430 ; gain = 0.000 ; free physical = 1453 ; free virtual = 8467
+run 10 ms
+run: Time (s): cpu = 00:00:31 ; elapsed = 00:03:49 . Memory (MB): peak = 6366.430 ; gain = 0.000 ; free physical = 1290 ; free virtual = 8433
+run all
+run: Time (s): cpu = 00:01:18 ; elapsed = 00:10:40 . Memory (MB): peak = 6366.430 ; gain = 0.000 ; free physical = 1951 ; free virtual = 9390
+create_wave_config
+run all
+run: Time (s): cpu = 00:00:23 ; elapsed = 00:02:40 . Memory (MB): peak = 6366.430 ; gain = 0.000 ; free physical = 1240 ; free virtual = 9115
+general.maxThreads 4
+invalid command name "general.maxThreads"
+general maxThreads 4
+invalid command name "general"
+set_param general.maxthreads 4
+4
+run all
+run: Time (s): cpu = 00:02:53 ; elapsed = 00:25:32 . Memory (MB): peak = 6366.430 ; gain = 0.000 ; free physical = 612 ; free virtual = 9160
+open_wave_config {/home/topalc/Desktop/ibex-master/build/lowrisc_ibex_top_artya7_100_0.1/synth-vivado/tb_top_behav1.wcfg}
+WARNING: Simulation object /tb_top/UUT/u_core/ex_block_i/cust_i/data_reg3[19] was not found in the design.
+WARNING: Simulation object /tb_top/UUT/u_core/ex_block_i/cust_i/data_reg3[18] was not found in the design.
+WARNING: Simulation object /tb_top/UUT/u_core/ex_block_i/cust_i/data_reg3[17] was not found in the design.
+WARNING: Simulation object /tb_top/UUT/u_core/ex_block_i/cust_i/data_reg3[16] was not found in the design.
+WARNING: Simulation object /tb_top/UUT/u_core/ex_block_i/cust_i/data_reg3[15] was not found in the design.
+WARNING: Simulation object /tb_top/UUT/u_core/ex_block_i/cust_i/data_reg3[14] was not found in the design.
+WARNING: Simulation object /tb_top/UUT/u_core/ex_block_i/cust_i/data_reg3[13] was not found in the design.
+WARNING: Simulation object /tb_top/UUT/u_core/ex_block_i/cust_i/data_reg3[12] was not found in the design.
+WARNING: Simulation object /tb_top/UUT/u_core/ex_block_i/cust_i/data_reg3[11] was not found in the design.
+WARNING: Simulation object /tb_top/UUT/u_core/ex_block_i/cust_i/data_reg3[10] was not found in the design.
+WARNING: Simulation object /tb_top/UUT/u_core/ex_block_i/cust_i/data_reg3[9] was not found in the design.
+WARNING: Simulation object /tb_top/UUT/u_core/ex_block_i/cust_i/data_reg3[8] was not found in the design.
+WARNING: Simulation object /tb_top/UUT/u_core/ex_block_i/cust_i/data_reg3[7] was not found in the design.
+WARNING: Simulation object /tb_top/UUT/u_core/ex_block_i/cust_i/data_reg3[6] was not found in the design.
+WARNING: Simulation object /tb_top/UUT/u_core/ex_block_i/cust_i/data_reg3[5] was not found in the design.
+WARNING: Simulation object /tb_top/UUT/u_core/ex_block_i/cust_i/data_reg3[4] was not found in the design.
+WARNING: Simulation object /tb_top/UUT/u_core/ex_block_i/cust_i/data_reg3[3] was not found in the design.
+save_wave_config {/home/topalc/Desktop/modulerstuff/cikti.wcfg}
+add_files -fileset sim_1 -norecurse /home/topalc/Desktop/modulerstuff/cikti.wcfg
+set_property xsim.view {/home/topalc/Desktop/ibex-master/build/lowrisc_ibex_top_artya7_100_0.1/synth-vivado/tb_top_behav1.wcfg /home/topalc/Desktop/modulerstuff/cikti.wcfg} [get_filesets sim_1]
+archive_project /home/topalc/Desktop/subat_28.xpr.zip -force -include_local_ip_cache -include_config_settings
+INFO: [Coretcl 2-137] starting archive...
+INFO: [Coretcl 2-1499] Saving project copy to temporary location './.Xil/Vivado-18479-topalc-S551LB' for archiving project
+Scanning sources...
+Finished scanning sources
+INFO: [Coretcl 2-1211] Creating project copy for archival...
+INFO: [Coretcl 2-1213] Including run results for 'synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'impl_1'
+INFO: [Coretcl 2-1212] Importing remotely added design sources and verilog include files (if any)...
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'constrs_1'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'constrs_1'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'sim_1'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'sources_1'
+INFO: [Coretcl 2-1209] Adding archive summary file to the project...
+INFO: [Coretcl 2-1214] Preparing project files for archive...
+INFO: [Coretcl 2-1210] Compressing project files and data...
+INFO: [Coretcl 2-1215] Project archived (/home/topalc/Desktop/subat_28.xpr.zip)
+INFO: [Coretcl 2-1216] To view the archive summary log in GUI, double click on 'Design Sources->Text->archive_project_summary.txt', or open this file from the archived project directory.
+archive_project: Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 6366.430 ; gain = 0.000 ; free physical = 449 ; free virtual = 9149

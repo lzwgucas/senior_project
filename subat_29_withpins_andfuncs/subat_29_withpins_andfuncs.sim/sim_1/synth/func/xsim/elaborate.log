@@ -1,0 +1,54 @@
+Vivado Simulator 2018.1
+Copyright 1986-1999, 2001-2017 Xilinx, Inc. All Rights Reserved.
+Running: /opt/Xilinx/Vivado/2018.1/bin/unwrapped/lnx64.o/xelab -wto 76b97e32434b46818a56c0c4361fe7bf --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L secureip --snapshot tb_top_func_synth xil_defaultlib.tb_top xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module unisims_ver.IBUF
+Compiling module unisims_ver.BUFG
+Compiling module unisims_ver.x_lut2_mux4
+Compiling module unisims_ver.LUT2
+Compiling module unisims_ver.PLLE2_ADV(CLKFBOUT_MULT=12,CLKIN...
+Compiling module xil_defaultlib.clkgen_xil7series
+Compiling module unisims_ver.FDCE_default
+Compiling module unisims_ver.OBUF
+Compiling module unisims_ver.BUFGCTRL(PRESELECT_I0="TRUE")
+Compiling module xil_defaultlib.prim_clock_gating
+Compiling module unisims_ver.FDPE_default
+Compiling module unisims_ver.LUT6
+Compiling module unisims_ver.x_lut3_mux8
+Compiling module unisims_ver.LUT3
+Compiling module unisims_ver.CARRY4
+Compiling module unisims_ver.LUT5
+Compiling module unisims_ver.LUT4
+Compiling module unisims_ver.MUXF7
+Compiling module xil_defaultlib.ibex_cs_registers
+Compiling module xil_defaultlib.ibex_alu
+Compiling module unisims_ver.FDRE_default
+Compiling module unisims_ver.DSP48E1(ALUMODEREG=0,CARRYINREG=...
+Compiling module unisims_ver.DSP48E1(ACASCREG=0,ALUMODEREG=0,...
+Compiling module xil_defaultlib.custom_module
+Compiling module unisims_ver.DSP48E1(ACASCREG=0,ALUMODEREG=0,...
+Compiling module xil_defaultlib.ibex_multdiv_fast
+Compiling module xil_defaultlib.ibex_ex_block
+Compiling module xil_defaultlib.ibex_controller
+Compiling module xil_defaultlib.ibex_register_file
+Compiling module xil_defaultlib.ibex_id_stage
+Compiling module unisims_ver.x_lut1_mux2
+Compiling module unisims_ver.LUT1
+Compiling module xil_defaultlib.ibex_fetch_fifo
+Compiling module xil_defaultlib.ibex_prefetch_buffer
+Compiling module unisims_ver.MUXF8
+Compiling module xil_defaultlib.ibex_if_stage
+Compiling module xil_defaultlib.ibex_load_store_unit
+Compiling module xil_defaultlib.ibex_core
+Compiling module unisims_ver.RB36_INTERNAL_VLOG(RDADDR_COLLIS...
+Compiling module unisims_ver.RAMB36E1(RDADDR_COLLISION_HWCONF...
+Compiling module xil_defaultlib.ram_1p
+Compiling module xil_defaultlib.top_artya7_100
+Compiling module xil_defaultlib.tb_top
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_top_func_synth

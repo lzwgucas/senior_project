@@ -1,0 +1,21 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/topalc/modulerstuff/modulerstuff.sim/sim_1/impl/func/xsim/tb_top_func_impl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clkgen_xil7series
+INFO: [VRFC 10-311] analyzing module custom_module
+INFO: [VRFC 10-311] analyzing module ibex_alu
+INFO: [VRFC 10-311] analyzing module ibex_controller
+INFO: [VRFC 10-311] analyzing module ibex_core
+INFO: [VRFC 10-311] analyzing module ibex_cs_registers
+INFO: [VRFC 10-311] analyzing module ibex_ex_block
+INFO: [VRFC 10-311] analyzing module ibex_fetch_fifo
+INFO: [VRFC 10-311] analyzing module ibex_id_stage
+INFO: [VRFC 10-311] analyzing module ibex_if_stage
+INFO: [VRFC 10-311] analyzing module ibex_load_store_unit
+INFO: [VRFC 10-311] analyzing module ibex_multdiv_fast
+INFO: [VRFC 10-311] analyzing module ibex_prefetch_buffer
+INFO: [VRFC 10-311] analyzing module ibex_register_file
+INFO: [VRFC 10-311] analyzing module prim_clock_gating
+INFO: [VRFC 10-311] analyzing module ram_1p
+INFO: [VRFC 10-311] analyzing module top_artya7_100
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/topalc/modulerstuff/modulerstuff.srcs/sources_1/new/tb_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_top
