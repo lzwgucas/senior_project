@@ -9,8 +9,8 @@ static int result[150];
 static int ti_2[100];
 static int random_keys[318];
 volatile int resultkon[1];
-//536
-int *polymult( *a, int size_a, int *b, int size_b, int mod, int star_mult){
+
+int *polymult(int *a, int size_a, int *b, int size_b, int mod, int star_mult){
 
 
     int line[size_b][size_a + size_b];
@@ -46,15 +46,15 @@ int *polymult( *a, int size_a, int *b, int size_b, int mod, int star_mult){
     }
 
     // make calculations for partial products, if need add mod calculations
-    if(star_mult == 1){ 
-        for (j = size_b -1; j >= 0; j = j-1){ //0
+    if(star_mult == 1){
+        for (j = size_b -1; j >= 0; j = j-1){
             for (k = size_a-1; k >= 0; k = k-1 ){
                 line[size_b-1-j][k] = pola[k]*polb[j];
             }
         }
     }
     else{
-        for (j = size_b -1; j >= 0; j = j-1){ //536
+        for (j = size_b -1; j >= 0; j = j-1){
             for (k = size_a-1; k >= 0; k = k-1 ){
                 line[size_b-1-j][k + j] = pola[k]*polb[j];
             }
@@ -85,7 +85,7 @@ int *polymult( *a, int size_a, int *b, int size_b, int mod, int star_mult){
     return return_address1;
 }
 
-int *polymult2(int *a, int size_a, int *b, int size_b, int star_mult){//3
+int *polymult2(int *a, int size_a, int *b, int size_b, int star_mult){
 
     int line[size_b][size_a + size_b];
     int i,j,k;
@@ -113,14 +113,14 @@ int *polymult2(int *a, int size_a, int *b, int size_b, int star_mult){//3
 
     // make calculations for partial products, if need add mod calculations
     if(star_mult == 1){
-        for (j = size_b -1; j >= 0; j = j-1){//0
+        for (j = size_b -1; j >= 0; j = j-1){
             for (k = size_a-1; k >= 0; k = k-1 ){
                 line[size_b-1-j][k] = pola[k]*polb[j];
             }
         }
     }
     else{
-        for (j = size_b -1; j >= 0; j = j-1){//3
+        for (j = size_b -1; j >= 0; j = j-1){
             for (k = size_a-1; k >= 0; k = k-1 ){
                 line[size_b-1-j][k + j] = pola[k]*polb[j];
             }
@@ -140,7 +140,7 @@ int *polymult2(int *a, int size_a, int *b, int size_b, int star_mult){//3
     return return_address2;
 }
 
-int *polydiv(int *num, int size_N, int*denum, int size_D, int mod){ //136
+int *polydiv(int *num, int size_N, int*denum, int size_D, int mod){
 
     int u,d,d2,i,b_N,r_d;
     int *return_address3;
@@ -203,7 +203,7 @@ int *polydiv(int *num, int size_N, int*denum, int size_D, int mod){ //136
     //printf("\nd2 = %d, d = %d\n",d2,d);
 
     // While-1 deg num >= deg denum do
-    while (d >= d2){ //136
+    while (d >= d2){
 
         // Set v := u × r_d × X^(d–N)
         v[(d-d2)] = u*r_d;
@@ -271,7 +271,7 @@ int *polydiv(int *num, int size_N, int*denum, int size_D, int mod){ //136
 }
 
 
-int* ext_euclid(int* polyR, int* polyf, int size, int mod) {//2
+int* ext_euclid(int* polyR, int* polyf, int size, int mod) {
 
     int *return_address4;
     int N, i, j;
@@ -303,7 +303,7 @@ int* ext_euclid(int* polyR, int* polyf, int size, int mod) {//2
 
 
     while (controlR != 0) {
-        //66
+
         controlR = 0;
         // make mod for ri_2
         for (i = 0; i < N + 1; ++i) {
@@ -405,7 +405,7 @@ int* ext_euclid(int* polyR, int* polyf, int size, int mod) {//2
 
         for (i = 1; i < N; ++i) {
             if (ri_2[i] != 0)
-                //	printf("**** GCD of SECRET POL and POLYR is not 1 !! OPERATION INVALID!! PICK ANOTHER RANDOM VALUE !! *****\n");
+                //	printf("** GCD of SECRET POL and POLYR is not 1 !! OPERATION INVALID!! PICK ANOTHER RANDOM VALUE !! ***\n");
                 break;
         }
 
@@ -421,7 +421,7 @@ int* ext_euclid(int* polyR, int* polyf, int size, int mod) {//2
 
 
 
-int* generate_keys(int N, int p, int q){ //1
+int* generate_keys(int N, int p, int q){
 
     int f[55] = {-1, 1, 1, 0, -1, 0, 1, 0, 0, 1, -1, -1, 0, 1, 0, -1, 0, 1, 1, 0, 0,  -1, 0, 1, 0, 0, 1, 1, 1,  -1, 0, 1, 0, 0, 1, 1, 1,    -1, 0, 1, 0, 0, 1, 1, 1};
     int g[55] = {-1, 0, 1, 1, 0, 1, 0, 0, -1, 0, -1, -1, 0, 1, 0, -1, 0, 1, 0, 0, 1, -1, 0, 1, 0, 0, 1, -1, 0, 1, 0, 0, 1, -1, 0, 1, 0, 1,   1, 0, 0, 1, -1, 0, 1, 0, 1};
@@ -509,7 +509,7 @@ int* generate_keys(int N, int p, int q){ //1
 }
 
 
-int* ntru_encyrpt(int N, int q, int* message, int* public_key, int* polyR){//1
+int* ntru_encyrpt(int N, int q, int* message, int* public_key, int* polyR){
 
     int *return_address6;
     int *CT;
@@ -543,7 +543,7 @@ int* ntru_encyrpt(int N, int q, int* message, int* public_key, int* polyR){//1
 }
 
 
-int* ntru_deceypt(int N, int p, int q, int* secret_key_f, int* secret_key_fp, int* Enc_Message, int* polyR)//1
+int* ntru_deceypt(int N, int p, int q, int* secret_key_f, int* secret_key_fp, int* Enc_Message, int* polyR){
 
     int* return_address7;
     int* a;
@@ -566,9 +566,9 @@ int* ntru_deceypt(int N, int p, int q, int* secret_key_f, int* secret_key_fp, in
 
     //centerlifting a2
     for (i = 0; i < N; ++i){
-        if(a2[i] <= q/2)//53
+        if(a2[i] <= q/2)
             a2[i] = a2[i];
-        else//10
+        else
             a2[i] = (-1)*(q-a2[i]);
     }
 
@@ -695,7 +695,7 @@ int main(){
             resultkon[0] = 0xB;
             break;	}
         else{
-  //          printf("**OPERATION SUCCCESSFUL**\n");
+  //          printf("*OPERATION SUCCCESSFUL*\n");
             resultkon[0] = 0xC;}
     }
 
@@ -705,4 +705,3 @@ int main(){
 
     return 0;
 }
-
