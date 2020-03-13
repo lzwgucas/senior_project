@@ -1,1 +1,0 @@
-mac.o: mac.c

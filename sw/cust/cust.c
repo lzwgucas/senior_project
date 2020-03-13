@@ -37,25 +37,26 @@ uint64_t  k = 1;
 uint64_t  j = 1;
 
 
-// (A*B) % M = ((A % M) * (B % M)) % M
+// (A*B) % MOD = ((A % MOD) * (B % MOD)) % MOD
 
 
 i = custom(a,m);
  *var = i;	// 28573
+//printf("i= " "%" PRIu64 "\n",i);
 
 
 k = custom(b,m);	// 28252
  *var = k;
-
+//printf("k=" "%" PRIu64 "\n",k);
 
 j= custom(c,m);	// 18161
  *var = j;
+//printf("j=" "%" PRIu64 "\n",j);
 
 
-
-x = custom((custom(i*k,m)*j),m); // 35599
+x = custom((custom(i*k,m)*j),m);	// 35599
 *var = x;
-
+//printf("a*b*c mod m = " "%" PRIu64 "\n",x);
 
 *var = 0;
 
@@ -65,16 +66,11 @@ i = a % m;
 k = b % m;	// 28252
 *var = k;
 
-
 j= c % m;	// 18161
 *var = j;
 
-
-
 x = (((i*k)%m)*j)%m; // 35599
 *var = x;
-
-*var = 0;
 
 return 0;
 }

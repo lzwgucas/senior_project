@@ -1,0 +1,68 @@
+/*
+
+Xilinx Vivado v2018.1 (64-bit) [Major: 2018, Minor: 1]
+SW Build: 2188600 on Wed Apr  4 18:39:19 MDT 2018
+IP Build: 2185939 on Wed Apr  4 20:55:05 MDT 2018
+
+Process ID: 2284
+License: Customer
+
+Current time: 	Fri Nov 29 17:14:02 EET 2019
+Time zone: 	Eastern European Time (Europe/Istanbul)
+
+OS: Ubuntu
+OS Version: 4.15.0-66-generic
+OS Architecture: amd64
+Available processors (cores): 4
+
+Display: :0
+Screen size: 1366x768
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 86 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	/opt/Xilinx/Vivado/2018.1/tps/lnx64/jre
+Java executable location: 	/opt/Xilinx/Vivado/2018.1/tps/lnx64/jre/bin/java
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 2 GB
+
+
+User name: 	elifnur
+User home directory: /home/elifnur
+User working directory: /home/elifnur/Desktop/ibex_v2/ibex-master/examples/sw/summation
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: /opt/Xilinx/Vivado
+HDI_APPROOT: /opt/Xilinx/Vivado/2018.1
+RDI_DATADIR: /opt/Xilinx/Vivado/2018.1/data
+RDI_BINDIR: /opt/Xilinx/Vivado/2018.1/bin
+
+Vivado preferences file location: /home/elifnur/.Xilinx/Vivado/2018.1/vivado.xml
+Vivado preferences directory: /home/elifnur/.Xilinx/Vivado/2018.1/
+Vivado layouts directory: /home/elifnur/.Xilinx/Vivado/2018.1/layouts
+PlanAhead jar file location: 	/opt/Xilinx/Vivado/2018.1/lib/classes/planAhead.jar
+Vivado log file location: 	/home/elifnur/Desktop/ibex_v2/ibex-master/examples/sw/summation/vivado.log
+Vivado journal file location: 	/home/elifnur/Desktop/ibex_v2/ibex-master/examples/sw/summation/vivado.jou
+Engine tmp dir: 	./.Xil/Vivado-2284-elifnurisman
+
+GUI allocated memory:	126 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 850 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// [GUI Memory]: 54 MB (+54232kb) [00:00:15]
+// [Engine Memory]: 849 MB (+738368kb) [00:00:15]
+// Tcl Message: start_gui 
+// [GUI Memory]: 59 MB (+2011kb) [00:00:19]
+// HMemoryUtils.trashcanNow. Engine heap size: 850 MB. GUI used memory: 33 MB. Current time: 11/29/19 5:14:05 PM EET
+// HMemoryUtils.trashcanNow. Engine heap size: 850 MB. GUI used memory: 30 MB. Current time: 11/29/19 5:44:05 PM EET
+// HMemoryUtils.trashcanNow. Engine heap size: 850 MB. GUI used memory: 28 MB. Current time: 11/29/19 6:14:05 PM EET
+// HMemoryUtils.trashcanNow. Engine heap size: 850 MB. GUI used memory: 28 MB. Current time: 11/29/19 6:44:05 PM EET
