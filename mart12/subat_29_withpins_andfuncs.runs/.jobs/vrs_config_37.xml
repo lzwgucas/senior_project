@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="ntru_custom" LaunchDir="/home/elifnur/Desktop/senior_project/senior_project/subat_29_withpins_andfuncs.runs/ntru_custom" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="impl_6" LaunchDir="/home/elifnur/Desktop/senior_project/senior_project/subat_29_withpins_andfuncs.runs/impl_6" FlowId="Vivado_Implementation" FromStepId="init_design" ToStepId="write_bitstream">
+		<Parent Id="ntru_custom"/>
+	</Run>
+</Runs>
+

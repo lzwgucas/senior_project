@@ -1,0 +1,12 @@
+
+{ 
+    crc :  3825253752909468761  , 
+    ccp_crc :  0  , 
+    cmdline : " -wto 09a8348cf3d948c7936c5957d667f0ef --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L secureip --snapshot tb_top_func_synth xil_defaultlib.tb_top xil_defaultlib.glbl" , 
+    buildDate : "Apr  4 2018" , 
+    buildTime : "18:43:17" , 
+    linkCmd : "/usr/bin/gcc -Wa,-W  -O -fPIC  -m64  -Wl,--unresolved-symbols=ignore-all  -o \"xsim.dir/tb_top_func_synth/xsimk\"   \"xsim.dir/tb_top_func_synth/obj/xsim_0.lnx64.o\" \"xsim.dir/tb_top_func_synth/obj/xsim_1.lnx64.o\" \"xsim.dir/tb_top_func_synth/obj/xsim_2.lnx64.o\" \"xsim.dir/tb_top_func_synth/obj/xsim_3.lnx64.o\" \"xsim.dir/tb_top_func_synth/obj/xsim_4.lnx64.o\" \"xsim.dir/tb_top_func_synth/obj/xsim_5.lnx64.o\" \"xsim.dir/tb_top_func_synth/obj/xsim_6.lnx64.o\" \"xsim.dir/tb_top_func_synth/obj/xsim_7.lnx64.o\" \"xsim.dir/tb_top_func_synth/obj/xsim_8.lnx64.o\" \"xsim.dir/tb_top_func_synth/obj/xsim_9.lnx64.o\" \"xsim.dir/tb_top_func_synth/obj/xsim_10.lnx64.o\" \"/opt/Xilinx/Vivado/2018.1/lib/lnx64.o/librdi_simulator_kernel.so\"  \"/opt/Xilinx/Vivado/2018.1/lib/lnx64.o/librdi_simbridge_kernel.so\"" , 
+    aggregate_nets : 
+    [ 
+    ] 
+} 

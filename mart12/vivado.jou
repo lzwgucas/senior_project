@@ -1,0 +1,89 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:39:19 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Thu Mar  5 19:10:39 2020
+# Process ID: 24902
+# Current directory: /home/topalc
+# Command line: vivado
+# Log file: /home/topalc/vivado.log
+# Journal file: /home/topalc/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project /home/topalc/Desktop/senior_project/senior_project/subat_29_withpins_andfuncs/subat_29_withpins_andfuncs.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+open_wave_config /home/topalc/Desktop/senior_project/senior_project/subat_29_withpins_andfuncs/subat_29_withpins_andfuncs.srcs/sim_1/imports/synth-vivado/tb_top_behav1.wcfg
+open_wave_config /home/topalc/Desktop/senior_project/senior_project/subat_29_withpins_andfuncs/subat_29_withpins_andfuncs.srcs/sim_1/imports/modulerstuff/cikti.wcfg
+source tb_top.tcl
+run 50 us
+relaunch_sim
+run 50 us
+relaunch_sim
+run 50 us
+relaunch_sim
+run 50 us
+run 50 us
+synth_design -rtl -name rtl_1
+close_design
+relaunch_sim
+relaunch_sim
+relaunch_sim
+run 50 us
+run 2 us
+run 2 us
+run 2 us
+run 2 us
+run 2 us
+run 2 us
+run 2 us
+run 2 us
+run 2 us
+run 2 us
+relaunch_sim
+run 2 us
+run 2 us
+run 2 us
+run 2 us
+run 2 us
+run 2 us
+run 2 us
+run 2 us
+run 2 us
+run 2 us
+run 2 us
+run 2 us
+run 2 us
+run 2 us
+run 2 us
+run 2 us
+run 2 us
+run 2 us
+run 2 us
+relaunch_sim
+run 20 us
+run 20 us
+run 20 us
+relaunch_sim
+run 20 us
+run 20 us
+run 20 us
+relaunch_sim
+run 20 us
+run 20 us
+run 20 us
+relaunch_sim
+run 20 us
+run 20 us
+run 20 us
+run 20 us
+relaunch_sim
+relaunch_sim
+run 20 us
+run 20 us
+run 20 us
+save_wave_config {/home/topalc/Desktop/senior_project/senior_project/subat_29_withpins_andfuncs/subat_29_withpins_andfuncs.srcs/sim_1/imports/synth-vivado/tb_top_behav1.wcfg}
+relaunch_sim
+run 20 ms
+run all
+archive_project /home/topalc/Desktop/05_03.xpr.zip -force -include_local_ip_cache -include_config_settings

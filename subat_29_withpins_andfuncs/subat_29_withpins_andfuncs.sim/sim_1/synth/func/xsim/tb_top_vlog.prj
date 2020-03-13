@@ -1,7 +1,0 @@
-# compile verilog/system verilog design source files
-verilog xil_defaultlib  -i "../../../../../../ibex-master/build/lowrisc_ibex_top_artya7_100_0.1/synth-vivado" --include "/opt/Xilinx/Vivado/2018.1/data/xilinx_vip/include" \
-"tb_top_func_synth.v" \
-"../../../../../modulerstuff.srcs/sources_1/new/tb_top.v" \
-
-# Do not sort compile order
-nosort
