@@ -20,7 +20,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='/home/topalc/Desktop/projeler/temiz_ibex/unmodified/build/lowrisc_ibex_top_artya7_100_0.1/synth-vivado/lowrisc_ibex_top_artya7_100_0.1.runs/ntru_vanilya'
+HD_PWD='/home/topalc/Desktop/github/senior_project/temiz_ibex/build/lowrisc_ibex_top_artya7_100_0.1/synth-vivado/lowrisc_ibex_top_artya7_100_0.1.runs/ntru_vanilya'
 cd "$HD_PWD"
 
 HD_LOG=runme.log

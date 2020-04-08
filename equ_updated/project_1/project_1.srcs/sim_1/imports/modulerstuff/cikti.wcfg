@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_top_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="ibex_pkg" />
+            <top_module name="tb_top" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="9702000000fs"></ZoomStartTime>
+      <ZoomEndTime time="10620000001fs"></ZoomEndTime>
+      <Cursor1Time time="10190000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="136"></NameColumnWidth>
+      <ValueColumnWidth column_width="162"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="20" />
+   <wvobject type="logic" fp_name="/tb_top/IO_CLK">
+      <obj_property name="ElementShortName">IO_CLK</obj_property>
+      <obj_property name="ObjectShortName">IO_CLK</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_top/UUT/state">
+      <obj_property name="ElementShortName">state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">state[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_top/UUT/i">
+      <obj_property name="ElementShortName">i[3:0]</obj_property>
+      <obj_property name="ObjectShortName">i[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_top/UUT/out">
+      <obj_property name="ElementShortName">out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">out[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_top/AN1">
+      <obj_property name="ElementShortName">AN1[7:0]</obj_property>
+      <obj_property name="ObjectShortName">AN1[7:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_top/C_A">
+      <obj_property name="ElementShortName">C_A</obj_property>
+      <obj_property name="ObjectShortName">C_A</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_top/C_B">
+      <obj_property name="ElementShortName">C_B</obj_property>
+      <obj_property name="ObjectShortName">C_B</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_top/C_C">
+      <obj_property name="ElementShortName">C_C</obj_property>
+      <obj_property name="ObjectShortName">C_C</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_top/C_D">
+      <obj_property name="ElementShortName">C_D</obj_property>
+      <obj_property name="ObjectShortName">C_D</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_top/C_E">
+      <obj_property name="ElementShortName">C_E</obj_property>
+      <obj_property name="ObjectShortName">C_E</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_top/C_F">
+      <obj_property name="ElementShortName">C_F</obj_property>
+      <obj_property name="ObjectShortName">C_F</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_top/C_G">
+      <obj_property name="ElementShortName">C_G</obj_property>
+      <obj_property name="ObjectShortName">C_G</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_top/UUT/display_module/i_Binary_Num">
+      <obj_property name="ElementShortName">i_Binary_Num[3:0]</obj_property>
+      <obj_property name="ObjectShortName">i_Binary_Num[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_top/UUT/display_module/o_Segment_A">
+      <obj_property name="ElementShortName">o_Segment_A</obj_property>
+      <obj_property name="ObjectShortName">o_Segment_A</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_top/UUT/display_module/o_Segment_B">
+      <obj_property name="ElementShortName">o_Segment_B</obj_property>
+      <obj_property name="ObjectShortName">o_Segment_B</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_top/UUT/display_module/o_Segment_C">
+      <obj_property name="ElementShortName">o_Segment_C</obj_property>
+      <obj_property name="ObjectShortName">o_Segment_C</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_top/UUT/display_module/o_Segment_D">
+      <obj_property name="ElementShortName">o_Segment_D</obj_property>
+      <obj_property name="ObjectShortName">o_Segment_D</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_top/UUT/display_module/o_Segment_E">
+      <obj_property name="ElementShortName">o_Segment_E</obj_property>
+      <obj_property name="ObjectShortName">o_Segment_E</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_top/UUT/display_module/o_Segment_F">
+      <obj_property name="ElementShortName">o_Segment_F</obj_property>
+      <obj_property name="ObjectShortName">o_Segment_F</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_top/UUT/display_module/o_Segment_G">
+      <obj_property name="ElementShortName">o_Segment_G</obj_property>
+      <obj_property name="ObjectShortName">o_Segment_G</obj_property>
+   </wvobject>
+</wave_config>

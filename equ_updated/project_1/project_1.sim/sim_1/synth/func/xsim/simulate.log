@@ -1,0 +1,7 @@
+Vivado Simulator 2018.1
+Time resolution is 1 ps
+ Attribute Syntax Error : The attribute CLKIN1_PERIOD is set to 0.000000 ns and out the allowed range 0.938000 ns to 52.631000 ns.
+$finish called at time : 2 ps : File "/wrk/2018.1/nightly/2018_04_04_2188600/data/verilog/src/unisims/PLLE2_ADV.v" Line 1687
+ Attribute Syntax Error : The calculation of VCO frequency=inf Mhz. This exceeds the permitted VCO frequency range of 800.000000 Mhz to 2133.000000 Mhz. The VCO frequency is calculated with formula: VCO frequency =  CLKFBOUT_MULT / (DIVCLK_DIVIDE * CLKIN1_PERIOD). Please adjust the attributes to the permitted VCO frequency range.
+$finish called at time : 2 ps : File "/wrk/2018.1/nightly/2018_04_04_2188600/data/verilog/src/unisims/PLLE2_ADV.v" Line 1705
+Warning : input CLKIN1 period and attribute CLKIN1_PERIOD on PLLE2_ADV instance tb_top.UUT.clkgen.pll are not same.

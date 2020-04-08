@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GenRun Id="glob_array_synth" LaunchPart="xc7a100tcsg324-1" LaunchTime="1583876381">
-  <File Type="VDS-TIMING-PB" Name="top_artya7_100_timing_summary_synth.pb"/>
-  <File Type="VDS-TIMINGSUMMARY" Name="top_artya7_100_timing_summary_synth.rpt"/>
+  <File Type="PA-TCL" Name="top_artya7_100.tcl"/>
+  <File Type="REPORTS-TCL" Name="top_artya7_100_reports.tcl"/>
+  <File Type="RDS-RDS" Name="top_artya7_100.vds"/>
   <File Type="RDS-DCP" Name="top_artya7_100.dcp"/>
   <File Type="RDS-UTIL-PB" Name="top_artya7_100_utilization_synth.pb"/>
   <File Type="RDS-UTIL" Name="top_artya7_100_utilization_synth.rpt"/>
-  <File Type="RDS-PROPCONSTRS" Name="top_artya7_100_drc_synth.rpt"/>
-  <File Type="RDS-RDS" Name="top_artya7_100.vds"/>
-  <File Type="REPORTS-TCL" Name="top_artya7_100_reports.tcl"/>
-  <File Type="PA-TCL" Name="top_artya7_100.tcl"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
     <Filter Type="Srcs"/>
     <File Path="$PPRDIR/../src/lowrisc_ibex_fpga_xilinx_shared_0/rtl/fpga/xilinx/clkgen_xil7series.sv">
@@ -176,9 +173,7 @@
     </Config>
   </FileSet>
   <Strategy Version="1" Minor="2">
-    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018">
-      <Desc>Vivado Synthesis Defaults</Desc>
-    </StratHandle>
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
     <Step Id="synth_design"/>
   </Strategy>
   <BlockFileSet Type="BlockSrcs" Name="ila_0"/>

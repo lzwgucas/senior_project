@@ -14,15 +14,15 @@ Starting synth_design
 Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
 INFO: Launching helper process for spawning children vivado processes
-INFO: Helper process launched with PID 13151 
+INFO: Helper process launched with PID 32449 
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:12 ; elapsed = 00:00:15 . Memory (MB): peak = 1322.047 ; gain = 80.000 ; free physical = 1179 ; free virtual = 6919
+Starting RTL Elaboration : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 1322.055 ; gain = 80.000 ; free physical = 1263 ; free virtual = 8231
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-6157] synthesizing module 'top_artya7_100' [/home/topalc/Desktop/projeler/temiz_ibex/unmodified/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_top_artya7_100_0.1/rtl/top_artya7_100.sv:5]
+INFO: [Synth 8-6157] synthesizing module 'top_artya7_100' [/home/topalc/Desktop/github/senior_project/temiz_ibex/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_top_artya7_100_0.1/rtl/top_artya7_100.sv:5]
 	Parameter MEM_SIZE bound to: 32'sb00000000000000010000000000000000 
 	Parameter MEM_START bound to: 0 - type: integer 
 	Parameter MEM_MASK bound to: 32'b00000000000000001111111111111111 
-INFO: [Synth 8-6157] synthesizing module 'ibex_core' [/home/topalc/Desktop/projeler/temiz_ibex/unmodified/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_core.sv:13]
+INFO: [Synth 8-6157] synthesizing module 'ibex_core' [/home/topalc/Desktop/github/senior_project/temiz_ibex/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_core.sv:13]
 	Parameter PMPEnable bound to: 1'b0 
 	Parameter PMPGranularity bound to: 32'b00000000000000000000000000000000 
 	Parameter PMPNumRegions bound to: 32'b00000000000000000000000000000100 
@@ -34,112 +34,112 @@ INFO: [Synth 8-6157] synthesizing module 'ibex_core' [/home/topalc/Desktop/proje
 	Parameter DmHaltAddr bound to: 0 - type: integer 
 	Parameter DmExceptionAddr bound to: 0 - type: integer 
 	Parameter PMP_NUM_CHAN bound to: 32'b00000000000000000000000000000010 
-INFO: [Synth 8-6157] synthesizing module 'prim_clock_gating' [/home/topalc/Desktop/projeler/temiz_ibex/unmodified/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_fpga_xilinx_shared_0/rtl/fpga/xilinx/prim_clock_gating.sv:5]
+INFO: [Synth 8-6157] synthesizing module 'prim_clock_gating' [/home/topalc/Desktop/github/senior_project/temiz_ibex/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_fpga_xilinx_shared_0/rtl/fpga/xilinx/prim_clock_gating.sv:5]
 INFO: [Synth 8-6157] synthesizing module 'BUFGCE' [/opt/Xilinx/Vivado/2018.1/scripts/rt/data/unisim_comp.v:619]
 	Parameter CE_TYPE bound to: SYNC - type: string 
 	Parameter IS_CE_INVERTED bound to: 1'b0 
 	Parameter IS_I_INVERTED bound to: 1'b0 
 INFO: [Synth 8-6155] done synthesizing module 'BUFGCE' (1#1) [/opt/Xilinx/Vivado/2018.1/scripts/rt/data/unisim_comp.v:619]
-INFO: [Synth 8-6155] done synthesizing module 'prim_clock_gating' (2#1) [/home/topalc/Desktop/projeler/temiz_ibex/unmodified/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_fpga_xilinx_shared_0/rtl/fpga/xilinx/prim_clock_gating.sv:5]
-INFO: [Synth 8-6157] synthesizing module 'ibex_if_stage' [/home/topalc/Desktop/projeler/temiz_ibex/unmodified/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_if_stage.sv:12]
+INFO: [Synth 8-6155] done synthesizing module 'prim_clock_gating' (2#1) [/home/topalc/Desktop/github/senior_project/temiz_ibex/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_fpga_xilinx_shared_0/rtl/fpga/xilinx/prim_clock_gating.sv:5]
+INFO: [Synth 8-6157] synthesizing module 'ibex_if_stage' [/home/topalc/Desktop/github/senior_project/temiz_ibex/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_if_stage.sv:12]
 	Parameter DmHaltAddr bound to: 0 - type: integer 
 	Parameter DmExceptionAddr bound to: 0 - type: integer 
-INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/projeler/temiz_ibex/unmodified/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_if_stage.sv:107]
-INFO: [Synth 8-226] default block is never used [/home/topalc/Desktop/projeler/temiz_ibex/unmodified/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_if_stage.sv:107]
-INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/projeler/temiz_ibex/unmodified/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_if_stage.sv:118]
-INFO: [Synth 8-6157] synthesizing module 'ibex_prefetch_buffer' [/home/topalc/Desktop/projeler/temiz_ibex/unmodified/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_prefetch_buffer.sv:12]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/github/senior_project/temiz_ibex/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_if_stage.sv:107]
+INFO: [Synth 8-226] default block is never used [/home/topalc/Desktop/github/senior_project/temiz_ibex/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_if_stage.sv:107]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/github/senior_project/temiz_ibex/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_if_stage.sv:118]
+INFO: [Synth 8-6157] synthesizing module 'ibex_prefetch_buffer' [/home/topalc/Desktop/github/senior_project/temiz_ibex/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_prefetch_buffer.sv:12]
 	Parameter NUM_REQS bound to: 32'b00000000000000000000000000000010 
-INFO: [Synth 8-6157] synthesizing module 'ibex_fetch_fifo' [/home/topalc/Desktop/projeler/temiz_ibex/unmodified/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_fetch_fifo.sv:12]
+INFO: [Synth 8-6157] synthesizing module 'ibex_fetch_fifo' [/home/topalc/Desktop/github/senior_project/temiz_ibex/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_fetch_fifo.sv:12]
 	Parameter NUM_REQS bound to: 32'b00000000000000000000000000000010 
 	Parameter DEPTH bound to: 32'b00000000000000000000000000000011 
-INFO: [Synth 8-6155] done synthesizing module 'ibex_fetch_fifo' (3#1) [/home/topalc/Desktop/projeler/temiz_ibex/unmodified/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_fetch_fifo.sv:12]
-INFO: [Synth 8-6155] done synthesizing module 'ibex_prefetch_buffer' (4#1) [/home/topalc/Desktop/projeler/temiz_ibex/unmodified/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_prefetch_buffer.sv:12]
-INFO: [Synth 8-6157] synthesizing module 'ibex_compressed_decoder' [/home/topalc/Desktop/projeler/temiz_ibex/unmodified/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_compressed_decoder.sv:12]
-INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/projeler/temiz_ibex/unmodified/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_compressed_decoder.sv:28]
-INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/projeler/temiz_ibex/unmodified/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_compressed_decoder.sv:31]
-INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/projeler/temiz_ibex/unmodified/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_compressed_decoder.sv:64]
-INFO: [Synth 8-226] default block is never used [/home/topalc/Desktop/projeler/temiz_ibex/unmodified/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_compressed_decoder.sv:64]
-INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/projeler/temiz_ibex/unmodified/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_compressed_decoder.sv:102]
-INFO: [Synth 8-226] default block is never used [/home/topalc/Desktop/projeler/temiz_ibex/unmodified/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_compressed_decoder.sv:102]
-INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/projeler/temiz_ibex/unmodified/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_compressed_decoder.sv:120]
-INFO: [Synth 8-226] default block is never used [/home/topalc/Desktop/projeler/temiz_ibex/unmodified/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_compressed_decoder.sv:120]
-INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/projeler/temiz_ibex/unmodified/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_compressed_decoder.sv:186]
-INFO: [Synth 8-226] default block is never used [/home/topalc/Desktop/projeler/temiz_ibex/unmodified/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_compressed_decoder.sv:186]
-INFO: [Synth 8-6155] done synthesizing module 'ibex_compressed_decoder' (5#1) [/home/topalc/Desktop/projeler/temiz_ibex/unmodified/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_compressed_decoder.sv:12]
-INFO: [Synth 8-6155] done synthesizing module 'ibex_if_stage' (6#1) [/home/topalc/Desktop/projeler/temiz_ibex/unmodified/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_if_stage.sv:12]
-INFO: [Synth 8-6157] synthesizing module 'ibex_id_stage' [/home/topalc/Desktop/projeler/temiz_ibex/unmodified/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_id_stage.sv:16]
+INFO: [Synth 8-6155] done synthesizing module 'ibex_fetch_fifo' (3#1) [/home/topalc/Desktop/github/senior_project/temiz_ibex/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_fetch_fifo.sv:12]
+INFO: [Synth 8-6155] done synthesizing module 'ibex_prefetch_buffer' (4#1) [/home/topalc/Desktop/github/senior_project/temiz_ibex/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_prefetch_buffer.sv:12]
+INFO: [Synth 8-6157] synthesizing module 'ibex_compressed_decoder' [/home/topalc/Desktop/github/senior_project/temiz_ibex/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_compressed_decoder.sv:12]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/github/senior_project/temiz_ibex/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_compressed_decoder.sv:28]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/github/senior_project/temiz_ibex/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_compressed_decoder.sv:31]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/github/senior_project/temiz_ibex/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_compressed_decoder.sv:64]
+INFO: [Synth 8-226] default block is never used [/home/topalc/Desktop/github/senior_project/temiz_ibex/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_compressed_decoder.sv:64]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/github/senior_project/temiz_ibex/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_compressed_decoder.sv:102]
+INFO: [Synth 8-226] default block is never used [/home/topalc/Desktop/github/senior_project/temiz_ibex/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_compressed_decoder.sv:102]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/github/senior_project/temiz_ibex/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_compressed_decoder.sv:120]
+INFO: [Synth 8-226] default block is never used [/home/topalc/Desktop/github/senior_project/temiz_ibex/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_compressed_decoder.sv:120]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/github/senior_project/temiz_ibex/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_compressed_decoder.sv:186]
+INFO: [Synth 8-226] default block is never used [/home/topalc/Desktop/github/senior_project/temiz_ibex/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_compressed_decoder.sv:186]
+INFO: [Synth 8-6155] done synthesizing module 'ibex_compressed_decoder' (5#1) [/home/topalc/Desktop/github/senior_project/temiz_ibex/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_compressed_decoder.sv:12]
+INFO: [Synth 8-6155] done synthesizing module 'ibex_if_stage' (6#1) [/home/topalc/Desktop/github/senior_project/temiz_ibex/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_if_stage.sv:12]
+INFO: [Synth 8-6157] synthesizing module 'ibex_id_stage' [/home/topalc/Desktop/github/senior_project/temiz_ibex/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_id_stage.sv:16]
 	Parameter RV32E bound to: 1'b0 
 	Parameter RV32M bound to: 1'b1 
-INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/projeler/temiz_ibex/unmodified/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_id_stage.sv:229]
-INFO: [Synth 8-226] default block is never used [/home/topalc/Desktop/projeler/temiz_ibex/unmodified/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_id_stage.sv:229]
-INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/projeler/temiz_ibex/unmodified/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_id_stage.sv:244]
-INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/projeler/temiz_ibex/unmodified/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_id_stage.sv:270]
-INFO: [Synth 8-6157] synthesizing module 'ibex_register_file' [/home/topalc/Desktop/projeler/temiz_ibex/unmodified/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_register_file_ff.sv:13]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/github/senior_project/temiz_ibex/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_id_stage.sv:229]
+INFO: [Synth 8-226] default block is never used [/home/topalc/Desktop/github/senior_project/temiz_ibex/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_id_stage.sv:229]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/github/senior_project/temiz_ibex/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_id_stage.sv:244]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/github/senior_project/temiz_ibex/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_id_stage.sv:270]
+INFO: [Synth 8-6157] synthesizing module 'ibex_register_file' [/home/topalc/Desktop/github/senior_project/temiz_ibex/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_register_file_ff.sv:13]
 	Parameter RV32E bound to: 1'b0 
 	Parameter DataWidth bound to: 32'b00000000000000000000000000100000 
 	Parameter ADDR_WIDTH bound to: 32'b00000000000000000000000000000101 
 	Parameter NUM_WORDS bound to: 32'b00000000000000000000000000100000 
-INFO: [Synth 8-6155] done synthesizing module 'ibex_register_file' (7#1) [/home/topalc/Desktop/projeler/temiz_ibex/unmodified/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_register_file_ff.sv:13]
-INFO: [Synth 8-6157] synthesizing module 'ibex_decoder' [/home/topalc/Desktop/projeler/temiz_ibex/unmodified/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_decoder.sv:14]
+INFO: [Synth 8-6155] done synthesizing module 'ibex_register_file' (7#1) [/home/topalc/Desktop/github/senior_project/temiz_ibex/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_register_file_ff.sv:13]
+INFO: [Synth 8-6157] synthesizing module 'ibex_decoder' [/home/topalc/Desktop/github/senior_project/temiz_ibex/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_decoder.sv:14]
 	Parameter RV32E bound to: 1'b0 
 	Parameter RV32M bound to: 1'b1 
-INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/projeler/temiz_ibex/unmodified/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_decoder.sv:210]
-INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/projeler/temiz_ibex/unmodified/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_decoder.sv:262]
-INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/projeler/temiz_ibex/unmodified/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_decoder.sv:306]
-INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/projeler/temiz_ibex/unmodified/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_decoder.sv:330]
-INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/projeler/temiz_ibex/unmodified/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_decoder.sv:372]
-INFO: [Synth 8-226] default block is never used [/home/topalc/Desktop/projeler/temiz_ibex/unmodified/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_decoder.sv:372]
-INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/projeler/temiz_ibex/unmodified/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_decoder.sv:411]
-INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/projeler/temiz_ibex/unmodified/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_decoder.sv:514]
-INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/projeler/temiz_ibex/unmodified/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_decoder.sv:556]
-INFO: [Synth 8-6155] done synthesizing module 'ibex_decoder' (8#1) [/home/topalc/Desktop/projeler/temiz_ibex/unmodified/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_decoder.sv:14]
-INFO: [Synth 8-6157] synthesizing module 'ibex_controller' [/home/topalc/Desktop/projeler/temiz_ibex/unmodified/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_controller.sv:9]
-INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/projeler/temiz_ibex/unmodified/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_controller.sv:270]
-INFO: [Synth 8-6155] done synthesizing module 'ibex_controller' (9#1) [/home/topalc/Desktop/projeler/temiz_ibex/unmodified/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_controller.sv:9]
-INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/projeler/temiz_ibex/unmodified/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_id_stage.sv:542]
-INFO: [Synth 8-226] default block is never used [/home/topalc/Desktop/projeler/temiz_ibex/unmodified/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_id_stage.sv:542]
-INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/projeler/temiz_ibex/unmodified/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_id_stage.sv:548]
-INFO: [Synth 8-6155] done synthesizing module 'ibex_id_stage' (10#1) [/home/topalc/Desktop/projeler/temiz_ibex/unmodified/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_id_stage.sv:16]
-INFO: [Synth 8-6157] synthesizing module 'ibex_ex_block' [/home/topalc/Desktop/projeler/temiz_ibex/unmodified/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_ex_block.sv:11]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/github/senior_project/temiz_ibex/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_decoder.sv:210]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/github/senior_project/temiz_ibex/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_decoder.sv:262]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/github/senior_project/temiz_ibex/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_decoder.sv:306]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/github/senior_project/temiz_ibex/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_decoder.sv:330]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/github/senior_project/temiz_ibex/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_decoder.sv:372]
+INFO: [Synth 8-226] default block is never used [/home/topalc/Desktop/github/senior_project/temiz_ibex/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_decoder.sv:372]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/github/senior_project/temiz_ibex/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_decoder.sv:411]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/github/senior_project/temiz_ibex/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_decoder.sv:514]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/github/senior_project/temiz_ibex/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_decoder.sv:556]
+INFO: [Synth 8-6155] done synthesizing module 'ibex_decoder' (8#1) [/home/topalc/Desktop/github/senior_project/temiz_ibex/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_decoder.sv:14]
+INFO: [Synth 8-6157] synthesizing module 'ibex_controller' [/home/topalc/Desktop/github/senior_project/temiz_ibex/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_controller.sv:9]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/github/senior_project/temiz_ibex/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_controller.sv:270]
+INFO: [Synth 8-6155] done synthesizing module 'ibex_controller' (9#1) [/home/topalc/Desktop/github/senior_project/temiz_ibex/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_controller.sv:9]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/github/senior_project/temiz_ibex/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_id_stage.sv:542]
+INFO: [Synth 8-226] default block is never used [/home/topalc/Desktop/github/senior_project/temiz_ibex/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_id_stage.sv:542]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/github/senior_project/temiz_ibex/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_id_stage.sv:548]
+INFO: [Synth 8-6155] done synthesizing module 'ibex_id_stage' (10#1) [/home/topalc/Desktop/github/senior_project/temiz_ibex/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_id_stage.sv:16]
+INFO: [Synth 8-6157] synthesizing module 'ibex_ex_block' [/home/topalc/Desktop/github/senior_project/temiz_ibex/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_ex_block.sv:11]
 	Parameter RV32M bound to: 1'b1 
 	Parameter MultiplierImplementation bound to: fast - type: string 
-INFO: [Synth 8-6157] synthesizing module 'ibex_multdiv_fast' [/home/topalc/Desktop/projeler/temiz_ibex/unmodified/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_multdiv_fast.sv:14]
-INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/projeler/temiz_ibex/unmodified/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_multdiv_fast.sv:95]
-INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/projeler/temiz_ibex/unmodified/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_multdiv_fast.sv:155]
-INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/projeler/temiz_ibex/unmodified/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_multdiv_fast.sv:258]
-INFO: [Synth 8-226] default block is never used [/home/topalc/Desktop/projeler/temiz_ibex/unmodified/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_multdiv_fast.sv:258]
-INFO: [Synth 8-6155] done synthesizing module 'ibex_multdiv_fast' (11#1) [/home/topalc/Desktop/projeler/temiz_ibex/unmodified/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_multdiv_fast.sv:14]
-INFO: [Synth 8-6157] synthesizing module 'ibex_alu' [/home/topalc/Desktop/projeler/temiz_ibex/unmodified/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_alu.sv:9]
-INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/projeler/temiz_ibex/unmodified/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_alu.sv:47]
-INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/projeler/temiz_ibex/unmodified/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_alu.sv:127]
-INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/projeler/temiz_ibex/unmodified/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_alu.sv:168]
-INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/projeler/temiz_ibex/unmodified/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_alu.sv:188]
-INFO: [Synth 8-6155] done synthesizing module 'ibex_alu' (12#1) [/home/topalc/Desktop/projeler/temiz_ibex/unmodified/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_alu.sv:9]
-INFO: [Synth 8-6155] done synthesizing module 'ibex_ex_block' (13#1) [/home/topalc/Desktop/projeler/temiz_ibex/unmodified/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_ex_block.sv:11]
-INFO: [Synth 8-6157] synthesizing module 'ibex_load_store_unit' [/home/topalc/Desktop/projeler/temiz_ibex/unmodified/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_load_store_unit.sv:12]
-INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/projeler/temiz_ibex/unmodified/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_load_store_unit.sv:99]
-INFO: [Synth 8-226] default block is never used [/home/topalc/Desktop/projeler/temiz_ibex/unmodified/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_load_store_unit.sv:99]
-INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/projeler/temiz_ibex/unmodified/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_load_store_unit.sv:102]
-INFO: [Synth 8-226] default block is never used [/home/topalc/Desktop/projeler/temiz_ibex/unmodified/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_load_store_unit.sv:102]
-INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/projeler/temiz_ibex/unmodified/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_load_store_unit.sv:110]
-INFO: [Synth 8-226] default block is never used [/home/topalc/Desktop/projeler/temiz_ibex/unmodified/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_load_store_unit.sv:110]
-INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/projeler/temiz_ibex/unmodified/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_load_store_unit.sv:122]
-INFO: [Synth 8-226] default block is never used [/home/topalc/Desktop/projeler/temiz_ibex/unmodified/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_load_store_unit.sv:122]
-INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/projeler/temiz_ibex/unmodified/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_load_store_unit.sv:136]
-INFO: [Synth 8-226] default block is never used [/home/topalc/Desktop/projeler/temiz_ibex/unmodified/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_load_store_unit.sv:136]
-INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/projeler/temiz_ibex/unmodified/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_load_store_unit.sv:157]
-INFO: [Synth 8-226] default block is never used [/home/topalc/Desktop/projeler/temiz_ibex/unmodified/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_load_store_unit.sv:157]
-INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/projeler/temiz_ibex/unmodified/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_load_store_unit.sv:206]
-INFO: [Synth 8-226] default block is never used [/home/topalc/Desktop/projeler/temiz_ibex/unmodified/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_load_store_unit.sv:206]
-INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/projeler/temiz_ibex/unmodified/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_load_store_unit.sv:221]
-INFO: [Synth 8-226] default block is never used [/home/topalc/Desktop/projeler/temiz_ibex/unmodified/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_load_store_unit.sv:221]
-INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/projeler/temiz_ibex/unmodified/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_load_store_unit.sv:260]
-INFO: [Synth 8-226] default block is never used [/home/topalc/Desktop/projeler/temiz_ibex/unmodified/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_load_store_unit.sv:260]
-INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/projeler/temiz_ibex/unmodified/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_load_store_unit.sv:299]
-INFO: [Synth 8-226] default block is never used [/home/topalc/Desktop/projeler/temiz_ibex/unmodified/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_load_store_unit.sv:299]
-INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/projeler/temiz_ibex/unmodified/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_load_store_unit.sv:332]
-INFO: [Synth 8-6155] done synthesizing module 'ibex_load_store_unit' (14#1) [/home/topalc/Desktop/projeler/temiz_ibex/unmodified/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_load_store_unit.sv:12]
-INFO: [Synth 8-6157] synthesizing module 'ibex_cs_registers' [/home/topalc/Desktop/projeler/temiz_ibex/unmodified/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_cs_registers.sv:12]
+INFO: [Synth 8-6157] synthesizing module 'ibex_multdiv_fast' [/home/topalc/Desktop/github/senior_project/temiz_ibex/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_multdiv_fast.sv:14]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/github/senior_project/temiz_ibex/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_multdiv_fast.sv:95]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/github/senior_project/temiz_ibex/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_multdiv_fast.sv:155]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/github/senior_project/temiz_ibex/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_multdiv_fast.sv:258]
+INFO: [Synth 8-226] default block is never used [/home/topalc/Desktop/github/senior_project/temiz_ibex/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_multdiv_fast.sv:258]
+INFO: [Synth 8-6155] done synthesizing module 'ibex_multdiv_fast' (11#1) [/home/topalc/Desktop/github/senior_project/temiz_ibex/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_multdiv_fast.sv:14]
+INFO: [Synth 8-6157] synthesizing module 'ibex_alu' [/home/topalc/Desktop/github/senior_project/temiz_ibex/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_alu.sv:9]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/github/senior_project/temiz_ibex/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_alu.sv:47]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/github/senior_project/temiz_ibex/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_alu.sv:127]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/github/senior_project/temiz_ibex/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_alu.sv:168]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/github/senior_project/temiz_ibex/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_alu.sv:188]
+INFO: [Synth 8-6155] done synthesizing module 'ibex_alu' (12#1) [/home/topalc/Desktop/github/senior_project/temiz_ibex/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_alu.sv:9]
+INFO: [Synth 8-6155] done synthesizing module 'ibex_ex_block' (13#1) [/home/topalc/Desktop/github/senior_project/temiz_ibex/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_ex_block.sv:11]
+INFO: [Synth 8-6157] synthesizing module 'ibex_load_store_unit' [/home/topalc/Desktop/github/senior_project/temiz_ibex/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_load_store_unit.sv:12]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/github/senior_project/temiz_ibex/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_load_store_unit.sv:99]
+INFO: [Synth 8-226] default block is never used [/home/topalc/Desktop/github/senior_project/temiz_ibex/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_load_store_unit.sv:99]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/github/senior_project/temiz_ibex/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_load_store_unit.sv:102]
+INFO: [Synth 8-226] default block is never used [/home/topalc/Desktop/github/senior_project/temiz_ibex/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_load_store_unit.sv:102]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/github/senior_project/temiz_ibex/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_load_store_unit.sv:110]
+INFO: [Synth 8-226] default block is never used [/home/topalc/Desktop/github/senior_project/temiz_ibex/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_load_store_unit.sv:110]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/github/senior_project/temiz_ibex/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_load_store_unit.sv:122]
+INFO: [Synth 8-226] default block is never used [/home/topalc/Desktop/github/senior_project/temiz_ibex/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_load_store_unit.sv:122]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/github/senior_project/temiz_ibex/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_load_store_unit.sv:136]
+INFO: [Synth 8-226] default block is never used [/home/topalc/Desktop/github/senior_project/temiz_ibex/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_load_store_unit.sv:136]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/github/senior_project/temiz_ibex/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_load_store_unit.sv:157]
+INFO: [Synth 8-226] default block is never used [/home/topalc/Desktop/github/senior_project/temiz_ibex/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_load_store_unit.sv:157]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/github/senior_project/temiz_ibex/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_load_store_unit.sv:206]
+INFO: [Synth 8-226] default block is never used [/home/topalc/Desktop/github/senior_project/temiz_ibex/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_load_store_unit.sv:206]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/github/senior_project/temiz_ibex/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_load_store_unit.sv:221]
+INFO: [Synth 8-226] default block is never used [/home/topalc/Desktop/github/senior_project/temiz_ibex/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_load_store_unit.sv:221]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/github/senior_project/temiz_ibex/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_load_store_unit.sv:260]
+INFO: [Synth 8-226] default block is never used [/home/topalc/Desktop/github/senior_project/temiz_ibex/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_load_store_unit.sv:260]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/github/senior_project/temiz_ibex/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_load_store_unit.sv:299]
+INFO: [Synth 8-226] default block is never used [/home/topalc/Desktop/github/senior_project/temiz_ibex/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_load_store_unit.sv:299]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/github/senior_project/temiz_ibex/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_load_store_unit.sv:332]
+INFO: [Synth 8-6155] done synthesizing module 'ibex_load_store_unit' (14#1) [/home/topalc/Desktop/github/senior_project/temiz_ibex/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_load_store_unit.sv:12]
+INFO: [Synth 8-6157] synthesizing module 'ibex_cs_registers' [/home/topalc/Desktop/github/senior_project/temiz_ibex/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_cs_registers.sv:12]
 	Parameter MHPMCounterNum bound to: 32'b00000000000000000000000000000000 
 	Parameter MHPMCounterWidth bound to: 32'b00000000000000000000000000101000 
 	Parameter PMPEnable bound to: 1'b0 
@@ -149,25 +149,25 @@ INFO: [Synth 8-6157] synthesizing module 'ibex_cs_registers' [/home/topalc/Deskt
 	Parameter RV32M bound to: 1'b1 
 	Parameter MXL bound to: 2'b01 
 	Parameter MISA_VALUE bound to: 32'b01000000000000000001000100000100 
-INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/projeler/temiz_ibex/unmodified/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_cs_registers.sv:240]
-INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/projeler/temiz_ibex/unmodified/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_cs_registers.sv:403]
-INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/projeler/temiz_ibex/unmodified/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_cs_registers.sv:503]
-INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/projeler/temiz_ibex/unmodified/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_cs_registers.sv:506]
-INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/projeler/temiz_ibex/unmodified/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_cs_registers.sv:567]
-INFO: [Synth 8-226] default block is never used [/home/topalc/Desktop/projeler/temiz_ibex/unmodified/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_cs_registers.sv:567]
-WARNING: [Synth 8-693] zero replication count - replication ignored [/home/topalc/Desktop/projeler/temiz_ibex/unmodified/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_cs_registers.sv:804]
-INFO: [Synth 8-6155] done synthesizing module 'ibex_cs_registers' (15#1) [/home/topalc/Desktop/projeler/temiz_ibex/unmodified/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_cs_registers.sv:12]
-INFO: [Synth 8-6155] done synthesizing module 'ibex_core' (16#1) [/home/topalc/Desktop/projeler/temiz_ibex/unmodified/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_core.sv:13]
-INFO: [Synth 8-6157] synthesizing module 'ram_1p' [/home/topalc/Desktop/projeler/temiz_ibex/unmodified/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_fpga_xilinx_shared_0/rtl/ram_1p.sv:8]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/github/senior_project/temiz_ibex/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_cs_registers.sv:240]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/github/senior_project/temiz_ibex/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_cs_registers.sv:403]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/github/senior_project/temiz_ibex/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_cs_registers.sv:503]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/github/senior_project/temiz_ibex/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_cs_registers.sv:506]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/github/senior_project/temiz_ibex/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_cs_registers.sv:567]
+INFO: [Synth 8-226] default block is never used [/home/topalc/Desktop/github/senior_project/temiz_ibex/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_cs_registers.sv:567]
+WARNING: [Synth 8-693] zero replication count - replication ignored [/home/topalc/Desktop/github/senior_project/temiz_ibex/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_cs_registers.sv:804]
+INFO: [Synth 8-6155] done synthesizing module 'ibex_cs_registers' (15#1) [/home/topalc/Desktop/github/senior_project/temiz_ibex/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_cs_registers.sv:12]
+INFO: [Synth 8-6155] done synthesizing module 'ibex_core' (16#1) [/home/topalc/Desktop/github/senior_project/temiz_ibex/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_core.sv:13]
+INFO: [Synth 8-6157] synthesizing module 'ram_1p' [/home/topalc/Desktop/github/senior_project/temiz_ibex/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_fpga_xilinx_shared_0/rtl/ram_1p.sv:8]
 	Parameter Depth bound to: 32'sb00000000000000000100000000000000 
 	Parameter Aw bound to: 32'sb00000000000000000000000000001110 
-	Parameter MEM_FILE bound to: /home/topalc/Desktop/senior_project/senior_project/sw/ntru_latif_hoca/optimized/no_custom/NTRU_48_bitM.mem - type: string 
-INFO: [Synth 8-3876] $readmem data file '/home/topalc/Desktop/senior_project/senior_project/sw/ntru_latif_hoca/optimized/no_custom/NTRU_48_bitM.mem' is read successfully [/home/topalc/Desktop/projeler/temiz_ibex/unmodified/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_fpga_xilinx_shared_0/rtl/ram_1p.sv:66]
-INFO: [Synth 8-6155] done synthesizing module 'ram_1p' (17#1) [/home/topalc/Desktop/projeler/temiz_ibex/unmodified/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_fpga_xilinx_shared_0/rtl/ram_1p.sv:8]
-WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [/home/topalc/Desktop/projeler/temiz_ibex/unmodified/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_top_artya7_100_0.1/rtl/top_artya7_100.sv:157]
-INFO: [Synth 8-6157] synthesizing module 'ila_0' [/home/topalc/Desktop/projeler/temiz_ibex/unmodified/build/lowrisc_ibex_top_artya7_100_0.1/synth-vivado/lowrisc_ibex_top_artya7_100_0.1.runs/ntru_vanilya/.Xil/Vivado-13132-topalc-S551LB/realtime/ila_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'ila_0' (18#1) [/home/topalc/Desktop/projeler/temiz_ibex/unmodified/build/lowrisc_ibex_top_artya7_100_0.1/synth-vivado/lowrisc_ibex_top_artya7_100_0.1.runs/ntru_vanilya/.Xil/Vivado-13132-topalc-S551LB/realtime/ila_0_stub.v:6]
-INFO: [Synth 8-6157] synthesizing module 'clkgen_xil7series' [/home/topalc/Desktop/projeler/temiz_ibex/unmodified/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_fpga_xilinx_shared_0/rtl/fpga/xilinx/clkgen_xil7series.sv:5]
+	Parameter MEM_FILE bound to: /home/topalc/Desktop/github/senior_project/sw/ntru_latifhoca/no_custom/NTRU_48_bitM.mem - type: string 
+INFO: [Synth 8-3876] $readmem data file '/home/topalc/Desktop/github/senior_project/sw/ntru_latifhoca/no_custom/NTRU_48_bitM.mem' is read successfully [/home/topalc/Desktop/github/senior_project/temiz_ibex/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_fpga_xilinx_shared_0/rtl/ram_1p.sv:66]
+INFO: [Synth 8-6155] done synthesizing module 'ram_1p' (17#1) [/home/topalc/Desktop/github/senior_project/temiz_ibex/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_fpga_xilinx_shared_0/rtl/ram_1p.sv:8]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [/home/topalc/Desktop/github/senior_project/temiz_ibex/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_top_artya7_100_0.1/rtl/top_artya7_100.sv:157]
+INFO: [Synth 8-6157] synthesizing module 'ila_0' [/home/topalc/Desktop/github/senior_project/temiz_ibex/build/lowrisc_ibex_top_artya7_100_0.1/synth-vivado/lowrisc_ibex_top_artya7_100_0.1.runs/ntru_vanilya/.Xil/Vivado-32432-topalc-S551LB/realtime/ila_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ila_0' (18#1) [/home/topalc/Desktop/github/senior_project/temiz_ibex/build/lowrisc_ibex_top_artya7_100_0.1/synth-vivado/lowrisc_ibex_top_artya7_100_0.1.runs/ntru_vanilya/.Xil/Vivado-32432-topalc-S551LB/realtime/ila_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'clkgen_xil7series' [/home/topalc/Desktop/github/senior_project/temiz_ibex/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_fpga_xilinx_shared_0/rtl/fpga/xilinx/clkgen_xil7series.sv:5]
 INFO: [Synth 8-6157] synthesizing module 'IBUF' [/opt/Xilinx/Vivado/2018.1/scripts/rt/data/unisim_comp.v:19472]
 	Parameter CAPACITANCE bound to: DONT_CARE - type: string 
 	Parameter IBUF_DELAY_VALUE bound to: 0 - type: string 
@@ -210,10 +210,10 @@ INFO: [Synth 8-6157] synthesizing module 'PLLE2_ADV' [/opt/Xilinx/Vivado/2018.1/
 INFO: [Synth 8-6155] done synthesizing module 'PLLE2_ADV' (20#1) [/opt/Xilinx/Vivado/2018.1/scripts/rt/data/unisim_comp.v:40055]
 INFO: [Synth 8-6157] synthesizing module 'BUFG' [/opt/Xilinx/Vivado/2018.1/scripts/rt/data/unisim_comp.v:609]
 INFO: [Synth 8-6155] done synthesizing module 'BUFG' (21#1) [/opt/Xilinx/Vivado/2018.1/scripts/rt/data/unisim_comp.v:609]
-INFO: [Synth 8-6155] done synthesizing module 'clkgen_xil7series' (22#1) [/home/topalc/Desktop/projeler/temiz_ibex/unmodified/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_fpga_xilinx_shared_0/rtl/fpga/xilinx/clkgen_xil7series.sv:5]
-INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'ila'. This will prevent further optimization [/home/topalc/Desktop/projeler/temiz_ibex/unmodified/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_top_artya7_100_0.1/rtl/top_artya7_100.sv:157]
-INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'u_core'. This will prevent further optimization [/home/topalc/Desktop/projeler/temiz_ibex/unmodified/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_top_artya7_100_0.1/rtl/top_artya7_100.sv:47]
-INFO: [Synth 8-6155] done synthesizing module 'top_artya7_100' (23#1) [/home/topalc/Desktop/projeler/temiz_ibex/unmodified/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_top_artya7_100_0.1/rtl/top_artya7_100.sv:5]
+INFO: [Synth 8-6155] done synthesizing module 'clkgen_xil7series' (22#1) [/home/topalc/Desktop/github/senior_project/temiz_ibex/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_fpga_xilinx_shared_0/rtl/fpga/xilinx/clkgen_xil7series.sv:5]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'ila'. This will prevent further optimization [/home/topalc/Desktop/github/senior_project/temiz_ibex/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_top_artya7_100_0.1/rtl/top_artya7_100.sv:157]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'u_core'. This will prevent further optimization [/home/topalc/Desktop/github/senior_project/temiz_ibex/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_top_artya7_100_0.1/rtl/top_artya7_100.sv:47]
+INFO: [Synth 8-6155] done synthesizing module 'top_artya7_100' (23#1) [/home/topalc/Desktop/github/senior_project/temiz_ibex/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_top_artya7_100_0.1/rtl/top_artya7_100.sv:5]
 WARNING: [Synth 8-3331] design ram_1p has unconnected port addr_i[31]
 WARNING: [Synth 8-3331] design ram_1p has unconnected port addr_i[30]
 WARNING: [Synth 8-3331] design ram_1p has unconnected port addr_i[29]
@@ -270,7 +270,7 @@ WARNING: [Synth 8-3331] design ibex_if_stage has unconnected port csr_mtvec_i[2]
 WARNING: [Synth 8-3331] design ibex_if_stage has unconnected port csr_mtvec_i[1]
 WARNING: [Synth 8-3331] design ibex_if_stage has unconnected port csr_mtvec_i[0]
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:16 ; elapsed = 00:00:20 . Memory (MB): peak = 1401.656 ; gain = 159.609 ; free physical = 1064 ; free virtual = 6823
+Finished RTL Elaboration : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 1401.664 ; gain = 159.609 ; free physical = 1249 ; free virtual = 8218
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -283,10 +283,10 @@ Report Check Netlist:
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:16 ; elapsed = 00:00:21 . Memory (MB): peak = 1401.656 ; gain = 159.609 ; free physical = 1030 ; free virtual = 6824
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 1401.664 ; gain = 159.609 ; free physical = 1257 ; free virtual = 8226
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:16 ; elapsed = 00:00:21 . Memory (MB): peak = 1401.656 ; gain = 159.609 ; free physical = 1030 ; free virtual = 6824
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 1401.664 ; gain = 159.609 ; free physical = 1257 ; free virtual = 8226
 ---------------------------------------------------------------------------------
 INFO: [Netlist 29-17] Analyzing 3 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
@@ -295,11 +295,11 @@ INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
 Initializing timing engine
-Parsing XDC File [/home/topalc/Desktop/projeler/temiz_ibex/unmodified/build/lowrisc_ibex_top_artya7_100_0.1/synth-vivado/lowrisc_ibex_top_artya7_100_0.1.srcs/sources_1/ip/ila_0/ila_0/ila_0_in_context.xdc] for cell 'ila'
-Finished Parsing XDC File [/home/topalc/Desktop/projeler/temiz_ibex/unmodified/build/lowrisc_ibex_top_artya7_100_0.1/synth-vivado/lowrisc_ibex_top_artya7_100_0.1.srcs/sources_1/ip/ila_0/ila_0/ila_0_in_context.xdc] for cell 'ila'
-Parsing XDC File [/home/topalc/Desktop/projeler/temiz_ibex/unmodified/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_top_artya7_100_0.1/data/pins_artya7.xdc]
-Finished Parsing XDC File [/home/topalc/Desktop/projeler/temiz_ibex/unmodified/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_top_artya7_100_0.1/data/pins_artya7.xdc]
-INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/topalc/Desktop/projeler/temiz_ibex/unmodified/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_top_artya7_100_0.1/data/pins_artya7.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/top_artya7_100_propImpl.xdc].
+Parsing XDC File [/home/topalc/Desktop/github/senior_project/temiz_ibex/build/lowrisc_ibex_top_artya7_100_0.1/synth-vivado/lowrisc_ibex_top_artya7_100_0.1.srcs/sources_1/ip/ila_0/ila_0/ila_0_in_context.xdc] for cell 'ila'
+Finished Parsing XDC File [/home/topalc/Desktop/github/senior_project/temiz_ibex/build/lowrisc_ibex_top_artya7_100_0.1/synth-vivado/lowrisc_ibex_top_artya7_100_0.1.srcs/sources_1/ip/ila_0/ila_0/ila_0_in_context.xdc] for cell 'ila'
+Parsing XDC File [/home/topalc/Desktop/github/senior_project/temiz_ibex/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_top_artya7_100_0.1/data/pins_artya7.xdc]
+Finished Parsing XDC File [/home/topalc/Desktop/github/senior_project/temiz_ibex/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_top_artya7_100_0.1/data/pins_artya7.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/topalc/Desktop/github/senior_project/temiz_ibex/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_top_artya7_100_0.1/data/pins_artya7.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/top_artya7_100_propImpl.xdc].
 Resolution: To avoid this warning, move constraints listed in [.Xil/top_artya7_100_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
 INFO: [Timing 38-2] Deriving generated clocks
 Completed Processing XDC Constraints
@@ -308,23 +308,23 @@ INFO: [Project 1-111] Unisim Transformation Summary:
   A total of 1 instances were transformed.
   BUFGCE => BUFGCTRL: 1 instances
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00 . Memory (MB): peak = 1732.395 ; gain = 0.000 ; free physical = 388 ; free virtual = 6249
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 1732.395 ; gain = 0.000 ; free physical = 935 ; free virtual = 7909
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:45 ; elapsed = 00:01:14 . Memory (MB): peak = 1732.395 ; gain = 490.348 ; free physical = 496 ; free virtual = 6355
+Finished Constraint Validation : Time (s): cpu = 00:00:40 ; elapsed = 00:00:54 . Memory (MB): peak = 1732.395 ; gain = 490.340 ; free physical = 1073 ; free virtual = 8042
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7a100tcsg324-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:45 ; elapsed = 00:01:14 . Memory (MB): peak = 1732.395 ; gain = 490.348 ; free physical = 496 ; free virtual = 6355
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:40 ; elapsed = 00:00:54 . Memory (MB): peak = 1732.395 ; gain = 490.340 ; free physical = 1073 ; free virtual = 8042
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
 Applied set_property DONT_TOUCH = true for ila. (constraint file  auto generated constraint, line ).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:45 ; elapsed = 00:01:14 . Memory (MB): peak = 1732.395 ; gain = 490.348 ; free physical = 496 ; free virtual = 6355
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:40 ; elapsed = 00:00:54 . Memory (MB): peak = 1732.395 ; gain = 490.340 ; free physical = 1073 ; free virtual = 8042
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-5546] ROM "illegal_instr_o" won't be mapped to RAM because it is too sparse
 INFO: [Synth 8-5544] ROM "illegal_instr_o" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
@@ -371,16 +371,16 @@ INFO: [Synth 8-5544] ROM "mult_state_n" won't be mapped to Block RAM because add
 INFO: [Synth 8-5546] ROM "md_state_n0" won't be mapped to RAM because it is too sparse
 INFO: [Synth 8-5546] ROM "adder_op_b_negate" won't be mapped to RAM because it is too sparse
 INFO: [Synth 8-5546] ROM "cmp_signed" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-4471] merging register 'dcsr_q_reg[stopcount]' into 'dcsr_q_reg[zero1]' [/home/topalc/Desktop/projeler/temiz_ibex/unmodified/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_cs_registers.sv:599]
-INFO: [Synth 8-4471] merging register 'dcsr_q_reg[stoptime]' into 'dcsr_q_reg[zero1]' [/home/topalc/Desktop/projeler/temiz_ibex/unmodified/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_cs_registers.sv:599]
-INFO: [Synth 8-4471] merging register 'dcsr_q_reg[zero0]' into 'dcsr_q_reg[zero1]' [/home/topalc/Desktop/projeler/temiz_ibex/unmodified/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_cs_registers.sv:599]
-INFO: [Synth 8-4471] merging register 'dcsr_q_reg[mprven]' into 'dcsr_q_reg[zero1]' [/home/topalc/Desktop/projeler/temiz_ibex/unmodified/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_cs_registers.sv:599]
-INFO: [Synth 8-4471] merging register 'dcsr_q_reg[nmip]' into 'dcsr_q_reg[zero1]' [/home/topalc/Desktop/projeler/temiz_ibex/unmodified/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_cs_registers.sv:599]
-WARNING: [Synth 8-6014] Unused sequential element dcsr_q_reg[stopcount] was removed.  [/home/topalc/Desktop/projeler/temiz_ibex/unmodified/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_cs_registers.sv:599]
-WARNING: [Synth 8-6014] Unused sequential element dcsr_q_reg[stoptime] was removed.  [/home/topalc/Desktop/projeler/temiz_ibex/unmodified/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_cs_registers.sv:599]
-WARNING: [Synth 8-6014] Unused sequential element dcsr_q_reg[zero0] was removed.  [/home/topalc/Desktop/projeler/temiz_ibex/unmodified/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_cs_registers.sv:599]
-WARNING: [Synth 8-6014] Unused sequential element dcsr_q_reg[mprven] was removed.  [/home/topalc/Desktop/projeler/temiz_ibex/unmodified/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_cs_registers.sv:599]
-WARNING: [Synth 8-6014] Unused sequential element dcsr_q_reg[nmip] was removed.  [/home/topalc/Desktop/projeler/temiz_ibex/unmodified/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_cs_registers.sv:599]
+INFO: [Synth 8-4471] merging register 'dcsr_q_reg[stopcount]' into 'dcsr_q_reg[zero1]' [/home/topalc/Desktop/github/senior_project/temiz_ibex/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_cs_registers.sv:599]
+INFO: [Synth 8-4471] merging register 'dcsr_q_reg[stoptime]' into 'dcsr_q_reg[zero1]' [/home/topalc/Desktop/github/senior_project/temiz_ibex/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_cs_registers.sv:599]
+INFO: [Synth 8-4471] merging register 'dcsr_q_reg[zero0]' into 'dcsr_q_reg[zero1]' [/home/topalc/Desktop/github/senior_project/temiz_ibex/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_cs_registers.sv:599]
+INFO: [Synth 8-4471] merging register 'dcsr_q_reg[mprven]' into 'dcsr_q_reg[zero1]' [/home/topalc/Desktop/github/senior_project/temiz_ibex/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_cs_registers.sv:599]
+INFO: [Synth 8-4471] merging register 'dcsr_q_reg[nmip]' into 'dcsr_q_reg[zero1]' [/home/topalc/Desktop/github/senior_project/temiz_ibex/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_cs_registers.sv:599]
+WARNING: [Synth 8-6014] Unused sequential element dcsr_q_reg[stopcount] was removed.  [/home/topalc/Desktop/github/senior_project/temiz_ibex/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_cs_registers.sv:599]
+WARNING: [Synth 8-6014] Unused sequential element dcsr_q_reg[stoptime] was removed.  [/home/topalc/Desktop/github/senior_project/temiz_ibex/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_cs_registers.sv:599]
+WARNING: [Synth 8-6014] Unused sequential element dcsr_q_reg[zero0] was removed.  [/home/topalc/Desktop/github/senior_project/temiz_ibex/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_cs_registers.sv:599]
+WARNING: [Synth 8-6014] Unused sequential element dcsr_q_reg[mprven] was removed.  [/home/topalc/Desktop/github/senior_project/temiz_ibex/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_cs_registers.sv:599]
+WARNING: [Synth 8-6014] Unused sequential element dcsr_q_reg[nmip] was removed.  [/home/topalc/Desktop/github/senior_project/temiz_ibex/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_cs_registers.sv:599]
 INFO: [Synth 8-5546] ROM "mstatus_d" won't be mapped to RAM because it is too sparse
 INFO: [Synth 8-5546] ROM "mie_d" won't be mapped to RAM because it is too sparse
 INFO: [Synth 8-5546] ROM "dcsr_d" won't be mapped to RAM because it is too sparse
@@ -392,11 +392,11 @@ INFO: [Synth 8-5546] ROM "depc_d" won't be mapped to RAM because it is too spars
 INFO: [Synth 8-5546] ROM "dscratch0_d" won't be mapped to RAM because it is too sparse
 INFO: [Synth 8-5546] ROM "dscratch1_d" won't be mapped to RAM because it is too sparse
 INFO: [Synth 8-5546] ROM "mcountinhibit_we" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-4471] merging register 'data_rvalid_reg' into 'data_gnt_reg' [/home/topalc/Desktop/projeler/temiz_ibex/unmodified/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_top_artya7_100_0.1/rtl/top_artya7_100.sv:66]
-WARNING: [Synth 8-6014] Unused sequential element data_rvalid_reg was removed.  [/home/topalc/Desktop/projeler/temiz_ibex/unmodified/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_top_artya7_100_0.1/rtl/top_artya7_100.sv:66]
+INFO: [Synth 8-4471] merging register 'data_rvalid_reg' into 'data_gnt_reg' [/home/topalc/Desktop/github/senior_project/temiz_ibex/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_top_artya7_100_0.1/rtl/top_artya7_100.sv:66]
+WARNING: [Synth 8-6014] Unused sequential element data_rvalid_reg was removed.  [/home/topalc/Desktop/github/senior_project/temiz_ibex/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_top_artya7_100_0.1/rtl/top_artya7_100.sv:66]
 reason is address width (14) is more than optimal threshold of 12. Implementing using BWWE will require more logic and timing would be suboptimal
 Block RAM mem_reg originally specified as a Byte Wide Write Enable RAM cannot take advantage of ByteWide feature and is implemented with single write enable per RAM due to following reason.address width (14) is more than optimal threshold of 12. Implementing using BWWE will require more logic and timing would be suboptimal---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:49 ; elapsed = 00:01:18 . Memory (MB): peak = 1732.395 ; gain = 490.348 ; free physical = 503 ; free virtual = 6362
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:43 ; elapsed = 00:00:58 . Memory (MB): peak = 1732.395 ; gain = 490.340 ; free physical = 1057 ; free virtual = 8027
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -1115,7 +1115,7 @@ INFO: [Synth 8-3333] propagating constant 0 across sequential element (u_core/cs
 INFO: [Synth 8-3333] propagating constant 0 across sequential element (u_core/cs_registers_i/\mhpmcounter_q_reg[1][28] )
 INFO: [Common 17-14] Message 'Synth 8-3333' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
 Block RAM u_ram/mem_reg originally specified as a Byte Wide Write Enable RAM cannot take advantage of ByteWide feature and is implemented with single write enable per RAM due to following reason.address width (14) is more than optimal threshold of 12. Implementing using BWWE will require more logic and timing would be suboptimal---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:03:09 ; elapsed = 00:03:41 . Memory (MB): peak = 1732.395 ; gain = 490.348 ; free physical = 465 ; free virtual = 6380
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:03:00 ; elapsed = 00:03:16 . Memory (MB): peak = 1732.395 ; gain = 490.340 ; free physical = 909 ; free virtual = 7925
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start ROM, RAM, DSP and Shift Register Reporting
@@ -1167,13 +1167,13 @@ Report RTL Partitions:
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:03:20 ; elapsed = 00:03:55 . Memory (MB): peak = 1744.395 ; gain = 502.348 ; free physical = 294 ; free virtual = 6216
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:03:10 ; elapsed = 00:03:29 . Memory (MB): peak = 1744.395 ; gain = 502.340 ; free physical = 746 ; free virtual = 7761
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:03:52 ; elapsed = 00:04:28 . Memory (MB): peak = 1901.082 ; gain = 659.035 ; free physical = 179 ; free virtual = 6102
+Finished Timing Optimization : Time (s): cpu = 00:03:39 ; elapsed = 00:03:59 . Memory (MB): peak = 1901.082 ; gain = 659.027 ; free physical = 634 ; free virtual = 7649
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start ROM, RAM, DSP and Shift Register Reporting
@@ -1215,7 +1215,7 @@ INFO: [Synth 8-4480] The timing for the instance u_ram/mem_reg_3_1 (implemented 
 INFO: [Synth 8-4480] The timing for the instance u_ram/mem_reg_3_2 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
 INFO: [Synth 8-4480] The timing for the instance u_ram/mem_reg_3_3 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:04:02 ; elapsed = 00:04:39 . Memory (MB): peak = 1954.098 ; gain = 712.051 ; free physical = 203 ; free virtual = 6096
+Finished Technology Mapping : Time (s): cpu = 00:03:48 ; elapsed = 00:04:09 . Memory (MB): peak = 1954.098 ; gain = 712.043 ; free physical = 630 ; free virtual = 7646
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -1239,7 +1239,7 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:04:04 ; elapsed = 00:04:40 . Memory (MB): peak = 1954.098 ; gain = 712.051 ; free physical = 204 ; free virtual = 6096
+Finished IO Insertion : Time (s): cpu = 00:03:50 ; elapsed = 00:04:10 . Memory (MB): peak = 1954.098 ; gain = 712.043 ; free physical = 632 ; free virtual = 7647
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -1252,7 +1252,7 @@ Report Check Netlist:
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:04:04 ; elapsed = 00:04:40 . Memory (MB): peak = 1954.098 ; gain = 712.051 ; free physical = 204 ; free virtual = 6096
+Finished Renaming Generated Instances : Time (s): cpu = 00:03:50 ; elapsed = 00:04:10 . Memory (MB): peak = 1954.098 ; gain = 712.043 ; free physical = 632 ; free virtual = 7647
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -1264,25 +1264,25 @@ Report RTL Partitions:
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:04:04 ; elapsed = 00:04:40 . Memory (MB): peak = 1954.098 ; gain = 712.051 ; free physical = 204 ; free virtual = 6096
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:03:50 ; elapsed = 00:04:10 . Memory (MB): peak = 1954.098 ; gain = 712.043 ; free physical = 632 ; free virtual = 7647
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:04:04 ; elapsed = 00:04:41 . Memory (MB): peak = 1954.098 ; gain = 712.051 ; free physical = 205 ; free virtual = 6098
+Finished Renaming Generated Ports : Time (s): cpu = 00:03:50 ; elapsed = 00:04:10 . Memory (MB): peak = 1954.098 ; gain = 712.043 ; free physical = 632 ; free virtual = 7647
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:04:04 ; elapsed = 00:04:41 . Memory (MB): peak = 1954.098 ; gain = 712.051 ; free physical = 205 ; free virtual = 6098
+Finished Handling Custom Attributes : Time (s): cpu = 00:03:50 ; elapsed = 00:04:11 . Memory (MB): peak = 1954.098 ; gain = 712.043 ; free physical = 632 ; free virtual = 7647
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:04:04 ; elapsed = 00:04:41 . Memory (MB): peak = 1954.098 ; gain = 712.051 ; free physical = 205 ; free virtual = 6098
+Finished Renaming Generated Nets : Time (s): cpu = 00:03:50 ; elapsed = 00:04:11 . Memory (MB): peak = 1954.098 ; gain = 712.043 ; free physical = 632 ; free virtual = 7647
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -1357,11 +1357,11 @@ Report Instance Areas:
 |16    |  u_ram                            |ram_1p               |    79|
 +------+-----------------------------------+---------------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:04:04 ; elapsed = 00:04:41 . Memory (MB): peak = 1954.098 ; gain = 712.051 ; free physical = 205 ; free virtual = 6098
+Finished Writing Synthesis Report : Time (s): cpu = 00:03:50 ; elapsed = 00:04:11 . Memory (MB): peak = 1954.098 ; gain = 712.043 ; free physical = 632 ; free virtual = 7647
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 203 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:03:48 ; elapsed = 00:04:01 . Memory (MB): peak = 1954.098 ; gain = 381.312 ; free physical = 270 ; free virtual = 6163
-Synthesis Optimization Complete : Time (s): cpu = 00:04:05 ; elapsed = 00:04:41 . Memory (MB): peak = 1954.105 ; gain = 712.051 ; free physical = 270 ; free virtual = 6163
+Synthesis Optimization Runtime : Time (s): cpu = 00:03:37 ; elapsed = 00:03:46 . Memory (MB): peak = 1954.098 ; gain = 381.312 ; free physical = 697 ; free virtual = 7713
+Synthesis Optimization Complete : Time (s): cpu = 00:03:50 ; elapsed = 00:04:11 . Memory (MB): peak = 1954.105 ; gain = 712.043 ; free physical = 697 ; free virtual = 7713
 INFO: [Project 1-571] Translating synthesized netlist
 INFO: [Netlist 29-17] Analyzing 338 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
@@ -1374,10 +1374,10 @@ INFO: [Project 1-111] Unisim Transformation Summary:
 INFO: [Common 17-83] Releasing license: Synthesis
 443 Infos, 192 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:04:09 ; elapsed = 00:04:45 . Memory (MB): peak = 1954.105 ; gain = 720.062 ; free physical = 368 ; free virtual = 6262
+synth_design: Time (s): cpu = 00:03:55 ; elapsed = 00:04:15 . Memory (MB): peak = 1954.105 ; gain = 720.055 ; free physical = 796 ; free virtual = 7811
 INFO: [Common 17-600] The following parameters have non-default value.
 tcl.collectionResultDisplayLimit
-INFO: [Common 17-1381] The checkpoint '/home/topalc/Desktop/projeler/temiz_ibex/unmodified/build/lowrisc_ibex_top_artya7_100_0.1/synth-vivado/lowrisc_ibex_top_artya7_100_0.1.runs/ntru_vanilya/top_artya7_100.dcp' has been generated.
+INFO: [Common 17-1381] The checkpoint '/home/topalc/Desktop/github/senior_project/temiz_ibex/build/lowrisc_ibex_top_artya7_100_0.1/synth-vivado/lowrisc_ibex_top_artya7_100_0.1.runs/ntru_vanilya/top_artya7_100.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file top_artya7_100_utilization_synth.rpt -pb top_artya7_100_utilization_synth.pb
-report_utilization: Time (s): cpu = 00:00:00.14 ; elapsed = 00:00:00.21 . Memory (MB): peak = 1978.109 ; gain = 0.000 ; free physical = 366 ; free virtual = 6261
-INFO: [Common 17-206] Exiting Vivado at Wed Mar 11 00:59:09 2020...
+report_utilization: Time (s): cpu = 00:00:00.15 ; elapsed = 00:00:00.18 . Memory (MB): peak = 1978.109 ; gain = 0.000 ; free physical = 794 ; free virtual = 7810
+INFO: [Common 17-206] Exiting Vivado at Fri Mar 13 16:26:03 2020...

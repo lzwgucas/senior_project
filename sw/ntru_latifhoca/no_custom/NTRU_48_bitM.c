@@ -9,6 +9,8 @@ static int result[150];
 static int ti_2[100];
 static int random_keys[318];
 volatile int resultkon[1];
+volatile uint8_t *var = (volatile uint8_t *) 0x00008000;
+
 
 int *polymult(int *a, int size_a, int *b, int size_b, int mod, int star_mult){
 
@@ -591,7 +593,7 @@ int* ntru_deceypt(int N, int p, int q, int* secret_key_f, int* secret_key_fp, in
 }
 
 int main(){
-volatile uint8_t *var = (volatile uint8_t *) 0x0000FFFF;
+    *var = 0x0000FFFF;
     int* Enc_Message;
     int* Dec_Message;
     int* keys;
@@ -614,11 +616,11 @@ volatile uint8_t *var = (volatile uint8_t *) 0x0000FFFF;
     // Alice generates public key from her randomly created secret keys.
   //  printf("\nKEY GENERATION STARTED \n");
 
-    resultkon[0] = 0xA;
-    *var = resultkon[0];
- //   start = clock();
-    keys = generate_keys(N, p, q);
 
+ //   start = clock();
+    *var = 0xAAAAAAA0;
+    keys = generate_keys(N, p, q);
+    *var = 0xAAAAAAA1;
 
    // printf("Secret Key f = ");
     for(i = 0; i < N; ++i){
@@ -664,7 +666,9 @@ volatile uint8_t *var = (volatile uint8_t *) 0x0000FFFF;
 
     // Bob encrypts message using Alice's public key and sends it to Alice.
   //  printf("\nENCRYPTION STARTED\n");
+    *var = 0xBBBBBBB0;
     Enc_Message = ntru_encyrpt(N, q, message, public_key, ring_poly);
+    *var = 0xBBBBBBB1;
  //   printf("Encyrpted Message = ");
 //   for(i = 0; i < N; ++i){
  //       printf(" %d ", Enc_Message[i]);
@@ -673,7 +677,9 @@ volatile uint8_t *var = (volatile uint8_t *) 0x0000FFFF;
 
     // Alice decrypts the message using her secret keys.
  //   printf("\nDECRYPTION STARTED\n");
+    *var = 0xCCCCCCC0;
     Dec_Message = ntru_deceypt(N, p, q, secret_key_f, secret_key_fp, Enc_Message, ring_poly);
+    *var = 0xCCCCCCC1;
 //    printf("Decyrpted Message = ");
 //    for(i = 0; i < N; ++i){
 //        printf(" %d ", Dec_Message[i]);
