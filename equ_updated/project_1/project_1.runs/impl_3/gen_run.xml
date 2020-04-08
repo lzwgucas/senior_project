@@ -1,21 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GenRun Id="impl_3" LaunchPart="xc7a100tcsg324-1" LaunchTime="1583955206">
-  <File Type="BITSTR-MMI" Name="top_artya7_100.mmi"/>
-  <File Type="OPT-DCP" Name="top_artya7_100_opt.dcp"/>
-  <File Type="BITSTR-SYSDEF" Name="top_artya7_100.sysdef"/>
-  <File Type="PLACE-DCP" Name="top_artya7_100_placed.dcp"/>
-  <File Type="PA-TCL" Name="top_artya7_100.tcl"/>
-  <File Type="ROUTE-TIMING-PB" Name="top_artya7_100_timing_summary_routed.pb"/>
-  <File Type="BITSTR-MSK" Name="top_artya7_100.msk"/>
-  <File Type="ROUTE-DRC-RPX" Name="top_artya7_100_drc_routed.rpx"/>
-  <File Type="ROUTE-PWR" Name="top_artya7_100_power_routed.rpt"/>
-  <File Type="POSTPLACE-PWROPT-DCP" Name="top_artya7_100_postplace_pwropt.dcp"/>
-  <File Type="ROUTE-DRC-PB" Name="top_artya7_100_drc_routed.pb"/>
-  <File Type="BITSTR-LTX" Name="top_artya7_100.ltx"/>
-  <File Type="PLACE-PRE-SIMILARITY" Name="top_artya7_100_incremental_reuse_pre_placed.rpt"/>
-  <File Type="PLACE-CTRL" Name="top_artya7_100_control_sets_placed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="top_artya7_100_methodology_drc_routed.pb"/>
+  <File Type="PHYSOPT-DCP" Name="top_artya7_100_physopt.dcp"/>
+  <File Type="ROUTE-PWR-SUM" Name="top_artya7_100_power_summary_routed.pb"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="top_artya7_100_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="top_artya7_100_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC" Name="top_artya7_100_drc_routed.rpt"/>
+  <File Type="BG-BGN" Name="top_artya7_100.bgn"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="top_artya7_100_routed_bb.dcp"/>
+  <File Type="ROUTE-DCP" Name="top_artya7_100_routed.dcp"/>
+  <File Type="ROUTE-PWR-RPX" Name="top_artya7_100_power_routed.rpx"/>
+  <File Type="PLACE-IO" Name="top_artya7_100_io_placed.rpt"/>
   <File Type="BG-BIT" Name="top_artya7_100.bit"/>
   <File Type="ROUTE-STATUS-PB" Name="top_artya7_100_route_status.pb"/>
+  <File Type="BITSTR-LTX" Name="top_artya7_100.ltx"/>
+  <File Type="ROUTE-DRC-PB" Name="top_artya7_100_drc_routed.pb"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="top_artya7_100_postplace_pwropt.dcp"/>
+  <File Type="ROUTE-PWR" Name="top_artya7_100_power_routed.rpt"/>
+  <File Type="ROUTE-DRC-RPX" Name="top_artya7_100_drc_routed.rpx"/>
+  <File Type="BITSTR-MSK" Name="top_artya7_100.msk"/>
+  <File Type="ROUTE-TIMING-PB" Name="top_artya7_100_timing_summary_routed.pb"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="top_artya7_100_incremental_reuse_pre_placed.rpt"/>
+  <File Type="OPT-DCP" Name="top_artya7_100_opt.dcp"/>
+  <File Type="BITSTR-MMI" Name="top_artya7_100.mmi"/>
+  <File Type="PLACE-CTRL" Name="top_artya7_100_control_sets_placed.rpt"/>
+  <File Type="BITSTR-SYSDEF" Name="top_artya7_100.sysdef"/>
+  <File Type="PA-TCL" Name="top_artya7_100.tcl"/>
+  <File Type="PLACE-DCP" Name="top_artya7_100_placed.dcp"/>
   <File Type="OPT-DRC" Name="top_artya7_100_drc_opted.rpt"/>
   <File Type="BG-BIN" Name="top_artya7_100.bin"/>
   <File Type="ROUTE-TIMINGSUMMARY" Name="top_artya7_100_timing_summary_routed.rpt"/>
@@ -36,17 +47,6 @@
   <File Type="OPT-HWDEF" Name="top_artya7_100.hwdef"/>
   <File Type="PLACE-UTIL-PB" Name="top_artya7_100_utilization_placed.pb"/>
   <File Type="RDI-RDI" Name="top_artya7_100.vdi"/>
-  <File Type="PLACE-IO" Name="top_artya7_100_io_placed.rpt"/>
-  <File Type="ROUTE-PWR-RPX" Name="top_artya7_100_power_routed.rpx"/>
-  <File Type="ROUTE-DCP" Name="top_artya7_100_routed.dcp"/>
-  <File Type="ROUTE-BLACKBOX-DCP" Name="top_artya7_100_routed_bb.dcp"/>
-  <File Type="BG-BGN" Name="top_artya7_100.bgn"/>
-  <File Type="ROUTE-DRC" Name="top_artya7_100_drc_routed.rpt"/>
-  <File Type="ROUTE-METHODOLOGY-DRC" Name="top_artya7_100_methodology_drc_routed.rpt"/>
-  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="top_artya7_100_methodology_drc_routed.rpx"/>
-  <File Type="ROUTE-PWR-SUM" Name="top_artya7_100_power_summary_routed.pb"/>
-  <File Type="PHYSOPT-DCP" Name="top_artya7_100_physopt.dcp"/>
-  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="top_artya7_100_methodology_drc_routed.pb"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
     <Filter Type="Srcs"/>
     <File Path="$PSRCDIR/sources_1/imports/src/lowrisc_ibex_top_artya7_100_0.1/rtl/clkgen_xil7series.sv">
