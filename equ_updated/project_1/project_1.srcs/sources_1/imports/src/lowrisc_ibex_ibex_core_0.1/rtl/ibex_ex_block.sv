@@ -64,7 +64,7 @@ module ibex_ex_block #(
   logic [31:0] custom_op_a, custom_op_b, custom_data_ex;
   logic [4:0] custom_op_ex;
   logic custom_mod;
-  logic [31:0] custom_mod_result, cus_alu_adder_result_ex_o_2, cus_alu_adder_result_ex_o_3;
+  logic [31:0] custom_mod_result;
   logic [31:0] datareg1 [2:0] ,rem_res [2:0];
         
     assign custom_op_ex = custom_op_i ;
@@ -73,11 +73,9 @@ module ibex_ex_block #(
     assign ram_addr_out = ram_addr_out_k;
     assign ram_data_ex = ram_data_ex_i;
 
-  logic [32:0] multdiv_alu_operand_b, multdiv_alu_operand_a, multdiv_alu_operand_b_r; 
-  logic [32:0] multdiv_alu_operand_a_r, cus_multdiv_alu_operand_a_r_2,cus_multdiv_alu_operand_a_r_3;
-  logic [32:0] cus_multdiv_alu_operand_b_r_2,cus_multdiv_alu_operand_b_r_3;
-  logic [33:0] alu_adder_result_ext, cus_alu_adder_result_ext_3, cus_alu_adder_result_ext_2;
-  logic        alu_cmp_result, alu_is_equal_result, cus_alu_is_equal_result_2, cus_alu_is_equal_result_3;
+  logic [32:0] multdiv_alu_operand_b, multdiv_alu_operand_a; 
+  logic [33:0] alu_adder_result_ext;
+  logic        alu_cmp_result, alu_is_equal_result;
   logic        multdiv_valid, multdiv_en_sel;
   logic        multdiv_en;
 
@@ -127,59 +125,31 @@ custom_module cust_i(
 );
 //** 09.12.19  düzenlendi 16.01.2020
 
-rem_instr rem_i_1(  
-.clk_i            ( clk_i                ),           
-.rst_ni           ( custom_final ? 1'b0 : rst_ni ),
-.div_en_i         ( custom_mod           ),
-.operator_i       (MD_OP_REM             ),
-.signed_mode_i    (  2'b00 ),
-.op_a_i           ( datareg1[0] ),
-.op_b_i           ( custom_op_b  ),
-.alu_adder_ext_i  (alu_adder_result_ext  ),
-.alu_adder_i      ( alu_adder_result_ex_o  ),
-.equal_to_zero    ( alu_is_equal_result ),
-.alu_operand_a_o  ( multdiv_alu_operand_a_r),
-.alu_operand_b_o  ( multdiv_alu_operand_b_r),
-.multdiv_result_o ( rem_res[0]      ),
-.valid_o          ( rem_valid[0]   )
-
-
+remainder rem_i_1(  
+.clk                ( clk_i                ),           
+.enable             ( custom_mod           ),
+.dividend           ( datareg1[0] ),
+.divisor            ( custom_op_b  ),
+.result             ( rem_res[0]      ),
+.valid              ( rem_valid[0]   )
 );
 
-rem_instr rem_i_2(  
-.clk_i            ( clk_i                ),           
-.rst_ni           ( custom_final ? 1'b0 : rst_ni ),
-.div_en_i         ( custom_mod           ),
-.operator_i       (MD_OP_REM             ),
-.signed_mode_i    (  2'b00 ),
-.op_a_i           ( datareg1[1] ),
-.op_b_i           ( custom_op_b  ),
-.alu_adder_ext_i  (cus_alu_adder_result_ext_2  ),
-.alu_adder_i      ( cus_alu_adder_result_ex_o_2  ),
-.equal_to_zero    ( cus_alu_is_equal_result_2 ),
-.alu_operand_a_o  ( cus_multdiv_alu_operand_a_r_2),
-.alu_operand_b_o  ( cus_multdiv_alu_operand_b_r_2),
-.multdiv_result_o ( rem_res[1]      ),
-.valid_o          ( rem_valid[1]   )
-
-
+remainder rem_i_2(  
+.clk            ( clk_i                ),           
+.enable         ( custom_mod           ),
+.dividend       ( datareg1[1] ),
+.divisor        ( custom_op_b  ),
+.result         ( rem_res[1]      ),
+.valid          ( rem_valid[1]   )
 );
 
-rem_instr rem_i_3(  
-.clk_i            ( clk_i                ),           
-.rst_ni           ( custom_final ? 1'b0 : rst_ni                ),
-.div_en_i         ( custom_mod           ),
-.operator_i       (MD_OP_REM             ),
-.signed_mode_i    (  2'b00 ),
-.op_a_i           (  datareg1[2] ),
-.op_b_i           ( custom_op_b  ),
-.alu_adder_ext_i  (cus_alu_adder_result_ext_3  ),
-.alu_adder_i      ( cus_alu_adder_result_ex_o_3  ),
-.equal_to_zero    ( cus_alu_is_equal_result_3 ),
-.alu_operand_a_o  ( cus_multdiv_alu_operand_a_r_3),
-.alu_operand_b_o  ( cus_multdiv_alu_operand_b_r_3),
-.multdiv_result_o ( rem_res[2]      ),
-.valid_o          ( rem_valid[2]   )
+remainder rem_i_3(  
+.clk            ( clk_i                ),           
+.enable         ( custom_mod           ),
+.dividend       (  datareg1[2] ),
+.divisor        ( custom_op_b  ),
+.result         ( rem_res[2]      ),
+.valid          ( rem_valid[2]   )
 
 
 );
@@ -191,8 +161,8 @@ rem_instr rem_i_3(
       .operator_i          ( alu_operator_i            ),
       .operand_a_i         ( alu_operand_a_i           ),
       .operand_b_i         ( alu_operand_b_i           ),
-      .multdiv_operand_a_i (custom_mod ? multdiv_alu_operand_a_r :  multdiv_alu_operand_a    ),
-      .multdiv_operand_b_i ( custom_mod ? multdiv_alu_operand_b_r : multdiv_alu_operand_b     ),
+      .multdiv_operand_a_i ( multdiv_alu_operand_a     ),
+      .multdiv_operand_b_i ( multdiv_alu_operand_b     ),
       .multdiv_en_i        ( multdiv_en_sel            ),
       .adder_result_o      ( alu_adder_result_ex_o     ),
       .adder_result_ext_o  ( alu_adder_result_ext      ),
@@ -201,34 +171,6 @@ rem_instr rem_i_3(
       .is_equal_result_o   ( alu_is_equal_result       )
   );
   
-  ibex_alu alu_i_2 (
-        .operator_i          ( alu_operator_i            ),
-        .operand_a_i         ( alu_operand_a_i           ),
-        .operand_b_i         ( alu_operand_b_i           ),
-        .multdiv_operand_a_i ( cus_multdiv_alu_operand_a_r_2   ),
-        .multdiv_operand_b_i ( cus_multdiv_alu_operand_b_r_2  ),
-        .multdiv_en_i        ( multdiv_en_sel            ),
-        .adder_result_o      ( cus_alu_adder_result_ex_o_2     ),
-        .adder_result_ext_o  ( cus_alu_adder_result_ext_2      ),
-        .result_o            (           ),
-        .comparison_result_o (            ),
-        .is_equal_result_o   ( cus_alu_is_equal_result_2       )
-    );
-    
-      
-    ibex_alu alu_i_3 (
-          .operator_i          ( alu_operator_i            ),
-          .operand_a_i         ( alu_operand_a_i           ),
-          .operand_b_i         ( alu_operand_b_i           ),
-          .multdiv_operand_a_i (cus_multdiv_alu_operand_a_r_3),
-          .multdiv_operand_b_i ( cus_multdiv_alu_operand_b_r_3),
-          .multdiv_en_i        ( multdiv_en_sel            ),
-          .adder_result_o      ( cus_alu_adder_result_ex_o_3     ),
-          .adder_result_ext_o  ( cus_alu_adder_result_ext_3      ),
-          .result_o            (                ),
-          .comparison_result_o (            ),
-          .is_equal_result_o   ( cus_alu_is_equal_result_3       )
-      );
 
   ////////////////
   // Multiplier //

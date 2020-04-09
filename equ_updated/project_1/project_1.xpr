@@ -55,6 +55,13 @@
   <FileSets Version="1" Minor="31">
     <FileSet Name="sources_1" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
       <Filter Type="Srcs"/>
+      <File Path="$PSRCDIR/sources_1/new/remainder.v">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
       <File Path="$PSRCDIR/sources_1/imports/src/lowrisc_ibex_top_artya7_100_0.1/rtl/clkgen_xil7series.sv">
         <FileInfo>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../ibex-master/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_top_artya7_100_0.1/rtl/clkgen_xil7series.sv"/>
@@ -244,15 +251,6 @@
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PSRCDIR/sources_1/new/rem_instr.sv">
-        <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/../../../../senior_project/senior_project/subat_29_withpins_andfuncs/subat_29_withpins_andfuncs.srcs/sources_1/new/rem_instr.sv"/>
-          <Attr Name="ImportTime" Val="1583422189"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
       <File Path="$PSRCDIR/sources_1/imports/src/lowrisc_ibex_top_artya7_100_0.1/rtl/top_artya7_100.sv">
         <FileInfo>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../ibex-master/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_top_artya7_100_0.1/rtl/top_artya7_100.sv"/>
@@ -262,8 +260,20 @@
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
+      <File Path="$PSRCDIR/sources_1/new/rem_instr.sv">
+        <FileInfo>
+          <Attr Name="UserDisabled" Val="1"/>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../senior_project/senior_project/subat_29_withpins_andfuncs/subat_29_withpins_andfuncs.srcs/sources_1/new/rem_instr.sv"/>
+          <Attr Name="ImportTime" Val="1583422189"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
       <File Path="$PSRCDIR/sources_1/new/conversion_to_7display.sv">
         <FileInfo>
+          <Attr Name="UserDisabled" Val="1"/>
           <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../modulerstuff/modulerstuff.srcs/sources_1/new/conversion_to_7display.sv"/>
           <Attr Name="ImportTime" Val="1582988819"/>
