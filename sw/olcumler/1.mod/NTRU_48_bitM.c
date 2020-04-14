@@ -27,6 +27,7 @@ void instr_mod(unsigned int *a1, unsigned int mod) {
     );
     return;
 }
+
 void array_mod(int *a1, int mod,int length){
 
     ////// bu kod arrayin uzunlugunu ücüncü instruction operand olarak gonderemedigimiz icin var. //////////
@@ -40,20 +41,20 @@ int i = 0;
             for (i = 0; i < (length / 3); i++) {
                 instr_mod((unsigned int *) &a1[3 * i], (unsigned int) mod);
             }
-	    break;
+		break;
         case 1:
             for (i = 0; i < ((length-1) / 3); i++) {
                 instr_mod((unsigned int *) &a1[3 * i], (unsigned int) mod);
             }
             a1[length-1] = a1[length-1] % mod;
-	    break;
+		break;
         case 2:
             for (i = 0; i < ((length-2) / 3); i++) {
                 instr_mod((unsigned int *) &a1[3 * i], (unsigned int) mod);
             }
             a1[length-1] = a1[length-1] % mod;
             a1[length-2] = a1[length-2] % mod;
-	    break;
+		break;
     } //end of switch case
 } //end of function
 
@@ -198,10 +199,19 @@ int *polydiv(int *num, int size_N, int*denum, int size_D, int mod){
     for (i = 0; i < size_N; ++i){
         num_temp[i] = num[i];
     }
-    
-    
+ /*   
+    if(size_N == 106) {
+        array_mod(num_temp, mod, size_N - 1);
+        while(num_temp[size_N - 1] < 0){
+            num_temp[size_N - 1] = num_temp[size_N - 1]+mod;
+        }
+        num_temp[size_N - 1] = num_temp[size_N - 1] % mod;
+    }
+    else{
         array_mod(num_temp, mod, size_N);
-    
+    }
+*/
+	 array_mod(num_temp, mod, size_N);
 
 
     // make mod calculation for coefficents
@@ -248,36 +258,77 @@ int *polydiv(int *num, int size_N, int*denum, int size_D, int mod){
         // Set v := u × r_d × X^(d–N)
         v[(d-d2)] = u*r_d;
 
-         
-        array_mod(v, mod, size_N);
-        
+/*
+         if(size_N == 106) {
+            array_mod(v, mod, size_N - 1);
+            while(v[size_N - 1] < 0){
+                v[size_N - 1] = v[size_N - 1]+mod;
+            }
+            v[size_N - 1] = v[size_N - 1] % mod;
+        }
+        else{
+            array_mod(v, mod, size_N);
+        }
+*/
+	array_mod(v, mod, size_N);
+
 
         // v*b
         product = polymult(denum_temp,size_D,v,size_D,mod,0);
 
         // make mod calculation for coefficents
      
-        
+/*        if(size_N == 106) {
+            array_mod(product, mod, size_N - 1);
+            while(product[size_N - 1] < 0){
+                product[size_N - 1] = product[size_N - 1]+mod;
+            }
+            product[size_N - 1] = product[size_N - 1] % mod;
+        }
+        else{
+            array_mod(product, mod, size_N);
+        }
+*/
         array_mod(product, mod, size_N);
-        
-        
+
         //r = r- v*b
         for (i = 0; i < size_N; ++i){
             num_temp[i] = num_temp[i] - product[i];
         }
 
         // make mod calculation for coefficents
- 	
-        array_mod(num_temp, mod, size_N);
-	
+/* 	if(size_N == 106) {
+            array_mod(num_temp, mod, size_N - 1);
+            while(num_temp[size_N - 1] < 0){
+                num_temp[size_N - 1] = num_temp[size_N - 1]+mod;
+            }
+            num_temp[size_N - 1] = num_temp[size_N - 1] % mod;
+        }
+        else{
+            array_mod(num_temp, mod, size_N);
+	}
+*/
+	array_mod(num_temp, mod, size_N);
+
+
         // q = q + v;
         for(i = 0; i < size_N; ++i){
             q[i] = q[i] + v[i];
         }
 
- 	
-        array_mod(q, mod, size_N);
-        
+/* 	if(size_N == 106) {
+            array_mod(q, mod, size_N - 1);
+            while(q[size_N - 1] < 0){
+                q[size_N - 1] = q[size_N - 1]+mod;
+            }
+            q[size_N - 1] = q[size_N - 1] % mod;
+        }
+        else{
+            array_mod(q, mod, size_N);
+        }
+*/
+	array_mod(q, mod, size_N);
+
 
         // Set d := deg r(X) (num)
         for (i = size_N-1; i >= 0; i = i-1){
@@ -429,7 +480,8 @@ int* ext_euclid(int* polyR, int* polyf, int size, int mod) {
 
 
 int* generate_keys(int N, int p, int q){
-  
+  	
+resultkon[0] = 0xaaaaaaa0;
 
     int f[55] = {-1, 1, 1, 0, -1, 0, 1, 0, 0, 1, -1, -1, 0, 1, 0, -1, 0, 1, 1, 0, 0,  -1, 0, 1, 0, 0, 1, 1, 1,  -1, 0, 1, 0, 0, 1, 1, 1,    -1, 0, 1, 0, 0, 1, 1, 1};
     int g[55] = {-1, 0, 1, 1, 0, 1, 0, 0, -1, 0, -1, -1, 0, 1, 0, -1, 0, 1, 0, 0, 1, -1, 0, 1, 0, 0, 1, -1, 0, 1, 0, 0, 1, -1, 0, 1, 0, 1,   1, 0, 0, 1, -1, 0, 1, 0, 1};
@@ -442,7 +494,7 @@ int* generate_keys(int N, int p, int q){
     int i;
     int* return_address5;
 
-
+	
     polyR[N] = 1;
     polyR[0] = -1;
 
@@ -513,12 +565,14 @@ int* generate_keys(int N, int p, int q){
 
     return_address5 = &random_keys[0];
 
+	resultkon[0] = 0xaaaaaaa1;
     return return_address5;
 }
 
 
 int* ntru_encyrpt(int N, int q, int* message, int* public_key, int* polyR){
 
+	resultkon[0] = 0xbbbbbbb0;
     int *return_address6;
     int *CT;
 
@@ -547,12 +601,14 @@ int* ntru_encyrpt(int N, int q, int* message, int* public_key, int* polyR){
 
 
     return_address6 = &CT[0];
+	resultkon[0] = 0xbbbbbbb1;
     return return_address6;
 }
 
 
 int* ntru_deceypt(int N, int p, int q, int* secret_key_f, int* secret_key_fp, int* Enc_Message, int* polyR){
 
+	resultkon[0] = 0xccccccc0;
     int* return_address7;
     int* a;
     int* a2;
@@ -592,6 +648,7 @@ int* ntru_deceypt(int N, int p, int q, int* secret_key_f, int* secret_key_fp, in
     ////////"Vector c2 (decrypted message)/////////
 
     return_address7 = &c2[0];
+	resultkon[0] = 0xccccccc1;
     return return_address7;
 }
 
@@ -619,9 +676,9 @@ int main(){
   //  printf("\nKEY GENERATION STARTED \n");
 
  //   start = clock();
-    resultkon[0] = 0xaaaaaaa0;
+   // resultkon[0] = 0xaaaaaaa0;
     keys = generate_keys(N, p, q);
-    resultkon[0] = 0xaaaaaaa1;
+   // resultkon[0] = 0xaaaaaaa1;
    // printf("Secret Key f = ");
     for(i = 0; i < N; ++i){
   //      printf(" %d ", keys[i]);
@@ -666,9 +723,9 @@ int main(){
 
     // Bob encrypts message using Alice's public key and sends it to Alice.
   //  printf("\nENCRYPTION STARTED\n");
-    resultkon[0] = 0xbbbbbbb0;
+   // resultkon[0] = 0xbbbbbbb0;
     Enc_Message = ntru_encyrpt(N, q, message, public_key, ring_poly);
-    resultkon[0] = 0xbbbbbbb1;
+   // resultkon[0] = 0xbbbbbbb1;
  //   printf("Encyrpted Message = ");
 //   for(i = 0; i < N; ++i){
  //       printf(" %d ", Enc_Message[i]);
@@ -677,9 +734,9 @@ int main(){
 
     // Alice decrypts the message using her secret keys.
  //   printf("\nDECRYPTION STARTED\n");
-    resultkon[0] = 0xccccccc0;
+    //resultkon[0] = 0xccccccc0;
     Dec_Message = ntru_deceypt(N, p, q, secret_key_f, secret_key_fp, Enc_Message, ring_poly);
-    resultkon[0] = 0xccccccc1;	
+    //resultkon[0] = 0xccccccc1;	
 //    printf("Decyrpted Message = ");
 //    for(i = 0; i < N; ++i){
 //        printf(" %d ", Dec_Message[i]);

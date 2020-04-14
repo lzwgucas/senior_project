@@ -2,12 +2,12 @@
 # Vivado v2018.1 (64-bit)
 # SW Build 2188600 on Wed Apr  4 18:39:19 MDT 2018
 # IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
-# Start of session at: Thu Apr  9 16:12:48 2020
-# Process ID: 18330
-# Current directory: /home/topalc/Desktop/github/senior_project/equ_updated/project_1/project_1.runs/mod_add
+# Start of session at: Tue Apr 14 21:38:49 2020
+# Process ID: 21584
+# Current directory: /home/topalc/Desktop/github/senior_project/equ+remainder_updated/project_1/project_1.runs/mod_add
 # Command line: vivado -log top_artya7_100.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source top_artya7_100.tcl
-# Log file: /home/topalc/Desktop/github/senior_project/equ_updated/project_1/project_1.runs/mod_add/top_artya7_100.vds
-# Journal file: /home/topalc/Desktop/github/senior_project/equ_updated/project_1/project_1.runs/mod_add/vivado.jou
+# Log file: /home/topalc/Desktop/github/senior_project/equ+remainder_updated/project_1/project_1.runs/mod_add/top_artya7_100.vds
+# Journal file: /home/topalc/Desktop/github/senior_project/equ+remainder_updated/project_1/project_1.runs/mod_add/vivado.jou
 #-----------------------------------------------------------
 source top_artya7_100.tcl -notrace
 Command: synth_design -top top_artya7_100 -part xc7a100tcsg324-1
@@ -15,28 +15,28 @@ Starting synth_design
 Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
 INFO: Launching helper process for spawning children vivado processes
-INFO: Helper process launched with PID 18353 
-WARNING: [Synth 8-2611] redeclaration of ansi port custom_en_ex is not allowed [/home/topalc/Desktop/github/senior_project/equ_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_core.sv:148]
-WARNING: [Synth 8-2611] redeclaration of ansi port custom_valid_ex is not allowed [/home/topalc/Desktop/github/senior_project/equ_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_core.sv:149]
-WARNING: [Synth 8-976] custom_valid_ex has already been declared [/home/topalc/Desktop/github/senior_project/equ_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_core.sv:149]
-WARNING: [Synth 8-2654] second declaration of custom_valid_ex ignored [/home/topalc/Desktop/github/senior_project/equ_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_core.sv:149]
-INFO: [Synth 8-994] custom_valid_ex is declared here [/home/topalc/Desktop/github/senior_project/equ_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_core.sv:45]
-WARNING: [Synth 8-2611] redeclaration of ansi port custom_data_ex is not allowed [/home/topalc/Desktop/github/senior_project/equ_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_core.sv:150]
-WARNING: [Synth 8-976] custom_data_ex has already been declared [/home/topalc/Desktop/github/senior_project/equ_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_core.sv:150]
-WARNING: [Synth 8-2654] second declaration of custom_data_ex ignored [/home/topalc/Desktop/github/senior_project/equ_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_core.sv:150]
-INFO: [Synth 8-994] custom_data_ex is declared here [/home/topalc/Desktop/github/senior_project/equ_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_core.sv:46]
-WARNING: [Synth 8-2611] redeclaration of ansi port ram_addr_out_ex is not allowed [/home/topalc/Desktop/github/senior_project/equ_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_core.sv:155]
-WARNING: [Synth 8-976] ram_addr_out_ex has already been declared [/home/topalc/Desktop/github/senior_project/equ_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_core.sv:155]
-WARNING: [Synth 8-2654] second declaration of ram_addr_out_ex ignored [/home/topalc/Desktop/github/senior_project/equ_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_core.sv:155]
-INFO: [Synth 8-994] ram_addr_out_ex is declared here [/home/topalc/Desktop/github/senior_project/equ_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_core.sv:43]
+INFO: Helper process launched with PID 21679 
+WARNING: [Synth 8-2611] redeclaration of ansi port custom_en_ex is not allowed [/home/topalc/Desktop/github/senior_project/equ+remainder_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_core.sv:148]
+WARNING: [Synth 8-2611] redeclaration of ansi port custom_valid_ex is not allowed [/home/topalc/Desktop/github/senior_project/equ+remainder_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_core.sv:149]
+WARNING: [Synth 8-976] custom_valid_ex has already been declared [/home/topalc/Desktop/github/senior_project/equ+remainder_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_core.sv:149]
+WARNING: [Synth 8-2654] second declaration of custom_valid_ex ignored [/home/topalc/Desktop/github/senior_project/equ+remainder_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_core.sv:149]
+INFO: [Synth 8-994] custom_valid_ex is declared here [/home/topalc/Desktop/github/senior_project/equ+remainder_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_core.sv:45]
+WARNING: [Synth 8-2611] redeclaration of ansi port custom_data_ex is not allowed [/home/topalc/Desktop/github/senior_project/equ+remainder_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_core.sv:150]
+WARNING: [Synth 8-976] custom_data_ex has already been declared [/home/topalc/Desktop/github/senior_project/equ+remainder_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_core.sv:150]
+WARNING: [Synth 8-2654] second declaration of custom_data_ex ignored [/home/topalc/Desktop/github/senior_project/equ+remainder_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_core.sv:150]
+INFO: [Synth 8-994] custom_data_ex is declared here [/home/topalc/Desktop/github/senior_project/equ+remainder_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_core.sv:46]
+WARNING: [Synth 8-2611] redeclaration of ansi port ram_addr_out_ex is not allowed [/home/topalc/Desktop/github/senior_project/equ+remainder_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_core.sv:155]
+WARNING: [Synth 8-976] ram_addr_out_ex has already been declared [/home/topalc/Desktop/github/senior_project/equ+remainder_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_core.sv:155]
+WARNING: [Synth 8-2654] second declaration of ram_addr_out_ex ignored [/home/topalc/Desktop/github/senior_project/equ+remainder_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_core.sv:155]
+INFO: [Synth 8-994] ram_addr_out_ex is declared here [/home/topalc/Desktop/github/senior_project/equ+remainder_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_core.sv:43]
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 1328.418 ; gain = 86.359 ; free physical = 1260 ; free virtual = 7190
+Starting RTL Elaboration : Time (s): cpu = 00:00:15 ; elapsed = 00:00:18 . Memory (MB): peak = 1328.414 ; gain = 86.359 ; free physical = 982 ; free virtual = 7532
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-6157] synthesizing module 'top_artya7_100' [/home/topalc/Desktop/github/senior_project/equ_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_top_artya7_100_0.1/rtl/top_artya7_100.sv:5]
+INFO: [Synth 8-6157] synthesizing module 'top_artya7_100' [/home/topalc/Desktop/github/senior_project/equ+remainder_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_top_artya7_100_0.1/rtl/top_artya7_100.sv:5]
 	Parameter MEM_SIZE bound to: 32'sb00000000000000010000000000000000 
 	Parameter MEM_START bound to: 0 - type: integer 
 	Parameter MEM_MASK bound to: 32'b00000000000000001111111111111111 
-INFO: [Synth 8-6157] synthesizing module 'ibex_core' [/home/topalc/Desktop/github/senior_project/equ_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_core.sv:13]
+INFO: [Synth 8-6157] synthesizing module 'ibex_core' [/home/topalc/Desktop/github/senior_project/equ+remainder_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_core.sv:13]
 	Parameter PMPEnable bound to: 1'b0 
 	Parameter PMPGranularity bound to: 32'b00000000000000000000000000000000 
 	Parameter PMPNumRegions bound to: 32'b00000000000000000000000000000100 
@@ -47,120 +47,119 @@ INFO: [Synth 8-6157] synthesizing module 'ibex_core' [/home/topalc/Desktop/githu
 	Parameter DmHaltAddr bound to: 0 - type: integer 
 	Parameter DmExceptionAddr bound to: 0 - type: integer 
 	Parameter PMP_NUM_CHAN bound to: 32'b00000000000000000000000000000010 
-INFO: [Synth 8-6157] synthesizing module 'prim_clock_gating' [/home/topalc/Desktop/github/senior_project/equ_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_top_artya7_100_0.1/rtl/prim_clock_gating.sv:5]
+INFO: [Synth 8-6157] synthesizing module 'prim_clock_gating' [/home/topalc/Desktop/github/senior_project/equ+remainder_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_top_artya7_100_0.1/rtl/prim_clock_gating.sv:5]
 INFO: [Synth 8-6157] synthesizing module 'BUFGCE' [/opt/Xilinx/Vivado/2018.1/scripts/rt/data/unisim_comp.v:619]
 	Parameter CE_TYPE bound to: SYNC - type: string 
 	Parameter IS_CE_INVERTED bound to: 1'b0 
 	Parameter IS_I_INVERTED bound to: 1'b0 
 INFO: [Synth 8-6155] done synthesizing module 'BUFGCE' (1#1) [/opt/Xilinx/Vivado/2018.1/scripts/rt/data/unisim_comp.v:619]
-INFO: [Synth 8-6155] done synthesizing module 'prim_clock_gating' (2#1) [/home/topalc/Desktop/github/senior_project/equ_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_top_artya7_100_0.1/rtl/prim_clock_gating.sv:5]
-INFO: [Synth 8-6157] synthesizing module 'ibex_if_stage' [/home/topalc/Desktop/github/senior_project/equ_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_if_stage.sv:12]
+INFO: [Synth 8-6155] done synthesizing module 'prim_clock_gating' (2#1) [/home/topalc/Desktop/github/senior_project/equ+remainder_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_top_artya7_100_0.1/rtl/prim_clock_gating.sv:5]
+INFO: [Synth 8-6157] synthesizing module 'ibex_if_stage' [/home/topalc/Desktop/github/senior_project/equ+remainder_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_if_stage.sv:12]
 	Parameter DmHaltAddr bound to: 0 - type: integer 
 	Parameter DmExceptionAddr bound to: 0 - type: integer 
-INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/github/senior_project/equ_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_if_stage.sv:107]
-INFO: [Synth 8-226] default block is never used [/home/topalc/Desktop/github/senior_project/equ_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_if_stage.sv:107]
-INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/github/senior_project/equ_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_if_stage.sv:118]
-INFO: [Synth 8-6157] synthesizing module 'ibex_prefetch_buffer' [/home/topalc/Desktop/github/senior_project/equ_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_prefetch_buffer.sv:12]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/github/senior_project/equ+remainder_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_if_stage.sv:107]
+INFO: [Synth 8-226] default block is never used [/home/topalc/Desktop/github/senior_project/equ+remainder_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_if_stage.sv:107]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/github/senior_project/equ+remainder_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_if_stage.sv:118]
+INFO: [Synth 8-6157] synthesizing module 'ibex_prefetch_buffer' [/home/topalc/Desktop/github/senior_project/equ+remainder_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_prefetch_buffer.sv:12]
 	Parameter NUM_REQS bound to: 32'b00000000000000000000000000000010 
-INFO: [Synth 8-6157] synthesizing module 'ibex_fetch_fifo' [/home/topalc/Desktop/github/senior_project/equ_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_fetch_fifo.sv:12]
+INFO: [Synth 8-6157] synthesizing module 'ibex_fetch_fifo' [/home/topalc/Desktop/github/senior_project/equ+remainder_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_fetch_fifo.sv:12]
 	Parameter NUM_REQS bound to: 32'b00000000000000000000000000000010 
 	Parameter DEPTH bound to: 32'b00000000000000000000000000000011 
-INFO: [Synth 8-6155] done synthesizing module 'ibex_fetch_fifo' (3#1) [/home/topalc/Desktop/github/senior_project/equ_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_fetch_fifo.sv:12]
-INFO: [Synth 8-6155] done synthesizing module 'ibex_prefetch_buffer' (4#1) [/home/topalc/Desktop/github/senior_project/equ_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_prefetch_buffer.sv:12]
-INFO: [Synth 8-6157] synthesizing module 'ibex_compressed_decoder' [/home/topalc/Desktop/github/senior_project/equ_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_compressed_decoder.sv:12]
-INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/github/senior_project/equ_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_compressed_decoder.sv:28]
-INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/github/senior_project/equ_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_compressed_decoder.sv:31]
-INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/github/senior_project/equ_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_compressed_decoder.sv:64]
-INFO: [Synth 8-226] default block is never used [/home/topalc/Desktop/github/senior_project/equ_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_compressed_decoder.sv:64]
-INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/github/senior_project/equ_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_compressed_decoder.sv:102]
-INFO: [Synth 8-226] default block is never used [/home/topalc/Desktop/github/senior_project/equ_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_compressed_decoder.sv:102]
-INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/github/senior_project/equ_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_compressed_decoder.sv:120]
-INFO: [Synth 8-226] default block is never used [/home/topalc/Desktop/github/senior_project/equ_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_compressed_decoder.sv:120]
-INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/github/senior_project/equ_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_compressed_decoder.sv:186]
-INFO: [Synth 8-226] default block is never used [/home/topalc/Desktop/github/senior_project/equ_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_compressed_decoder.sv:186]
-INFO: [Synth 8-6155] done synthesizing module 'ibex_compressed_decoder' (5#1) [/home/topalc/Desktop/github/senior_project/equ_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_compressed_decoder.sv:12]
-INFO: [Synth 8-6155] done synthesizing module 'ibex_if_stage' (6#1) [/home/topalc/Desktop/github/senior_project/equ_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_if_stage.sv:12]
-INFO: [Synth 8-6157] synthesizing module 'ibex_id_stage' [/home/topalc/Desktop/github/senior_project/equ_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_id_stage.sv:16]
+INFO: [Synth 8-6155] done synthesizing module 'ibex_fetch_fifo' (3#1) [/home/topalc/Desktop/github/senior_project/equ+remainder_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_fetch_fifo.sv:12]
+INFO: [Synth 8-6155] done synthesizing module 'ibex_prefetch_buffer' (4#1) [/home/topalc/Desktop/github/senior_project/equ+remainder_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_prefetch_buffer.sv:12]
+INFO: [Synth 8-6157] synthesizing module 'ibex_compressed_decoder' [/home/topalc/Desktop/github/senior_project/equ+remainder_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_compressed_decoder.sv:12]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/github/senior_project/equ+remainder_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_compressed_decoder.sv:28]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/github/senior_project/equ+remainder_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_compressed_decoder.sv:31]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/github/senior_project/equ+remainder_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_compressed_decoder.sv:64]
+INFO: [Synth 8-226] default block is never used [/home/topalc/Desktop/github/senior_project/equ+remainder_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_compressed_decoder.sv:64]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/github/senior_project/equ+remainder_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_compressed_decoder.sv:102]
+INFO: [Synth 8-226] default block is never used [/home/topalc/Desktop/github/senior_project/equ+remainder_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_compressed_decoder.sv:102]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/github/senior_project/equ+remainder_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_compressed_decoder.sv:120]
+INFO: [Synth 8-226] default block is never used [/home/topalc/Desktop/github/senior_project/equ+remainder_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_compressed_decoder.sv:120]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/github/senior_project/equ+remainder_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_compressed_decoder.sv:186]
+INFO: [Synth 8-226] default block is never used [/home/topalc/Desktop/github/senior_project/equ+remainder_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_compressed_decoder.sv:186]
+INFO: [Synth 8-6155] done synthesizing module 'ibex_compressed_decoder' (5#1) [/home/topalc/Desktop/github/senior_project/equ+remainder_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_compressed_decoder.sv:12]
+INFO: [Synth 8-6155] done synthesizing module 'ibex_if_stage' (6#1) [/home/topalc/Desktop/github/senior_project/equ+remainder_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_if_stage.sv:12]
+INFO: [Synth 8-6157] synthesizing module 'ibex_id_stage' [/home/topalc/Desktop/github/senior_project/equ+remainder_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_id_stage.sv:16]
 	Parameter RV32E bound to: 1'b0 
 	Parameter RV32M bound to: 1'b1 
-INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/github/senior_project/equ_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_id_stage.sv:245]
-INFO: [Synth 8-226] default block is never used [/home/topalc/Desktop/github/senior_project/equ_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_id_stage.sv:245]
-INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/github/senior_project/equ_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_id_stage.sv:261]
-INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/github/senior_project/equ_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_id_stage.sv:287]
-INFO: [Synth 8-6157] synthesizing module 'ibex_register_file' [/home/topalc/Desktop/github/senior_project/equ_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_register_file_ff.sv:13]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/github/senior_project/equ+remainder_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_id_stage.sv:245]
+INFO: [Synth 8-226] default block is never used [/home/topalc/Desktop/github/senior_project/equ+remainder_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_id_stage.sv:245]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/github/senior_project/equ+remainder_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_id_stage.sv:261]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/github/senior_project/equ+remainder_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_id_stage.sv:287]
+INFO: [Synth 8-6157] synthesizing module 'ibex_register_file' [/home/topalc/Desktop/github/senior_project/equ+remainder_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_register_file_ff.sv:13]
 	Parameter RV32E bound to: 1'b0 
 	Parameter DataWidth bound to: 32'b00000000000000000000000000100000 
 	Parameter ADDR_WIDTH bound to: 32'b00000000000000000000000000000101 
 	Parameter NUM_WORDS bound to: 32'b00000000000000000000000000100000 
-INFO: [Synth 8-6155] done synthesizing module 'ibex_register_file' (7#1) [/home/topalc/Desktop/github/senior_project/equ_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_register_file_ff.sv:13]
-INFO: [Synth 8-6157] synthesizing module 'ibex_decoder' [/home/topalc/Desktop/github/senior_project/equ_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_decoder.sv:14]
+INFO: [Synth 8-6155] done synthesizing module 'ibex_register_file' (7#1) [/home/topalc/Desktop/github/senior_project/equ+remainder_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_register_file_ff.sv:13]
+INFO: [Synth 8-6157] synthesizing module 'ibex_decoder' [/home/topalc/Desktop/github/senior_project/equ+remainder_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_decoder.sv:14]
 	Parameter RV32E bound to: 1'b0 
 	Parameter RV32M bound to: 1'b1 
-INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/github/senior_project/equ_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_decoder.sv:217]
-INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/github/senior_project/equ_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_decoder.sv:269]
-INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/github/senior_project/equ_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_decoder.sv:313]
-INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/github/senior_project/equ_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_decoder.sv:337]
-INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/github/senior_project/equ_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_decoder.sv:379]
-INFO: [Synth 8-226] default block is never used [/home/topalc/Desktop/github/senior_project/equ_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_decoder.sv:379]
-INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/github/senior_project/equ_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_decoder.sv:415]
-INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/github/senior_project/equ_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_decoder.sv:444]
-INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/github/senior_project/equ_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_decoder.sv:547]
-INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/github/senior_project/equ_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_decoder.sv:589]
-INFO: [Synth 8-6155] done synthesizing module 'ibex_decoder' (8#1) [/home/topalc/Desktop/github/senior_project/equ_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_decoder.sv:14]
-INFO: [Synth 8-6157] synthesizing module 'ibex_controller' [/home/topalc/Desktop/github/senior_project/equ_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_controller.sv:9]
-INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/github/senior_project/equ_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_controller.sv:271]
-INFO: [Synth 8-6155] done synthesizing module 'ibex_controller' (9#1) [/home/topalc/Desktop/github/senior_project/equ_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_controller.sv:9]
-INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/github/senior_project/equ_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_id_stage.sv:576]
-INFO: [Synth 8-226] default block is never used [/home/topalc/Desktop/github/senior_project/equ_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_id_stage.sv:576]
-INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/github/senior_project/equ_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_id_stage.sv:582]
-INFO: [Synth 8-6155] done synthesizing module 'ibex_id_stage' (10#1) [/home/topalc/Desktop/github/senior_project/equ_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_id_stage.sv:16]
-INFO: [Synth 8-6157] synthesizing module 'ibex_ex_block' [/home/topalc/Desktop/github/senior_project/equ_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_ex_block.sv:11]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/github/senior_project/equ+remainder_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_decoder.sv:217]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/github/senior_project/equ+remainder_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_decoder.sv:269]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/github/senior_project/equ+remainder_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_decoder.sv:313]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/github/senior_project/equ+remainder_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_decoder.sv:337]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/github/senior_project/equ+remainder_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_decoder.sv:379]
+INFO: [Synth 8-226] default block is never used [/home/topalc/Desktop/github/senior_project/equ+remainder_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_decoder.sv:379]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/github/senior_project/equ+remainder_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_decoder.sv:415]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/github/senior_project/equ+remainder_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_decoder.sv:444]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/github/senior_project/equ+remainder_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_decoder.sv:547]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/github/senior_project/equ+remainder_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_decoder.sv:589]
+INFO: [Synth 8-6155] done synthesizing module 'ibex_decoder' (8#1) [/home/topalc/Desktop/github/senior_project/equ+remainder_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_decoder.sv:14]
+INFO: [Synth 8-6157] synthesizing module 'ibex_controller' [/home/topalc/Desktop/github/senior_project/equ+remainder_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_controller.sv:9]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/github/senior_project/equ+remainder_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_controller.sv:271]
+INFO: [Synth 8-6155] done synthesizing module 'ibex_controller' (9#1) [/home/topalc/Desktop/github/senior_project/equ+remainder_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_controller.sv:9]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/github/senior_project/equ+remainder_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_id_stage.sv:576]
+INFO: [Synth 8-226] default block is never used [/home/topalc/Desktop/github/senior_project/equ+remainder_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_id_stage.sv:576]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/github/senior_project/equ+remainder_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_id_stage.sv:582]
+INFO: [Synth 8-6155] done synthesizing module 'ibex_id_stage' (10#1) [/home/topalc/Desktop/github/senior_project/equ+remainder_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_id_stage.sv:16]
+INFO: [Synth 8-6157] synthesizing module 'ibex_ex_block' [/home/topalc/Desktop/github/senior_project/equ+remainder_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_ex_block.sv:11]
 	Parameter RV32M bound to: 1'b1 
 	Parameter MULT_TYPE bound to: 1'b1 
-INFO: [Synth 8-6157] synthesizing module 'ibex_multdiv_fast' [/home/topalc/Desktop/github/senior_project/equ_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_multdiv_fast.sv:14]
-INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/github/senior_project/equ_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_multdiv_fast.sv:95]
-INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/github/senior_project/equ_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_multdiv_fast.sv:156]
-INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/github/senior_project/equ_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_multdiv_fast.sv:259]
-INFO: [Synth 8-226] default block is never used [/home/topalc/Desktop/github/senior_project/equ_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_multdiv_fast.sv:259]
-INFO: [Synth 8-6155] done synthesizing module 'ibex_multdiv_fast' (11#1) [/home/topalc/Desktop/github/senior_project/equ_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_multdiv_fast.sv:14]
-INFO: [Synth 8-6157] synthesizing module 'custom_module' [/home/topalc/Desktop/github/senior_project/equ_updated/project_1/project_1.srcs/sources_1/new/custom_module.sv:27]
-WARNING: [Synth 8-6090] variable 'custom_data' is written by both blocking and non-blocking assignments, entire logic could be removed [/home/topalc/Desktop/github/senior_project/equ_updated/project_1/project_1.srcs/sources_1/new/custom_module.sv:294]
-WARNING: [Synth 8-6014] Unused sequential element k_reg was removed.  [/home/topalc/Desktop/github/senior_project/equ_updated/project_1/project_1.srcs/sources_1/new/custom_module.sv:295]
-INFO: [Synth 8-6155] done synthesizing module 'custom_module' (12#1) [/home/topalc/Desktop/github/senior_project/equ_updated/project_1/project_1.srcs/sources_1/new/custom_module.sv:27]
-INFO: [Synth 8-6157] synthesizing module 'remainder' [/home/topalc/Desktop/github/senior_project/equ_updated/project_1/project_1.srcs/sources_1/new/remainder.v:4]
-WARNING: [Synth 8-6014] Unused sequential element diff_reg was removed.  [/home/topalc/Desktop/github/senior_project/equ_updated/project_1/project_1.srcs/sources_1/new/remainder.v:34]
-INFO: [Synth 8-6155] done synthesizing module 'remainder' (13#1) [/home/topalc/Desktop/github/senior_project/equ_updated/project_1/project_1.srcs/sources_1/new/remainder.v:4]
-INFO: [Synth 8-6157] synthesizing module 'ibex_alu' [/home/topalc/Desktop/github/senior_project/equ_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_alu.sv:9]
-INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/github/senior_project/equ_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_alu.sv:47]
-INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/github/senior_project/equ_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_alu.sv:130]
-INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/github/senior_project/equ_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_alu.sv:177]
-INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/github/senior_project/equ_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_alu.sv:203]
-INFO: [Synth 8-6155] done synthesizing module 'ibex_alu' (14#1) [/home/topalc/Desktop/github/senior_project/equ_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_alu.sv:9]
-INFO: [Synth 8-6155] done synthesizing module 'ibex_ex_block' (15#1) [/home/topalc/Desktop/github/senior_project/equ_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_ex_block.sv:11]
-INFO: [Synth 8-6157] synthesizing module 'ibex_load_store_unit' [/home/topalc/Desktop/github/senior_project/equ_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_load_store_unit.sv:12]
-INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/github/senior_project/equ_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_load_store_unit.sv:99]
-INFO: [Synth 8-226] default block is never used [/home/topalc/Desktop/github/senior_project/equ_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_load_store_unit.sv:99]
-INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/github/senior_project/equ_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_load_store_unit.sv:102]
-INFO: [Synth 8-226] default block is never used [/home/topalc/Desktop/github/senior_project/equ_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_load_store_unit.sv:102]
-INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/github/senior_project/equ_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_load_store_unit.sv:110]
-INFO: [Synth 8-226] default block is never used [/home/topalc/Desktop/github/senior_project/equ_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_load_store_unit.sv:110]
-INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/github/senior_project/equ_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_load_store_unit.sv:122]
-INFO: [Synth 8-226] default block is never used [/home/topalc/Desktop/github/senior_project/equ_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_load_store_unit.sv:122]
-INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/github/senior_project/equ_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_load_store_unit.sv:136]
-INFO: [Synth 8-226] default block is never used [/home/topalc/Desktop/github/senior_project/equ_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_load_store_unit.sv:136]
-INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/github/senior_project/equ_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_load_store_unit.sv:157]
-INFO: [Synth 8-226] default block is never used [/home/topalc/Desktop/github/senior_project/equ_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_load_store_unit.sv:157]
-INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/github/senior_project/equ_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_load_store_unit.sv:206]
-INFO: [Synth 8-226] default block is never used [/home/topalc/Desktop/github/senior_project/equ_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_load_store_unit.sv:206]
-INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/github/senior_project/equ_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_load_store_unit.sv:221]
-INFO: [Synth 8-226] default block is never used [/home/topalc/Desktop/github/senior_project/equ_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_load_store_unit.sv:221]
-INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/github/senior_project/equ_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_load_store_unit.sv:260]
-INFO: [Synth 8-226] default block is never used [/home/topalc/Desktop/github/senior_project/equ_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_load_store_unit.sv:260]
-INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/github/senior_project/equ_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_load_store_unit.sv:299]
-INFO: [Synth 8-226] default block is never used [/home/topalc/Desktop/github/senior_project/equ_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_load_store_unit.sv:299]
-INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/github/senior_project/equ_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_load_store_unit.sv:332]
-INFO: [Synth 8-6155] done synthesizing module 'ibex_load_store_unit' (16#1) [/home/topalc/Desktop/github/senior_project/equ_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_load_store_unit.sv:12]
-INFO: [Synth 8-6157] synthesizing module 'ibex_cs_registers' [/home/topalc/Desktop/github/senior_project/equ_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_cs_registers.sv:12]
+INFO: [Synth 8-6157] synthesizing module 'ibex_multdiv_fast' [/home/topalc/Desktop/github/senior_project/equ+remainder_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_multdiv_fast.sv:14]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/github/senior_project/equ+remainder_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_multdiv_fast.sv:95]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/github/senior_project/equ+remainder_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_multdiv_fast.sv:156]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/github/senior_project/equ+remainder_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_multdiv_fast.sv:259]
+INFO: [Synth 8-226] default block is never used [/home/topalc/Desktop/github/senior_project/equ+remainder_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_multdiv_fast.sv:259]
+INFO: [Synth 8-6155] done synthesizing module 'ibex_multdiv_fast' (11#1) [/home/topalc/Desktop/github/senior_project/equ+remainder_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_multdiv_fast.sv:14]
+INFO: [Synth 8-6157] synthesizing module 'custom_module' [/home/topalc/Desktop/github/senior_project/equ+remainder_updated/project_1/project_1.srcs/sources_1/new/custom_module.sv:27]
+WARNING: [Synth 8-6090] variable 'custom_data' is written by both blocking and non-blocking assignments, entire logic could be removed [/home/topalc/Desktop/github/senior_project/equ+remainder_updated/project_1/project_1.srcs/sources_1/new/custom_module.sv:295]
+INFO: [Synth 8-6155] done synthesizing module 'custom_module' (12#1) [/home/topalc/Desktop/github/senior_project/equ+remainder_updated/project_1/project_1.srcs/sources_1/new/custom_module.sv:27]
+INFO: [Synth 8-6157] synthesizing module 'remainder' [/home/topalc/Desktop/github/senior_project/equ+remainder_updated/project_1/project_1.srcs/sources_1/new/remainder.v:4]
+WARNING: [Synth 8-6014] Unused sequential element diff_reg was removed.  [/home/topalc/Desktop/github/senior_project/equ+remainder_updated/project_1/project_1.srcs/sources_1/new/remainder.v:34]
+INFO: [Synth 8-6155] done synthesizing module 'remainder' (13#1) [/home/topalc/Desktop/github/senior_project/equ+remainder_updated/project_1/project_1.srcs/sources_1/new/remainder.v:4]
+INFO: [Synth 8-6157] synthesizing module 'ibex_alu' [/home/topalc/Desktop/github/senior_project/equ+remainder_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_alu.sv:9]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/github/senior_project/equ+remainder_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_alu.sv:47]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/github/senior_project/equ+remainder_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_alu.sv:130]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/github/senior_project/equ+remainder_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_alu.sv:177]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/github/senior_project/equ+remainder_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_alu.sv:203]
+INFO: [Synth 8-6155] done synthesizing module 'ibex_alu' (14#1) [/home/topalc/Desktop/github/senior_project/equ+remainder_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_alu.sv:9]
+INFO: [Synth 8-6155] done synthesizing module 'ibex_ex_block' (15#1) [/home/topalc/Desktop/github/senior_project/equ+remainder_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_ex_block.sv:11]
+INFO: [Synth 8-6157] synthesizing module 'ibex_load_store_unit' [/home/topalc/Desktop/github/senior_project/equ+remainder_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_load_store_unit.sv:12]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/github/senior_project/equ+remainder_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_load_store_unit.sv:99]
+INFO: [Synth 8-226] default block is never used [/home/topalc/Desktop/github/senior_project/equ+remainder_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_load_store_unit.sv:99]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/github/senior_project/equ+remainder_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_load_store_unit.sv:102]
+INFO: [Synth 8-226] default block is never used [/home/topalc/Desktop/github/senior_project/equ+remainder_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_load_store_unit.sv:102]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/github/senior_project/equ+remainder_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_load_store_unit.sv:110]
+INFO: [Synth 8-226] default block is never used [/home/topalc/Desktop/github/senior_project/equ+remainder_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_load_store_unit.sv:110]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/github/senior_project/equ+remainder_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_load_store_unit.sv:122]
+INFO: [Synth 8-226] default block is never used [/home/topalc/Desktop/github/senior_project/equ+remainder_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_load_store_unit.sv:122]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/github/senior_project/equ+remainder_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_load_store_unit.sv:136]
+INFO: [Synth 8-226] default block is never used [/home/topalc/Desktop/github/senior_project/equ+remainder_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_load_store_unit.sv:136]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/github/senior_project/equ+remainder_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_load_store_unit.sv:157]
+INFO: [Synth 8-226] default block is never used [/home/topalc/Desktop/github/senior_project/equ+remainder_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_load_store_unit.sv:157]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/github/senior_project/equ+remainder_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_load_store_unit.sv:206]
+INFO: [Synth 8-226] default block is never used [/home/topalc/Desktop/github/senior_project/equ+remainder_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_load_store_unit.sv:206]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/github/senior_project/equ+remainder_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_load_store_unit.sv:221]
+INFO: [Synth 8-226] default block is never used [/home/topalc/Desktop/github/senior_project/equ+remainder_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_load_store_unit.sv:221]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/github/senior_project/equ+remainder_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_load_store_unit.sv:260]
+INFO: [Synth 8-226] default block is never used [/home/topalc/Desktop/github/senior_project/equ+remainder_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_load_store_unit.sv:260]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/github/senior_project/equ+remainder_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_load_store_unit.sv:299]
+INFO: [Synth 8-226] default block is never used [/home/topalc/Desktop/github/senior_project/equ+remainder_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_load_store_unit.sv:299]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/github/senior_project/equ+remainder_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_load_store_unit.sv:332]
+INFO: [Synth 8-6155] done synthesizing module 'ibex_load_store_unit' (16#1) [/home/topalc/Desktop/github/senior_project/equ+remainder_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_load_store_unit.sv:12]
+INFO: [Synth 8-6157] synthesizing module 'ibex_cs_registers' [/home/topalc/Desktop/github/senior_project/equ+remainder_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_cs_registers.sv:12]
 	Parameter MHPMCounterNum bound to: 32'b00000000000000000000000000000000 
 	Parameter MHPMCounterWidth bound to: 32'b00000000000000000000000000101000 
 	Parameter PMPEnable bound to: 1'b0 
@@ -170,26 +169,26 @@ INFO: [Synth 8-6157] synthesizing module 'ibex_cs_registers' [/home/topalc/Deskt
 	Parameter RV32M bound to: 1'b1 
 	Parameter MXL bound to: 2'b01 
 	Parameter MISA_VALUE bound to: 32'b01000000000000000001000100000100 
-INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/github/senior_project/equ_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_cs_registers.sv:237]
-INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/github/senior_project/equ_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_cs_registers.sv:396]
-INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/github/senior_project/equ_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_cs_registers.sv:484]
-INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/github/senior_project/equ_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_cs_registers.sv:487]
-INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/github/senior_project/equ_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_cs_registers.sv:540]
-INFO: [Synth 8-226] default block is never used [/home/topalc/Desktop/github/senior_project/equ_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_cs_registers.sv:540]
-WARNING: [Synth 8-693] zero replication count - replication ignored [/home/topalc/Desktop/github/senior_project/equ_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_cs_registers.sv:777]
-INFO: [Synth 8-6155] done synthesizing module 'ibex_cs_registers' (17#1) [/home/topalc/Desktop/github/senior_project/equ_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_cs_registers.sv:12]
-INFO: [Synth 8-6155] done synthesizing module 'ibex_core' (18#1) [/home/topalc/Desktop/github/senior_project/equ_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_core.sv:13]
-INFO: [Synth 8-6157] synthesizing module 'ram_1p' [/home/topalc/Desktop/github/senior_project/equ_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_top_artya7_100_0.1/rtl/ram_1p.sv:9]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/github/senior_project/equ+remainder_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_cs_registers.sv:237]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/github/senior_project/equ+remainder_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_cs_registers.sv:396]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/github/senior_project/equ+remainder_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_cs_registers.sv:484]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/github/senior_project/equ+remainder_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_cs_registers.sv:487]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/topalc/Desktop/github/senior_project/equ+remainder_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_cs_registers.sv:540]
+INFO: [Synth 8-226] default block is never used [/home/topalc/Desktop/github/senior_project/equ+remainder_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_cs_registers.sv:540]
+WARNING: [Synth 8-693] zero replication count - replication ignored [/home/topalc/Desktop/github/senior_project/equ+remainder_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_cs_registers.sv:777]
+INFO: [Synth 8-6155] done synthesizing module 'ibex_cs_registers' (17#1) [/home/topalc/Desktop/github/senior_project/equ+remainder_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_cs_registers.sv:12]
+INFO: [Synth 8-6155] done synthesizing module 'ibex_core' (18#1) [/home/topalc/Desktop/github/senior_project/equ+remainder_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_core.sv:13]
+INFO: [Synth 8-6157] synthesizing module 'ram_1p' [/home/topalc/Desktop/github/senior_project/equ+remainder_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_top_artya7_100_0.1/rtl/ram_1p.sv:9]
 	Parameter Width bound to: 32'sb00000000000000000000000000100000 
 	Parameter Depth bound to: 32'sb00000000000000000100000000000000 
 	Parameter Aw bound to: 32'sb00000000000000000000000000001110 
-	Parameter MEM_FILE bound to: /home/topalc/Desktop/github/senior_project/sw/olcumler/4.mod+add/NTRU_48_bitM.mem - type: string 
-INFO: [Synth 8-3876] $readmem data file '/home/topalc/Desktop/github/senior_project/sw/olcumler/4.mod+add/NTRU_48_bitM.mem' is read successfully [/home/topalc/Desktop/github/senior_project/equ_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_top_artya7_100_0.1/rtl/ram_1p.sv:58]
-INFO: [Synth 8-6155] done synthesizing module 'ram_1p' (19#1) [/home/topalc/Desktop/github/senior_project/equ_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_top_artya7_100_0.1/rtl/ram_1p.sv:9]
-WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [/home/topalc/Desktop/github/senior_project/equ_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_top_artya7_100_0.1/rtl/top_artya7_100.sv:186]
-INFO: [Synth 8-6157] synthesizing module 'ila_0' [/home/topalc/Desktop/github/senior_project/equ_updated/project_1/project_1.runs/mod_add/.Xil/Vivado-18330-topalc-S551LB/realtime/ila_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'ila_0' (20#1) [/home/topalc/Desktop/github/senior_project/equ_updated/project_1/project_1.runs/mod_add/.Xil/Vivado-18330-topalc-S551LB/realtime/ila_0_stub.v:6]
-INFO: [Synth 8-6157] synthesizing module 'clkgen_xil7series' [/home/topalc/Desktop/github/senior_project/equ_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_top_artya7_100_0.1/rtl/clkgen_xil7series.sv:5]
+	Parameter MEM_FILE bound to: /home/topalc/Desktop/github/senior_project/sw/olcumler/6.add+equ/NTRU_48_bitM.mem - type: string 
+INFO: [Synth 8-3876] $readmem data file '/home/topalc/Desktop/github/senior_project/sw/olcumler/6.add+equ/NTRU_48_bitM.mem' is read successfully [/home/topalc/Desktop/github/senior_project/equ+remainder_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_top_artya7_100_0.1/rtl/ram_1p.sv:58]
+INFO: [Synth 8-6155] done synthesizing module 'ram_1p' (19#1) [/home/topalc/Desktop/github/senior_project/equ+remainder_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_top_artya7_100_0.1/rtl/ram_1p.sv:9]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [/home/topalc/Desktop/github/senior_project/equ+remainder_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_top_artya7_100_0.1/rtl/top_artya7_100.sv:186]
+INFO: [Synth 8-6157] synthesizing module 'ila_0' [/home/topalc/Desktop/github/senior_project/equ+remainder_updated/project_1/project_1.runs/mod_add/.Xil/Vivado-21584-topalc-S551LB/realtime/ila_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ila_0' (20#1) [/home/topalc/Desktop/github/senior_project/equ+remainder_updated/project_1/project_1.runs/mod_add/.Xil/Vivado-21584-topalc-S551LB/realtime/ila_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'clkgen_xil7series' [/home/topalc/Desktop/github/senior_project/equ+remainder_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_top_artya7_100_0.1/rtl/clkgen_xil7series.sv:5]
 INFO: [Synth 8-6157] synthesizing module 'IBUF' [/opt/Xilinx/Vivado/2018.1/scripts/rt/data/unisim_comp.v:19472]
 	Parameter CAPACITANCE bound to: DONT_CARE - type: string 
 	Parameter IBUF_DELAY_VALUE bound to: 0 - type: string 
@@ -232,10 +231,10 @@ INFO: [Synth 8-6157] synthesizing module 'PLLE2_ADV' [/opt/Xilinx/Vivado/2018.1/
 INFO: [Synth 8-6155] done synthesizing module 'PLLE2_ADV' (22#1) [/opt/Xilinx/Vivado/2018.1/scripts/rt/data/unisim_comp.v:40055]
 INFO: [Synth 8-6157] synthesizing module 'BUFG' [/opt/Xilinx/Vivado/2018.1/scripts/rt/data/unisim_comp.v:609]
 INFO: [Synth 8-6155] done synthesizing module 'BUFG' (23#1) [/opt/Xilinx/Vivado/2018.1/scripts/rt/data/unisim_comp.v:609]
-INFO: [Synth 8-6155] done synthesizing module 'clkgen_xil7series' (24#1) [/home/topalc/Desktop/github/senior_project/equ_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_top_artya7_100_0.1/rtl/clkgen_xil7series.sv:5]
-INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'ila'. This will prevent further optimization [/home/topalc/Desktop/github/senior_project/equ_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_top_artya7_100_0.1/rtl/top_artya7_100.sv:186]
-INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'u_core'. This will prevent further optimization [/home/topalc/Desktop/github/senior_project/equ_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_top_artya7_100_0.1/rtl/top_artya7_100.sv:56]
-INFO: [Synth 8-6155] done synthesizing module 'top_artya7_100' (25#1) [/home/topalc/Desktop/github/senior_project/equ_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_top_artya7_100_0.1/rtl/top_artya7_100.sv:5]
+INFO: [Synth 8-6155] done synthesizing module 'clkgen_xil7series' (24#1) [/home/topalc/Desktop/github/senior_project/equ+remainder_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_top_artya7_100_0.1/rtl/clkgen_xil7series.sv:5]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'ila'. This will prevent further optimization [/home/topalc/Desktop/github/senior_project/equ+remainder_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_top_artya7_100_0.1/rtl/top_artya7_100.sv:186]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'u_core'. This will prevent further optimization [/home/topalc/Desktop/github/senior_project/equ+remainder_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_top_artya7_100_0.1/rtl/top_artya7_100.sv:56]
+INFO: [Synth 8-6155] done synthesizing module 'top_artya7_100' (25#1) [/home/topalc/Desktop/github/senior_project/equ+remainder_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_top_artya7_100_0.1/rtl/top_artya7_100.sv:5]
 WARNING: [Synth 8-3331] design ibex_cs_registers has unconnected port boot_addr_i[7]
 WARNING: [Synth 8-3331] design ibex_cs_registers has unconnected port boot_addr_i[6]
 WARNING: [Synth 8-3331] design ibex_cs_registers has unconnected port boot_addr_i[5]
@@ -274,7 +273,7 @@ WARNING: [Synth 8-3331] design ibex_if_stage has unconnected port csr_mtvec_i[2]
 WARNING: [Synth 8-3331] design ibex_if_stage has unconnected port csr_mtvec_i[1]
 WARNING: [Synth 8-3331] design ibex_if_stage has unconnected port csr_mtvec_i[0]
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:19 ; elapsed = 00:00:21 . Memory (MB): peak = 1408.668 ; gain = 166.609 ; free physical = 1225 ; free virtual = 7160
+Finished RTL Elaboration : Time (s): cpu = 00:00:19 ; elapsed = 00:00:23 . Memory (MB): peak = 1408.664 ; gain = 166.609 ; free physical = 916 ; free virtual = 7472
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -287,10 +286,10 @@ Report Check Netlist:
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 1408.668 ; gain = 166.609 ; free physical = 1240 ; free virtual = 7176
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:20 ; elapsed = 00:00:24 . Memory (MB): peak = 1408.664 ; gain = 166.609 ; free physical = 925 ; free virtual = 7481
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 1408.668 ; gain = 166.609 ; free physical = 1240 ; free virtual = 7176
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:20 ; elapsed = 00:00:24 . Memory (MB): peak = 1408.664 ; gain = 166.609 ; free physical = 925 ; free virtual = 7481
 ---------------------------------------------------------------------------------
 INFO: [Netlist 29-17] Analyzing 3 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
@@ -299,11 +298,11 @@ INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
 Initializing timing engine
-Parsing XDC File [/home/topalc/Desktop/github/senior_project/equ_updated/project_1/project_1.srcs/sources_1/ip/ila_0/ila_0/ila_0_in_context.xdc] for cell 'ila'
-Finished Parsing XDC File [/home/topalc/Desktop/github/senior_project/equ_updated/project_1/project_1.srcs/sources_1/ip/ila_0/ila_0/ila_0_in_context.xdc] for cell 'ila'
-Parsing XDC File [/home/topalc/Desktop/github/senior_project/equ_updated/project_1/project_1.srcs/constrs_1/imports/data/pins_artya7.xdc]
-Finished Parsing XDC File [/home/topalc/Desktop/github/senior_project/equ_updated/project_1/project_1.srcs/constrs_1/imports/data/pins_artya7.xdc]
-INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/topalc/Desktop/github/senior_project/equ_updated/project_1/project_1.srcs/constrs_1/imports/data/pins_artya7.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/top_artya7_100_propImpl.xdc].
+Parsing XDC File [/home/topalc/Desktop/github/senior_project/equ+remainder_updated/project_1/project_1.srcs/sources_1/ip/ila_0/ila_0/ila_0_in_context.xdc] for cell 'ila'
+Finished Parsing XDC File [/home/topalc/Desktop/github/senior_project/equ+remainder_updated/project_1/project_1.srcs/sources_1/ip/ila_0/ila_0/ila_0_in_context.xdc] for cell 'ila'
+Parsing XDC File [/home/topalc/Desktop/github/senior_project/equ+remainder_updated/project_1/project_1.srcs/constrs_1/imports/data/pins_artya7.xdc]
+Finished Parsing XDC File [/home/topalc/Desktop/github/senior_project/equ+remainder_updated/project_1/project_1.srcs/constrs_1/imports/data/pins_artya7.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/topalc/Desktop/github/senior_project/equ+remainder_updated/project_1/project_1.srcs/constrs_1/imports/data/pins_artya7.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/top_artya7_100_propImpl.xdc].
 Resolution: To avoid this warning, move constraints listed in [.Xil/top_artya7_100_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
 INFO: [Timing 38-2] Deriving generated clocks
 Completed Processing XDC Constraints
@@ -312,23 +311,23 @@ INFO: [Project 1-111] Unisim Transformation Summary:
   A total of 1 instances were transformed.
   BUFGCE => BUFGCTRL: 1 instances
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 1741.375 ; gain = 0.000 ; free physical = 949 ; free virtual = 6886
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 1741.371 ; gain = 0.000 ; free physical = 386 ; free virtual = 6964
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:54 ; elapsed = 00:01:15 . Memory (MB): peak = 1741.375 ; gain = 499.316 ; free physical = 1038 ; free virtual = 6987
+Finished Constraint Validation : Time (s): cpu = 00:00:52 ; elapsed = 00:01:17 . Memory (MB): peak = 1741.371 ; gain = 499.316 ; free physical = 451 ; free virtual = 7032
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7a100tcsg324-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:54 ; elapsed = 00:01:15 . Memory (MB): peak = 1741.375 ; gain = 499.316 ; free physical = 1038 ; free virtual = 6987
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:52 ; elapsed = 00:01:17 . Memory (MB): peak = 1741.371 ; gain = 499.316 ; free physical = 451 ; free virtual = 7032
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
 Applied set_property DONT_TOUCH = true for ila. (constraint file  auto generated constraint, line ).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:54 ; elapsed = 00:01:15 . Memory (MB): peak = 1741.375 ; gain = 499.316 ; free physical = 1040 ; free virtual = 6989
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:52 ; elapsed = 00:01:17 . Memory (MB): peak = 1741.371 ; gain = 499.316 ; free physical = 453 ; free virtual = 7034
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-5546] ROM "illegal_instr_o" won't be mapped to RAM because it is too sparse
 INFO: [Synth 8-5544] ROM "illegal_instr_o" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
@@ -398,16 +397,16 @@ INFO: [Synth 8-5544] ROM "custom_final" won't be mapped to Block RAM because add
 INFO: [Synth 8-5546] ROM "valid" won't be mapped to RAM because it is too sparse
 INFO: [Synth 8-5546] ROM "adder_op_b_negate" won't be mapped to RAM because it is too sparse
 INFO: [Synth 8-5546] ROM "cmp_signed" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-4471] merging register 'dcsr_q_reg[stopcount]' into 'dcsr_q_reg[zero1]' [/home/topalc/Desktop/github/senior_project/equ_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_cs_registers.sv:572]
-INFO: [Synth 8-4471] merging register 'dcsr_q_reg[stoptime]' into 'dcsr_q_reg[zero1]' [/home/topalc/Desktop/github/senior_project/equ_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_cs_registers.sv:572]
-INFO: [Synth 8-4471] merging register 'dcsr_q_reg[zero0]' into 'dcsr_q_reg[zero1]' [/home/topalc/Desktop/github/senior_project/equ_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_cs_registers.sv:572]
-INFO: [Synth 8-4471] merging register 'dcsr_q_reg[mprven]' into 'dcsr_q_reg[zero1]' [/home/topalc/Desktop/github/senior_project/equ_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_cs_registers.sv:572]
-INFO: [Synth 8-4471] merging register 'dcsr_q_reg[nmip]' into 'dcsr_q_reg[zero1]' [/home/topalc/Desktop/github/senior_project/equ_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_cs_registers.sv:572]
-WARNING: [Synth 8-6014] Unused sequential element dcsr_q_reg[stopcount] was removed.  [/home/topalc/Desktop/github/senior_project/equ_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_cs_registers.sv:572]
-WARNING: [Synth 8-6014] Unused sequential element dcsr_q_reg[stoptime] was removed.  [/home/topalc/Desktop/github/senior_project/equ_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_cs_registers.sv:572]
-WARNING: [Synth 8-6014] Unused sequential element dcsr_q_reg[zero0] was removed.  [/home/topalc/Desktop/github/senior_project/equ_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_cs_registers.sv:572]
-WARNING: [Synth 8-6014] Unused sequential element dcsr_q_reg[mprven] was removed.  [/home/topalc/Desktop/github/senior_project/equ_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_cs_registers.sv:572]
-WARNING: [Synth 8-6014] Unused sequential element dcsr_q_reg[nmip] was removed.  [/home/topalc/Desktop/github/senior_project/equ_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_cs_registers.sv:572]
+INFO: [Synth 8-4471] merging register 'dcsr_q_reg[stopcount]' into 'dcsr_q_reg[zero1]' [/home/topalc/Desktop/github/senior_project/equ+remainder_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_cs_registers.sv:572]
+INFO: [Synth 8-4471] merging register 'dcsr_q_reg[stoptime]' into 'dcsr_q_reg[zero1]' [/home/topalc/Desktop/github/senior_project/equ+remainder_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_cs_registers.sv:572]
+INFO: [Synth 8-4471] merging register 'dcsr_q_reg[zero0]' into 'dcsr_q_reg[zero1]' [/home/topalc/Desktop/github/senior_project/equ+remainder_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_cs_registers.sv:572]
+INFO: [Synth 8-4471] merging register 'dcsr_q_reg[mprven]' into 'dcsr_q_reg[zero1]' [/home/topalc/Desktop/github/senior_project/equ+remainder_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_cs_registers.sv:572]
+INFO: [Synth 8-4471] merging register 'dcsr_q_reg[nmip]' into 'dcsr_q_reg[zero1]' [/home/topalc/Desktop/github/senior_project/equ+remainder_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_cs_registers.sv:572]
+WARNING: [Synth 8-6014] Unused sequential element dcsr_q_reg[stopcount] was removed.  [/home/topalc/Desktop/github/senior_project/equ+remainder_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_cs_registers.sv:572]
+WARNING: [Synth 8-6014] Unused sequential element dcsr_q_reg[stoptime] was removed.  [/home/topalc/Desktop/github/senior_project/equ+remainder_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_cs_registers.sv:572]
+WARNING: [Synth 8-6014] Unused sequential element dcsr_q_reg[zero0] was removed.  [/home/topalc/Desktop/github/senior_project/equ+remainder_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_cs_registers.sv:572]
+WARNING: [Synth 8-6014] Unused sequential element dcsr_q_reg[mprven] was removed.  [/home/topalc/Desktop/github/senior_project/equ+remainder_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_cs_registers.sv:572]
+WARNING: [Synth 8-6014] Unused sequential element dcsr_q_reg[nmip] was removed.  [/home/topalc/Desktop/github/senior_project/equ+remainder_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_cs_registers.sv:572]
 INFO: [Synth 8-5546] ROM "mstatus_d" won't be mapped to RAM because it is too sparse
 INFO: [Synth 8-5546] ROM "mie_d" won't be mapped to RAM because it is too sparse
 INFO: [Synth 8-5546] ROM "dcsr_d" won't be mapped to RAM because it is too sparse
@@ -418,10 +417,10 @@ INFO: [Synth 8-5546] ROM "mtval_d" won't be mapped to RAM because it is too spar
 INFO: [Synth 8-5546] ROM "dscratch0_d" won't be mapped to RAM because it is too sparse
 INFO: [Synth 8-5546] ROM "dscratch1_d" won't be mapped to RAM because it is too sparse
 INFO: [Synth 8-5546] ROM "mcountinhibit_we" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-4471] merging register 'data_rvalid_reg' into 'data_gnt_reg' [/home/topalc/Desktop/github/senior_project/equ_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_top_artya7_100_0.1/rtl/top_artya7_100.sv:82]
-WARNING: [Synth 8-6014] Unused sequential element data_rvalid_reg was removed.  [/home/topalc/Desktop/github/senior_project/equ_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_top_artya7_100_0.1/rtl/top_artya7_100.sv:82]
+INFO: [Synth 8-4471] merging register 'data_rvalid_reg' into 'data_gnt_reg' [/home/topalc/Desktop/github/senior_project/equ+remainder_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_top_artya7_100_0.1/rtl/top_artya7_100.sv:82]
+WARNING: [Synth 8-6014] Unused sequential element data_rvalid_reg was removed.  [/home/topalc/Desktop/github/senior_project/equ+remainder_updated/project_1/project_1.srcs/sources_1/imports/src/lowrisc_ibex_top_artya7_100_0.1/rtl/top_artya7_100.sv:82]
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:01:02 ; elapsed = 00:01:24 . Memory (MB): peak = 1741.375 ; gain = 499.316 ; free physical = 1017 ; free virtual = 6968
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:59 ; elapsed = 00:01:24 . Memory (MB): peak = 1741.371 ; gain = 499.316 ; free physical = 432 ; free virtual = 7013
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -866,8 +865,8 @@ INFO: [Synth 8-5546] ROM "decoder_i/branch_in_dec_o" won't be mapped to RAM beca
 DSP Report: Generating DSP mac_res_signed, operation Mode is: C+A*B.
 DSP Report: operator mac_res_signed is absorbed into DSP mac_res_signed.
 DSP Report: operator mac_res_signed0 is absorbed into DSP mac_res_signed.
-INFO: [Synth 8-4471] merging register 'array1_addr_temp_reg[13:0]' into 'array1_addr_temp_reg[13:0]' [/home/topalc/Desktop/github/senior_project/equ_updated/project_1/project_1.srcs/sources_1/new/custom_module.sv:88]
-WARNING: [Synth 8-6014] Unused sequential element array1_addr_temp_reg was removed.  [/home/topalc/Desktop/github/senior_project/equ_updated/project_1/project_1.srcs/sources_1/new/custom_module.sv:88]
+INFO: [Synth 8-4471] merging register 'array1_addr_temp_reg[13:0]' into 'array1_addr_temp_reg[13:0]' [/home/topalc/Desktop/github/senior_project/equ+remainder_updated/project_1/project_1.srcs/sources_1/new/custom_module.sv:88]
+WARNING: [Synth 8-6014] Unused sequential element array1_addr_temp_reg was removed.  [/home/topalc/Desktop/github/senior_project/equ+remainder_updated/project_1/project_1.srcs/sources_1/new/custom_module.sv:88]
 INFO: [Synth 8-5545] ROM "state" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
 INFO: [Synth 8-5545] ROM "state" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
 INFO: [Synth 8-5545] ROM "data_reg1_reg[0]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
@@ -1201,7 +1200,7 @@ WARNING: [Synth 8-3332] Sequential element (mhpmcounter_q_reg[29][2]) is unused 
 WARNING: [Synth 8-3332] Sequential element (mhpmcounter_q_reg[30][34]) is unused and will be removed from module ibex_cs_registers.
 INFO: [Common 17-14] Message 'Synth 8-3332' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:05:32 ; elapsed = 00:06:02 . Memory (MB): peak = 1741.375 ; gain = 499.316 ; free physical = 932 ; free virtual = 6957
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:04:43 ; elapsed = 00:05:15 . Memory (MB): peak = 1741.371 ; gain = 499.316 ; free physical = 250 ; free virtual = 6844
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start ROM, RAM, DSP and Shift Register Reporting
@@ -1253,13 +1252,13 @@ Report RTL Partitions:
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:05:48 ; elapsed = 00:06:22 . Memory (MB): peak = 1756.375 ; gain = 514.316 ; free physical = 762 ; free virtual = 6795
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:04:59 ; elapsed = 00:05:36 . Memory (MB): peak = 1757.371 ; gain = 515.316 ; free physical = 139 ; free virtual = 6736
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:06:40 ; elapsed = 00:07:16 . Memory (MB): peak = 1911.977 ; gain = 669.918 ; free physical = 639 ; free virtual = 6684
+Finished Timing Optimization : Time (s): cpu = 00:05:51 ; elapsed = 00:06:30 . Memory (MB): peak = 1911.973 ; gain = 669.918 ; free physical = 185 ; free virtual = 6369
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start ROM, RAM, DSP and Shift Register Reporting
@@ -1302,7 +1301,7 @@ INFO: [Synth 8-4480] The timing for the instance u_ram/storage_reg_13 (implement
 INFO: [Synth 8-4480] The timing for the instance u_ram/storage_reg_14 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
 INFO: [Synth 8-4480] The timing for the instance u_ram/storage_reg_15 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:06:58 ; elapsed = 00:07:34 . Memory (MB): peak = 1969.992 ; gain = 727.934 ; free physical = 640 ; free virtual = 6677
+Finished Technology Mapping : Time (s): cpu = 00:06:07 ; elapsed = 00:06:47 . Memory (MB): peak = 1969.988 ; gain = 727.934 ; free physical = 198 ; free virtual = 6355
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -1330,7 +1329,7 @@ INFO: [Synth 8-6064] Net mem_write is driving 64 big block pins (URAM, BRAM and 
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:07:00 ; elapsed = 00:07:37 . Memory (MB): peak = 1969.992 ; gain = 727.934 ; free physical = 642 ; free virtual = 6679
+Finished IO Insertion : Time (s): cpu = 00:06:09 ; elapsed = 00:06:49 . Memory (MB): peak = 1969.988 ; gain = 727.934 ; free physical = 209 ; free virtual = 6362
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -1343,7 +1342,7 @@ Report Check Netlist:
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:07:00 ; elapsed = 00:07:37 . Memory (MB): peak = 1969.992 ; gain = 727.934 ; free physical = 642 ; free virtual = 6679
+Finished Renaming Generated Instances : Time (s): cpu = 00:06:09 ; elapsed = 00:06:49 . Memory (MB): peak = 1969.988 ; gain = 727.934 ; free physical = 209 ; free virtual = 6362
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -1355,25 +1354,25 @@ Report RTL Partitions:
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:07:01 ; elapsed = 00:07:38 . Memory (MB): peak = 1969.992 ; gain = 727.934 ; free physical = 642 ; free virtual = 6679
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:06:10 ; elapsed = 00:06:50 . Memory (MB): peak = 1969.988 ; gain = 727.934 ; free physical = 209 ; free virtual = 6362
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:07:01 ; elapsed = 00:07:38 . Memory (MB): peak = 1969.992 ; gain = 727.934 ; free physical = 642 ; free virtual = 6679
+Finished Renaming Generated Ports : Time (s): cpu = 00:06:10 ; elapsed = 00:06:50 . Memory (MB): peak = 1969.988 ; gain = 727.934 ; free physical = 209 ; free virtual = 6362
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:07:02 ; elapsed = 00:07:38 . Memory (MB): peak = 1969.992 ; gain = 727.934 ; free physical = 642 ; free virtual = 6679
+Finished Handling Custom Attributes : Time (s): cpu = 00:06:11 ; elapsed = 00:06:51 . Memory (MB): peak = 1969.988 ; gain = 727.934 ; free physical = 209 ; free virtual = 6362
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:07:02 ; elapsed = 00:07:39 . Memory (MB): peak = 1969.992 ; gain = 727.934 ; free physical = 642 ; free virtual = 6679
+Finished Renaming Generated Nets : Time (s): cpu = 00:06:11 ; elapsed = 00:06:51 . Memory (MB): peak = 1969.988 ; gain = 727.934 ; free physical = 209 ; free virtual = 6362
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -1397,10 +1396,10 @@ Report Cell Usage:
 |5     |DSP48E1     |     1|
 |6     |LUT1        |    13|
 |7     |LUT2        |   651|
-|8     |LUT3        |   642|
+|8     |LUT3        |   641|
 |9     |LUT4        |   428|
 |10    |LUT5        |   900|
-|11    |LUT6        |  2078|
+|11    |LUT6        |  2079|
 |12    |MUXF7       |   271|
 |13    |MUXF8       |     4|
 |14    |PLLE2_ADV   |     1|
@@ -1422,7 +1421,7 @@ Report Cell Usage:
 |30    |RAMB36E1_9  |     1|
 |31    |FDCE        |  1829|
 |32    |FDPE        |     7|
-|33    |FDRE        |  1189|
+|33    |FDRE        |  1191|
 |34    |IBUF        |     2|
 +------+------------+------+
 
@@ -1430,13 +1429,13 @@ Report Instance Areas:
 +------+-----------------------------------+---------------------+------+
 |      |Instance                           |Module               |Cells |
 +------+-----------------------------------+---------------------+------+
-|1     |top                                |                     |  8246|
-|2     |  u_core                           |ibex_core            |  8081|
+|1     |top                                |                     |  8248|
+|2     |  u_core                           |ibex_core            |  8083|
 |3     |    core_clock_gate_i              |prim_clock_gating    |     1|
 |4     |    cs_registers_i                 |ibex_cs_registers    |   802|
-|5     |    ex_block_i                     |ibex_ex_block        |  2846|
+|5     |    ex_block_i                     |ibex_ex_block        |  2848|
 |6     |      alu_i                        |ibex_alu             |    74|
-|7     |      cust_i                       |custom_module        |  1378|
+|7     |      cust_i                       |custom_module        |  1380|
 |8     |      \gen_multdiv_fast.multdiv_i  |ibex_multdiv_fast    |   516|
 |9     |      rem_i_1                      |remainder            |   292|
 |10    |      rem_i_2                      |remainder_0          |   292|
@@ -1452,11 +1451,11 @@ Report Instance Areas:
 |20    |  u_ram                            |ram_1p               |    80|
 +------+-----------------------------------+---------------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:07:02 ; elapsed = 00:07:39 . Memory (MB): peak = 1969.992 ; gain = 727.934 ; free physical = 642 ; free virtual = 6679
+Finished Writing Synthesis Report : Time (s): cpu = 00:06:11 ; elapsed = 00:06:51 . Memory (MB): peak = 1969.988 ; gain = 727.934 ; free physical = 209 ; free virtual = 6362
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 161 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:06:44 ; elapsed = 00:07:03 . Memory (MB): peak = 1969.992 ; gain = 395.227 ; free physical = 705 ; free virtual = 6742
-Synthesis Optimization Complete : Time (s): cpu = 00:07:02 ; elapsed = 00:07:39 . Memory (MB): peak = 1970.000 ; gain = 727.934 ; free physical = 705 ; free virtual = 6742
+Synthesis Optimization Runtime : Time (s): cpu = 00:05:53 ; elapsed = 00:06:14 . Memory (MB): peak = 1969.988 ; gain = 395.227 ; free physical = 269 ; free virtual = 6423
+Synthesis Optimization Complete : Time (s): cpu = 00:06:11 ; elapsed = 00:06:51 . Memory (MB): peak = 1969.996 ; gain = 727.934 ; free physical = 269 ; free virtual = 6423
 INFO: [Project 1-571] Translating synthesized netlist
 INFO: [Netlist 29-17] Analyzing 507 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
@@ -1467,10 +1466,10 @@ INFO: [Project 1-111] Unisim Transformation Summary:
   BUFGCE => BUFGCTRL: 1 instances
 
 INFO: [Common 17-83] Releasing license: Synthesis
-451 Infos, 206 Warnings, 0 Critical Warnings and 0 Errors encountered.
+451 Infos, 205 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:07:09 ; elapsed = 00:07:45 . Memory (MB): peak = 1970.000 ; gain = 735.945 ; free physical = 791 ; free virtual = 6836
-INFO: [Common 17-1381] The checkpoint '/home/topalc/Desktop/github/senior_project/equ_updated/project_1/project_1.runs/mod_add/top_artya7_100.dcp' has been generated.
+synth_design: Time (s): cpu = 00:06:18 ; elapsed = 00:06:57 . Memory (MB): peak = 1969.996 ; gain = 735.945 ; free physical = 339 ; free virtual = 6495
+INFO: [Common 17-1381] The checkpoint '/home/topalc/Desktop/github/senior_project/equ+remainder_updated/project_1/project_1.runs/mod_add/top_artya7_100.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file top_artya7_100_utilization_synth.rpt -pb top_artya7_100_utilization_synth.pb
-report_utilization: Time (s): cpu = 00:00:00.22 ; elapsed = 00:00:00.28 . Memory (MB): peak = 1994.004 ; gain = 0.000 ; free physical = 801 ; free virtual = 6839
-INFO: [Common 17-206] Exiting Vivado at Thu Apr  9 16:21:00 2020...
+report_utilization: Time (s): cpu = 00:00:00.19 ; elapsed = 00:00:01 . Memory (MB): peak = 1994.000 ; gain = 0.000 ; free physical = 349 ; free virtual = 6514
+INFO: [Common 17-206] Exiting Vivado at Tue Apr 14 21:46:16 2020...

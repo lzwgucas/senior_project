@@ -1,22 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GenRun Id="equ_only_impl" LaunchPart="xc7a100tcsg324-1" LaunchTime="1586442670">
-  <File Type="OPT-DRC" Name="top_artya7_100_drc_opted.rpt"/>
-  <File Type="OPT-HWDEF" Name="top_artya7_100.hwdef"/>
-  <File Type="BG-DRC" Name="top_artya7_100.drc"/>
-  <File Type="ROUTE-ERROR-DCP" Name="top_artya7_100_routed_error.dcp"/>
-  <File Type="PLACE-PRE-SIMILARITY" Name="top_artya7_100_incremental_reuse_pre_placed.rpt"/>
-  <File Type="ROUTE-BLACKBOX-DCP" Name="top_artya7_100_routed_bb.dcp"/>
-  <File Type="BG-BGN" Name="top_artya7_100.bgn"/>
-  <File Type="PWROPT-DCP" Name="top_artya7_100_pwropt.dcp"/>
-  <File Type="REPORTS-TCL" Name="top_artya7_100_reports.tcl"/>
-  <File Type="BITSTR-LTX" Name="top_artya7_100.ltx"/>
-  <File Type="PLACE-UTIL-PB" Name="top_artya7_100_utilization_placed.pb"/>
-  <File Type="BITSTR-SYSDEF" Name="top_artya7_100.sysdef"/>
-  <File Type="PLACE-CTRL" Name="top_artya7_100_control_sets_placed.rpt"/>
-  <File Type="BG-BIN" Name="top_artya7_100.bin"/>
-  <File Type="ROUTE-TIMINGSUMMARY" Name="top_artya7_100_timing_summary_routed.rpt"/>
+  <File Type="BITSTR-MMI" Name="top_artya7_100.mmi"/>
+  <File Type="OPT-DCP" Name="top_artya7_100_opt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="top_artya7_100_postroute_physopt_bb.dcp"/>
+  <File Type="ROUTE-CLK" Name="top_artya7_100_clock_utilization_routed.rpt"/>
+  <File Type="BITSTR-BMM" Name="top_artya7_100_bd.bmm"/>
+  <File Type="PLACE-UTIL" Name="top_artya7_100_utilization_placed.rpt"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="BITSTR-NKY" Name="top_artya7_100.nky"/>
+  <File Type="PLACE-IO" Name="top_artya7_100_io_placed.rpt"/>
+  <File Type="ROUTE-TIMING-RPX" Name="top_artya7_100_timing_summary_routed.rpx"/>
+  <File Type="BITSTR-RBT" Name="top_artya7_100.rbt"/>
   <File Type="ROUTE-DRC-RPX" Name="top_artya7_100_drc_routed.rpx"/>
   <File Type="ROUTE-PWR" Name="top_artya7_100_power_routed.rpt"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="top_artya7_100_timing_summary_routed.rpt"/>
+  <File Type="BG-BIN" Name="top_artya7_100.bin"/>
+  <File Type="PLACE-CTRL" Name="top_artya7_100_control_sets_placed.rpt"/>
+  <File Type="BITSTR-SYSDEF" Name="top_artya7_100.sysdef"/>
+  <File Type="PLACE-UTIL-PB" Name="top_artya7_100_utilization_placed.pb"/>
+  <File Type="BITSTR-LTX" Name="top_artya7_100.ltx"/>
+  <File Type="PWROPT-DCP" Name="top_artya7_100_pwropt.dcp"/>
+  <File Type="REPORTS-TCL" Name="top_artya7_100_reports.tcl"/>
+  <File Type="BG-BGN" Name="top_artya7_100.bgn"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="top_artya7_100_routed_bb.dcp"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="top_artya7_100_incremental_reuse_pre_placed.rpt"/>
+  <File Type="OPT-DRC" Name="top_artya7_100_drc_opted.rpt"/>
+  <File Type="BG-DRC" Name="top_artya7_100.drc"/>
+  <File Type="ROUTE-ERROR-DCP" Name="top_artya7_100_routed_error.dcp"/>
+  <File Type="OPT-HWDEF" Name="top_artya7_100.hwdef"/>
   <File Type="ROUTE-STATUS" Name="top_artya7_100_route_status.rpt"/>
   <File Type="ROUTE-DCP" Name="top_artya7_100_routed.dcp"/>
   <File Type="ROUTE-DRC" Name="top_artya7_100_drc_routed.rpt"/>
@@ -36,17 +47,6 @@
   <File Type="BG-BIT" Name="top_artya7_100.bit"/>
   <File Type="POSTPLACE-PWROPT-DCP" Name="top_artya7_100_postplace_pwropt.dcp"/>
   <File Type="RDI-RDI" Name="top_artya7_100.vdi"/>
-  <File Type="BITSTR-RBT" Name="top_artya7_100.rbt"/>
-  <File Type="ROUTE-TIMING-RPX" Name="top_artya7_100_timing_summary_routed.rpx"/>
-  <File Type="PLACE-IO" Name="top_artya7_100_io_placed.rpt"/>
-  <File Type="BITSTR-NKY" Name="top_artya7_100.nky"/>
-  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
-  <File Type="PLACE-UTIL" Name="top_artya7_100_utilization_placed.rpt"/>
-  <File Type="BITSTR-BMM" Name="top_artya7_100_bd.bmm"/>
-  <File Type="ROUTE-CLK" Name="top_artya7_100_clock_utilization_routed.rpt"/>
-  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="top_artya7_100_postroute_physopt_bb.dcp"/>
-  <File Type="OPT-DCP" Name="top_artya7_100_opt.dcp"/>
-  <File Type="BITSTR-MMI" Name="top_artya7_100.mmi"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
     <Filter Type="Srcs"/>
     <File Path="$PSRCDIR/sources_1/new/remainder.v">

@@ -20,7 +20,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='/home/elifnur/Desktop/senior_project/senior_project/subat_29_withpins_andfuncs.runs/impl_3'
+HD_PWD='/home/topalc/Desktop/github/senior_project/equ+remainder_updated/project_1/project_1.runs/impl_3'
 cd "$HD_PWD"
 
 HD_LOG=runme.log

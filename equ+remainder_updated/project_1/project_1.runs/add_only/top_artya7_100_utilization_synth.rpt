@@ -1,7 +1,7 @@
 Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 -----------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2018.1 (lin64) Build 2188600 Wed Apr  4 18:39:19 MDT 2018
-| Date         : Thu Apr  9 13:18:59 2020
+| Date         : Tue Apr 14 23:13:41 2020
 | Host         : topalc-S551LB running 64-bit Ubuntu 16.04.6 LTS
 | Command      : report_utilization -file top_artya7_100_utilization_synth.rpt -pb top_artya7_100_utilization_synth.pb
 | Design       : top_artya7_100
@@ -30,11 +30,11 @@ Table of Contents
 +-------------------------+------+-------+-----------+-------+
 |        Site Type        | Used | Fixed | Available | Util% |
 +-------------------------+------+-------+-----------+-------+
-| Slice LUTs*             | 4210 |     0 |     63400 |  6.64 |
-|   LUT as Logic          | 4210 |     0 |     63400 |  6.64 |
+| Slice LUTs*             | 4217 |     0 |     63400 |  6.65 |
+|   LUT as Logic          | 4217 |     0 |     63400 |  6.65 |
 |   LUT as Memory         |    0 |     0 |     19000 |  0.00 |
-| Slice Registers         | 3022 |     0 |    126800 |  2.38 |
-|   Register as Flip Flop | 3022 |     0 |    126800 |  2.38 |
+| Slice Registers         | 3027 |     0 |    126800 |  2.39 |
+|   Register as Flip Flop | 3027 |     0 |    126800 |  2.39 |
 |   Register as Latch     |    0 |     0 |    126800 |  0.00 |
 | F7 Muxes                |  271 |     0 |     31700 |  0.85 |
 | F8 Muxes                |    4 |     0 |     15850 |  0.03 |
@@ -57,7 +57,7 @@ Table of Contents
 | 7     |          Yes |           - |          Set |
 | 1829  |          Yes |           - |        Reset |
 | 0     |          Yes |         Set |            - |
-| 1186  |          Yes |       Reset |            - |
+| 1191  |          Yes |       Reset |            - |
 +-------+--------------+-------------+--------------+
 
 
@@ -148,12 +148,12 @@ Table of Contents
 +-----------+------+---------------------+
 |  Ref Name | Used | Functional Category |
 +-----------+------+---------------------+
-| LUT6      | 2077 |                 LUT |
+| LUT6      | 2079 |                 LUT |
 | FDCE      | 1829 |        Flop & Latch |
-| FDRE      | 1186 |        Flop & Latch |
-| LUT5      |  898 |                 LUT |
-| LUT2      |  652 |                 LUT |
-| LUT3      |  638 |                 LUT |
+| FDRE      | 1191 |        Flop & Latch |
+| LUT5      |  900 |                 LUT |
+| LUT2      |  651 |                 LUT |
+| LUT3      |  641 |                 LUT |
 | LUT4      |  428 |                 LUT |
 | MUXF7     |  271 |               MuxFx |
 | CARRY4    |  211 |          CarryLogic |

@@ -1,7 +1,7 @@
 Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2018.1 (lin64) Build 2188600 Wed Apr  4 18:39:19 MDT 2018
-| Date             : Thu Apr  9 13:27:24 2020
+| Date             : Tue Apr 14 23:22:05 2020
 | Host             : topalc-S551LB running 64-bit Ubuntu 16.04.6 LTS
 | Command          : report_power -file top_artya7_100_power_routed.rpt -pb top_artya7_100_power_summary_routed.pb -rpx top_artya7_100_power_routed.rpx
 | Design           : top_artya7_100
@@ -30,10 +30,10 @@ Table of Contents
 ----------
 
 +--------------------------+--------------+
-| Total On-Chip Power (W)  | 0.239        |
+| Total On-Chip Power (W)  | 0.232        |
 | Design Power Budget (W)  | Unspecified* |
 | Power Budget Margin (W)  | NA           |
-| Dynamic (W)              | 0.153        |
+| Dynamic (W)              | 0.147        |
 | Device Static (W)        | 0.086        |
 | Effective TJA (C/W)      | 4.6          |
 | Max Ambient (C)          | 83.9         |
@@ -52,22 +52,22 @@ Table of Contents
 +--------------------------+-----------+----------+-----------+-----------------+
 | On-Chip                  | Power (W) | Used     | Available | Utilization (%) |
 +--------------------------+-----------+----------+-----------+-----------------+
-| Clocks                   |     0.015 |        6 |       --- |             --- |
-| Slice Logic              |     0.005 |    17114 |       --- |             --- |
-|   LUT as Logic           |     0.004 |     6751 |     63400 |           10.65 |
+| Clocks                   |     0.014 |        6 |       --- |             --- |
+| Slice Logic              |     0.004 |    17125 |       --- |             --- |
+|   LUT as Logic           |     0.003 |     6755 |     63400 |           10.65 |
 |   CARRY4                 |    <0.001 |      353 |     15850 |            2.23 |
-|   Register               |    <0.001 |     7381 |    126800 |            5.82 |
+|   Register               |    <0.001 |     7386 |    126800 |            5.82 |
 |   LUT as Distributed RAM |    <0.001 |      152 |     19000 |            0.80 |
 |   LUT as Shift Register  |    <0.001 |      369 |     19000 |            1.94 |
 |   F7/F8 Muxes            |    <0.001 |      406 |     63400 |            0.64 |
 |   Others                 |     0.000 |      613 |       --- |             --- |
-| Signals                  |     0.009 |    12870 |       --- |             --- |
+| Signals                  |     0.004 |    12885 |       --- |             --- |
 | Block RAM                |     0.004 |       27 |       135 |           20.00 |
 | PLL                      |     0.121 |        1 |         6 |           16.67 |
-| DSPs                     |    <0.001 |        1 |       240 |            0.42 |
+| DSPs                     |     0.000 |        1 |       240 |            0.42 |
 | I/O                      |    <0.001 |        2 |       210 |            0.95 |
 | Static Power             |     0.086 |          |           |                 |
-| Total                    |     0.239 |          |           |                 |
+| Total                    |     0.232 |          |           |                 |
 +--------------------------+-----------+----------+-----------+-----------------+
 
 
@@ -77,7 +77,7 @@ Table of Contents
 +-----------+-------------+-----------+-------------+------------+
 | Source    | Voltage (V) | Total (A) | Dynamic (A) | Static (A) |
 +-----------+-------------+-----------+-------------+------------+
-| Vccint    |       1.000 |     0.061 |       0.045 |      0.016 |
+| Vccint    |       1.000 |     0.054 |       0.038 |      0.016 |
 | Vccaux    |       1.800 |     0.078 |       0.060 |      0.018 |
 | Vcco33    |       3.300 |     0.000 |       0.000 |      0.000 |
 | Vcco25    |       2.500 |     0.000 |       0.000 |      0.000 |
@@ -149,13 +149,13 @@ Table of Contents
 +------------------------------------------------------------------------------------+-----------+
 | Name                                                                               | Power (W) |
 +------------------------------------------------------------------------------------+-----------+
-| top_artya7_100                                                                     |     0.153 |
+| top_artya7_100                                                                     |     0.147 |
 |   clkgen                                                                           |     0.122 |
 |   dbg_hub                                                                          |     0.002 |
 |     inst                                                                           |     0.002 |
 |       BSCANID.u_xsdbm_id                                                           |     0.002 |
-|         CORE_XSDB.UUT_MASTER                                                       |     0.002 |
-|           U_ICON_INTERFACE                                                         |     0.001 |
+|         CORE_XSDB.UUT_MASTER                                                       |     0.001 |
+|           U_ICON_INTERFACE                                                         |    <0.001 |
 |             U_CMD1                                                                 |    <0.001 |
 |             U_CMD2                                                                 |    <0.001 |
 |             U_CMD3                                                                 |    <0.001 |
@@ -232,9 +232,9 @@ Table of Contents
 |           U_SYNC                                                                   |    <0.001 |
 |         SWITCH_N_EXT_BSCAN.bscan_inst                                              |    <0.001 |
 |         SWITCH_N_EXT_BSCAN.bscan_switch                                            |    <0.001 |
-|   ila                                                                              |     0.014 |
-|     inst                                                                           |     0.014 |
-|       ila_core_inst                                                                |     0.014 |
+|   ila                                                                              |     0.013 |
+|     inst                                                                           |     0.013 |
+|       ila_core_inst                                                                |     0.013 |
 |         ADV_TRIG.u_adv_trig                                                        |    <0.001 |
 |           fsm_mem_data_reg_r1_0_63_0_2                                             |    <0.001 |
 |           fsm_mem_data_reg_r1_0_63_12_14                                           |    <0.001 |
@@ -354,7 +354,7 @@ Table of Contents
 |                       u_srlB                                                       |    <0.001 |
 |                       u_srlC                                                       |    <0.001 |
 |                       u_srlD                                                       |    <0.001 |
-|         u_ila_regs                                                                 |     0.006 |
+|         u_ila_regs                                                                 |     0.005 |
 |           ADV_TRIG_STREAM.reg_stream_ffc                                           |    <0.001 |
 |             I_EN_CTL_EQ1.U_CTL                                                     |    <0.001 |
 |           ADV_TRIG_STREAM_READBACK.reg_stream_ffb                                  |    <0.001 |
@@ -862,20 +862,20 @@ Table of Contents
 |                     u_srlC                                                         |    <0.001 |
 |                     u_srlD                                                         |    <0.001 |
 |         xsdb_memory_read_inst                                                      |    <0.001 |
-|   u_core                                                                           |     0.016 |
+|   u_core                                                                           |     0.010 |
 |     core_clock_gate_i                                                              |    <0.001 |
 |     cs_registers_i                                                                 |     0.001 |
 |     ex_block_i                                                                     |     0.006 |
 |       alu_i                                                                        |    <0.001 |
-|       cust_i                                                                       |     0.004 |
+|       cust_i                                                                       |     0.003 |
 |       gen_multdiv_fast.multdiv_i                                                   |    <0.001 |
 |       rem_i_1                                                                      |    <0.001 |
 |       rem_i_2                                                                      |    <0.001 |
 |       rem_i_3                                                                      |    <0.001 |
 |     id_stage_i                                                                     |     0.002 |
 |       controller_i                                                                 |    <0.001 |
-|       registers_i                                                                  |     0.002 |
-|     if_stage_i                                                                     |     0.005 |
+|       registers_i                                                                  |     0.001 |
+|     if_stage_i                                                                     |     0.001 |
 |       prefetch_buffer_i                                                            |    <0.001 |
 |         fifo_i                                                                     |    <0.001 |
 |     load_store_unit_i                                                              |    <0.001 |

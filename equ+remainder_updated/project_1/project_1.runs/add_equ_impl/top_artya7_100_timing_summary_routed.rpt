@@ -1,7 +1,7 @@
 Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2018.1 (lin64) Build 2188600 Wed Apr  4 18:39:19 MDT 2018
-| Date         : Thu Apr  9 19:20:24 2020
+| Date         : Tue Apr 14 21:56:53 2020
 | Host         : topalc-S551LB running 64-bit Ubuntu 16.04.6 LTS
 | Command      : report_timing_summary -max_paths 10 -file top_artya7_100_timing_summary_routed.rpt -pb top_artya7_100_timing_summary_routed.pb -rpx top_artya7_100_timing_summary_routed.rpx -warn_on_violation
 | Design       : top_artya7_100

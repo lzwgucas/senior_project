@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="ntru_nocust_synth" LaunchDir="/home/topalc/Desktop/github/senior_project/equ+remainder_updated/project_1/project_1.runs/ntru_nocust_synth" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="impl_3" LaunchDir="/home/topalc/Desktop/github/senior_project/equ+remainder_updated/project_1/project_1.runs/impl_3" FlowId="Vivado_Implementation" FromStepId="init_design" ToStepId="write_bitstream">
+		<Parent Id="ntru_nocust_synth"/>
+	</Run>
+</Runs>
+

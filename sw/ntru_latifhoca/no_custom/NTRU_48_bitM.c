@@ -8,8 +8,8 @@ static int product2[150];
 static int result[150];
 static int ti_2[100];
 static int random_keys[318];
-volatile int resultkon[1];
-volatile uint8_t *var = (volatile uint8_t *) 0x00008000;
+volatile int resultkon[1]={0XBEBEBEBE};
+
 
 
 int *polymult(int *a, int size_a, int *b, int size_b, int mod, int star_mult){
@@ -427,7 +427,7 @@ int* ext_euclid(int* polyR, int* polyf, int size, int mod) {
 
 int* generate_keys(int N, int p, int q){
   
-
+resultkon[0] = 0xAAAAAAA0;
     int f[55] = {-1, 1, 1, 0, -1, 0, 1, 0, 0, 1, -1, -1, 0, 1, 0, -1, 0, 1, 1, 0, 0,  -1, 0, 1, 0, 0, 1, 1, 1,  -1, 0, 1, 0, 0, 1, 1, 1,    -1, 0, 1, 0, 0, 1, 1, 1};
     int g[55] = {-1, 0, 1, 1, 0, 1, 0, 0, -1, 0, -1, -1, 0, 1, 0, -1, 0, 1, 0, 0, 1, -1, 0, 1, 0, 0, 1, -1, 0, 1, 0, 0, 1, -1, 0, 1, 0, 1,   1, 0, 0, 1, -1, 0, 1, 0, 1};
 
@@ -509,13 +509,13 @@ int* generate_keys(int N, int p, int q){
 
 
     return_address5 = &random_keys[0];
-
+resultkon[0] = 0xAAAAAAA1;
     return return_address5;
 }
 
 
 int* ntru_encyrpt(int N, int q, int* message, int* public_key, int* polyR){
-
+resultkon[0] = 0xBBBBBBB0;
     int *return_address6;
     int *CT;
 
@@ -544,12 +544,13 @@ int* ntru_encyrpt(int N, int q, int* message, int* public_key, int* polyR){
 
 
     return_address6 = &CT[0];
+resultkon[0] = 0xBBBBBBB1;
     return return_address6;
 }
 
 
 int* ntru_deceypt(int N, int p, int q, int* secret_key_f, int* secret_key_fp, int* Enc_Message, int* polyR){
-
+    resultkon[0] = 0xCCCCCCC0;
     int* return_address7;
     int* a;
     int* a2;
@@ -589,11 +590,12 @@ int* ntru_deceypt(int N, int p, int q, int* secret_key_f, int* secret_key_fp, in
     ////////"Vector c2 (decrypted message)/////////
 
     return_address7 = &c2[0];
+    resultkon[0] = 0xCCCCCCC1;
     return return_address7;
 }
 
 int main(){
-    *var = 0x0000FFFF;
+
     int* Enc_Message;
     int* Dec_Message;
     int* keys;
@@ -618,9 +620,9 @@ int main(){
 
 
  //   start = clock();
-    *var = 0xAAAAAAA0;
+
     keys = generate_keys(N, p, q);
-    *var = 0xAAAAAAA1;
+ 
 
    // printf("Secret Key f = ");
     for(i = 0; i < N; ++i){
@@ -666,9 +668,9 @@ int main(){
 
     // Bob encrypts message using Alice's public key and sends it to Alice.
   //  printf("\nENCRYPTION STARTED\n");
-    *var = 0xBBBBBBB0;
+
     Enc_Message = ntru_encyrpt(N, q, message, public_key, ring_poly);
-    *var = 0xBBBBBBB1;
+
  //   printf("Encyrpted Message = ");
 //   for(i = 0; i < N; ++i){
  //       printf(" %d ", Enc_Message[i]);
@@ -677,9 +679,9 @@ int main(){
 
     // Alice decrypts the message using her secret keys.
  //   printf("\nDECRYPTION STARTED\n");
-    *var = 0xCCCCCCC0;
+
     Dec_Message = ntru_deceypt(N, p, q, secret_key_f, secret_key_fp, Enc_Message, ring_poly);
-    *var = 0xCCCCCCC1;
+
 //    printf("Decyrpted Message = ");
 //    for(i = 0; i < N; ++i){
 //        printf(" %d ", Dec_Message[i]);
@@ -702,12 +704,12 @@ int main(){
         if(!(message[i] == Dec_Message[i])){
  //           printf("!!ERROR!!\n");
             resultkon[0] = 0xBABABABA;
- 	    *var = resultkon[0];
+ 	   
             break;	}
         else{
   //          printf("*OPERATION SUCCCESSFUL*\n");
             resultkon[0] = 0xDEDEDEDE;
-	    *var = resultkon[0];
+	
 		}
     }
 

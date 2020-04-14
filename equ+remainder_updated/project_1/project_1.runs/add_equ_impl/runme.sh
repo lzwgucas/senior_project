@@ -20,7 +20,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='/home/topalc/Desktop/github/senior_project/equ_updated/project_1/project_1.runs/add_equ_impl'
+HD_PWD='/home/topalc/Desktop/github/senior_project/equ+remainder_updated/project_1/project_1.runs/add_equ_impl'
 cd "$HD_PWD"
 
 HD_LOG=runme.log

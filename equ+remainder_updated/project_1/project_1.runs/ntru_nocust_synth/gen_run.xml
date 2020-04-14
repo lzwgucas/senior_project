@@ -1,26 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="ntru_nocust_synth" LaunchPart="xc7a100tcsg324-1" LaunchTime="1583955206">
+<GenRun Id="ntru_nocust_synth" LaunchPart="xc7a100tcsg324-1" LaunchTime="1586891159">
+  <File Type="VDS-TIMING-PB" Name="top_artya7_100_timing_summary_synth.pb"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="top_artya7_100_timing_summary_synth.rpt"/>
+  <File Type="RDS-DCP" Name="top_artya7_100.dcp"/>
   <File Type="RDS-UTIL-PB" Name="top_artya7_100_utilization_synth.pb"/>
   <File Type="RDS-UTIL" Name="top_artya7_100_utilization_synth.rpt"/>
+  <File Type="RDS-PROPCONSTRS" Name="top_artya7_100_drc_synth.rpt"/>
   <File Type="RDS-RDS" Name="top_artya7_100.vds"/>
-  <File Type="RDS-DCP" Name="top_artya7_100.dcp"/>
-  <File Type="PA-TCL" Name="top_artya7_100.tcl"/>
   <File Type="REPORTS-TCL" Name="top_artya7_100_reports.tcl"/>
+  <File Type="PA-TCL" Name="top_artya7_100.tcl"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
     <Filter Type="Srcs"/>
-    <File Path="$PSRCDIR/sources_1/imports/src/lowrisc_ibex_top_artya7_100_0.1/rtl/clkgen_xil7series.sv">
+    <File Path="$PSRCDIR/sources_1/new/remainder.v">
       <FileInfo>
-        <Attr Name="ImportPath" Val="$PPRDIR/../../../../ibex-master/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_top_artya7_100_0.1/rtl/clkgen_xil7series.sv"/>
-        <Attr Name="ImportTime" Val="1573135596"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PSRCDIR/sources_1/new/conversion_to_7display.sv">
+    <File Path="$PSRCDIR/sources_1/imports/src/lowrisc_ibex_top_artya7_100_0.1/rtl/clkgen_xil7series.sv">
       <FileInfo>
-        <Attr Name="ImportPath" Val="$PPRDIR/../../../../modulerstuff/modulerstuff.srcs/sources_1/new/conversion_to_7display.sv"/>
-        <Attr Name="ImportTime" Val="1582988819"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../ibex-master/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_top_artya7_100_0.1/rtl/clkgen_xil7series.sv"/>
+        <Attr Name="ImportTime" Val="1573135596"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
         <Attr Name="UsedIn" Val="simulation"/>
@@ -206,8 +207,18 @@
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
+    <File Path="$PSRCDIR/sources_1/imports/src/lowrisc_ibex_top_artya7_100_0.1/rtl/top_artya7_100.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../ibex-master/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_top_artya7_100_0.1/rtl/top_artya7_100.sv"/>
+        <Attr Name="ImportTime" Val="1573134569"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
     <File Path="$PSRCDIR/sources_1/new/rem_instr.sv">
       <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
         <Attr Name="ImportPath" Val="$PPRDIR/../../../../senior_project/senior_project/subat_29_withpins_andfuncs/subat_29_withpins_andfuncs.srcs/sources_1/new/rem_instr.sv"/>
         <Attr Name="ImportTime" Val="1583422189"/>
         <Attr Name="UsedIn" Val="synthesis"/>
@@ -215,10 +226,11 @@
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PSRCDIR/sources_1/imports/src/lowrisc_ibex_top_artya7_100_0.1/rtl/top_artya7_100.sv">
+    <File Path="$PSRCDIR/sources_1/new/conversion_to_7display.sv">
       <FileInfo>
-        <Attr Name="ImportPath" Val="$PPRDIR/../../../../ibex-master/build/lowrisc_ibex_top_artya7_100_0.1/src/lowrisc_ibex_top_artya7_100_0.1/rtl/top_artya7_100.sv"/>
-        <Attr Name="ImportTime" Val="1573134569"/>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../modulerstuff/modulerstuff.srcs/sources_1/new/conversion_to_7display.sv"/>
+        <Attr Name="ImportTime" Val="1582988819"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
         <Attr Name="UsedIn" Val="simulation"/>
@@ -272,7 +284,9 @@
     </Config>
   </FileSet>
   <Strategy Version="1" Minor="2">
-    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018">
+      <Desc>Vivado Synthesis Defaults</Desc>
+    </StratHandle>
     <Step Id="synth_design"/>
   </Strategy>
   <BlockFileSet Type="BlockSrcs" Name="ila_0"/>
