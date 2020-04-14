@@ -10,6 +10,7 @@ static int ti_2[100];
 static int random_keys[318];
 volatile int resultkon[1]={0XBEBEBEBE};
 
+
 ////////////////CUSTOM INSTRUCTION SET///////////////
 
 void instr_add(unsigned int *a1, unsigned int *a2){
@@ -34,10 +35,28 @@ void instr_add(unsigned int *a1, unsigned int *a2){
 }
 void array_add(int *a1, int *a2, int length) {
 int i =0;
-    for(i=0;i<(length/3);i++) {
-        instr_add((unsigned int*)&a1[3 * i], (unsigned int*)&a2[3*i]);
-    }
-}
+    switch(length%3) {
+
+        case 0:
+            for (i = 0; i < (length / 3); i++) {
+                instr_add((unsigned int*)&a1[3 * i], (unsigned int*)&a2[3*i]);
+            }
+	    break;
+        case 1:
+            for (i = 0; i < ((length-1) / 3); i++) {
+                instr_add((unsigned int*)&a1[3 * i], (unsigned int*)&a2[3*i]);
+            }
+            a1[length-1] = a1[length-1] + a2[length-1];
+	    break;      
+	case 2:
+            for (i = 0; i < ((length-2) / 3); i++) {
+                instr_add((unsigned int*)&a1[3 * i], (unsigned int*)&a2[3*i]);
+            }
+            a1[length-1] = a1[length-1] + a2[length-1];
+            a1[length-2] = a1[length-2] + a2[length-2];
+	    break;
+    } //end of switch case
+} //end of function
 
 
 void instr_equ(unsigned int *a1, unsigned int *a2){
@@ -60,10 +79,29 @@ void instr_equ(unsigned int *a1, unsigned int *a2){
 }
 void array_equ(int *a1,int *a2,int length) {
 int i = 0;
-    for(i=0;i<(length/3);i++) {
-        instr_equ((unsigned int*)&a1[3 * i],(unsigned int*) &a2[3*i]);
-    }
-}
+    switch(length%3) {
+
+        case 0:
+            for (i = 0; i < (length / 3); i++) {
+                instr_equ((unsigned int*)&a1[3 * i],(unsigned int*) &a2[3*i]);
+            }
+	    break;
+        case 1:
+            for (i = 0; i < ((length-1) / 3); i++) {
+                instr_equ((unsigned int*)&a1[3 * i],(unsigned int*) &a2[3*i]);
+            }
+            a1[length-1] = a2[length-1];
+	    break;
+        case 2:
+            for (i = 0; i < ((length-2) / 3); i++) {
+                instr_equ((unsigned int*)&a1[3 * i],(unsigned int*) &a2[3*i]);
+            }
+            a1[length-1] = a2[length-1];
+            a1[length-2] = a2[length-2];
+	    break;
+    } //end of switch case
+} //end of function
+
 
 
 /////////////////////////////////////////////////
@@ -131,11 +169,11 @@ int *polymult(int *a, int size_a, int *b, int size_b, int mod, int star_mult){
     }
 
     // construct product
-    for(j = 0; j < size_a + size_b -1; ++j){
+  //  for(j = 0; j < size_a + size_b -1; ++j){
         for(i = 0; i < size_b; ++i){
-            product[j] += line[i][j];
+             array_add(product,line[i],size_a+size_b-1);
         }
-    }
+   // }
 
     //mod calculations
     for(j = 0; j < size_a + size_b -1; ++j){
@@ -217,6 +255,8 @@ int *polydiv(int *num, int size_N, int*denum, int size_D, int mod){
     int denum_temp[size_D];
 
     array_equ(num_temp,num,size_N);
+
+
     // make mod calculation for coefficents
     for (i = 0; i < size_N; ++i){
         while (num_temp[i] < 0) {
@@ -306,7 +346,10 @@ int *polydiv(int *num, int size_N, int*denum, int size_D, int mod){
         }
 
         // q = q + v;
-    array_add(q,v,size_N);
+
+        array_add(q, v, size_N);
+        
+
         for(i = 0; i < size_N; ++i){
             q[i] = q[i] % mod;
         }
@@ -332,7 +375,9 @@ int *polydiv(int *num, int size_N, int*denum, int size_D, int mod){
 //    for(i = 0; i < size_N; ++i){
 //        result[i] = q[i];
 //    }
-    array_equ(result,q,size_N);
+
+     array_equ(result,q,size_N);
+    
 
     for(i = size_N; i < (2*size_N); ++i){
         result[i] = num_temp[i-size_N];

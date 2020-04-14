@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="equ_only" LaunchDir="/home/topalc/Desktop/github/senior_project/equ_updated/project_1/project_1.runs/equ_only" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="equ_only_impl" LaunchDir="/home/topalc/Desktop/github/senior_project/equ_updated/project_1/project_1.runs/equ_only_impl" FlowId="Vivado_Implementation" FromStepId="init_design" ToStepId="write_bitstream">
+		<Parent Id="equ_only"/>
+	</Run>
+</Runs>
+

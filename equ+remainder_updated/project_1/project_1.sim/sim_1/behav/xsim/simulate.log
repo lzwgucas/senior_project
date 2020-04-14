@@ -1,0 +1,4 @@
+Vivado Simulator 2018.1
+Time resolution is 1 ps
+Initializing SRAM from /home/topalc/Desktop/projeler/ibex-master/examples/sw/arrayler_ve_memory/array_instr_test/ADD/array.mem
+Warning : input CLKIN1 period and attribute CLKIN1_PERIOD on PLLE2_ADV instance tb_top.UUT.clkgen.pll are not same.

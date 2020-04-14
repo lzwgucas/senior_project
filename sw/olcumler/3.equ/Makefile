@@ -23,7 +23,7 @@ CFLAGS ?= -march=$(ARCH) -mabi=ilp32 -static -mcmodel=medany \
 OBJS := ${SRCS:.c=.o} ${CRT:.S=.o}
 DEPS = $(OBJS:%.o=%.d)
 
-OUTFILES = $(PROGRAM).elf $(PROGRAM).vmem $(PROGRAM).bin $(PROGRAM).dis
+OUTFILES = $(PROGRAM).elf $(PROGRAM).mem $(PROGRAM).bin $(PROGRAM).dis
 
 all: $(OUTFILES)
 
@@ -40,7 +40,7 @@ $(PROGRAM).elf: $(OBJS) $(LINKER_SCRIPT)
 # XXX: Currently the start address 0x00000000 is hardcoded. It could/should be
 # read from the elf file, but is lost in the bin file.
 # Switching to objcopy will resolve that as well.
-%.vmem: %.bin
+%.mem: %.bin
 	srec_cat $^ -binary -offset 0x0000 -byte-swap 4 -o $@ -vmem
 
 %.bin: %.elf
